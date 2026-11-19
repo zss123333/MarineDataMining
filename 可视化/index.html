@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><title>Agent协调观察台</title>
+<style>body{font:14px system-ui;background:#101925;color:#e1eaf6;margin:24px}section,header{padding:20px;background:#1b2a3d;border-radius:12px;margin-bottom:16px}p{color:#aabed5}select,input,button{padding:9px;margin:5px;background:#253b54;color:white;border:1px solid #526d88;border-radius:6px}#source{width:85%}#time{width:85%}#agents{display:flex;gap:12px;flex-wrap:wrap}.card{background:#28435d;padding:14px;border-radius:8px}pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:500px;overflow:auto}details{border-top:1px solid #456079;padding:12px}summary{cursor:pointer}</style>
+<header><h1>多Agent 协作聊天室</h1><p>选任务 → 开始执行 → 查看成员交流与实时工作状态</p><select id="task"><option value="basic">任务一：基础依赖协作</option><option value="dynamic">任务二：执行中新增依赖</option></select><button id="start">开始任务</button><b id="runStatus">尚未启动</b><p>两项均为统一工具任务，不是烹饪或铁路操作模拟。点击开始才会调用本机LLM。</p><details><summary>历史记录 / 诊断回放</summary><select id="source"></select><button id="refresh">刷新</button><label><input type="checkbox" id="live">自动刷新</label></details><p id="status">加载中</p></header>
+<section><b>回放</b><input id="time" type="range" min="0" value="0"><span id="position"></span><p>旧日志按分块记录顺序回放，不代表跨块实际时间；未知执行者不会猜测。</p></section>
+<section><b>协作时序图</b><div id="agents"></div><p>虚线为Agent生命线，横箭头为实际协议消息，蓝色执行条为工具工作区间。纵向为记录顺序（非等比例耗时）；中文是基于实际消息的解释，不是伪造聊天。点击图中事件查看原文。</p><div id="chat" style="overflow:auto;max-height:75vh"></div></section><details><summary>选中事件原文 / 诊断快照（默认收起）</summary><pre id="snapshot"></pre></details>
+<section><b>详细日志</b><input id="query" placeholder="任务 / 提案 / 关键词"><input id="agent" placeholder="Agent编号"><input id="kind" placeholder="事件类型"><button id="export">导出筛选日志</button><p id="count"></p><div id="logs"></div></section>
+<script>
+let events=[],matches=[];
+const el=id=>document.getElementById(id);
+function make(tag,text){const item=document.createElement(tag);if(text!==undefined)item.textContent=text;return item}
+const show=value=>value===null||value===undefined?'未知':String(value);
+const words={propose:'提出协作方案，请相关成员反馈',respond:'提交本人的配合方案',response:'提交本人的配合方案',prepare:'请求确认，准备共同提交',ready:'确认准备就绪',commit:'共同确认方案，开始按约执行',abort:'取消本轮方案',revoke:'撤销失效承诺'};
+function chatLine(event){const data=event.data;const message=data.message||{};if(event.kind==='message_send')return words[message.kind]||('发送 '+message.kind+' 消息');if(event.kind==='tool')return (data.status==='completed'?'已完成：':'正在执行：')+(data.task_id||data.action?.task_id||'工具工作');if(event.kind==='dependency_change')return '任务条件变化：交付前新增前置依赖，需要相关成员协调';if(event.kind==='run_end')return data.success?'本轮任务全部完成':'本轮任务未完成，请查看错误记录';return data.error||event.kind}
+function renderSequence(visible){
+const container=el('chat');container.replaceChildren();
+container.style.cssText='overflow-x:auto';el('agents').style.cssText='display:grid;grid-template-columns:repeat(3,minmax(200px,1fr));position:sticky;top:0;background:#1b2a3d;z-index:2';
+const selected=visible.filter(event=>['message_send','model_decision','tool','dependency_change','error','run_start','run_end'].includes(event.kind));
+if(!selected.length)container.append(make('p','暂无逐条交互消息。请开始新任务；旧结果文件不包含完整消息正文，无法还原聊天。'));
+for(const event of selected.slice(-400)){
+const row=make('div');row.style.cssText='display:grid;grid-template-columns:repeat(3,minmax(200px,1fr));border-top:1px solid #354c64;min-width:660px;position:relative;padding:12px 0';
+const sender=String(event.agent),peer=String(event.peer),isMessage=event.kind==='message_send';
+const known=['0','1','2'].includes(sender),hasPeer=['0','1','2'].includes(peer);
+const card=make('article');card.style.cssText='margin:0 8px;padding:14px;background:#25415a;border:1px solid #4b789c;border-radius:10px;min-width:0;overflow-wrap:anywhere';
+card.style.gridColumn=known?String(Number(sender)+1):'1 / 4';
+const message=event.data.message||{};
+card.append(make('b','#'+event.sequence+' · '+(known?'Agent '+sender:'系统 / 其他成员 '+show(event.agent))+(isMessage?' → Agent '+show(event.peer):'')+' · '+(message.kind||event.kind)));
+card.append(make('p',isMessage?(words[message.kind]||'协议交互'):chatLine(event)));
+const content=event.kind==='model_decision'?event.data.content:isMessage?message.payload:event.data;
+card.append(make('pre',typeof content==='string'?content:JSON.stringify(content??message,null,2)));
+if(message.proposal!==undefined)card.append(make('small','提案：'+JSON.stringify(message.proposal)));
+const raw=make('details');raw.append(make('summary','完整原始事件'),make('pre',JSON.stringify(event,null,2)));card.append(raw);
+if(isMessage&&known&&hasPeer&&sender!==peer){
+const arrow=make('div',(Number(sender)<Number(peer)?'→':'←')+' Agent '+sender+' → Agent '+peer);
+arrow.style.cssText='grid-row:1;padding:8px;margin:0 12px 8px;border-bottom:2px solid #6ccdc3;color:#9be8df;text-align:center';
+arrow.style.gridColumn=(Math.min(Number(sender),Number(peer))+1)+' / '+(Math.max(Number(sender),Number(peer))+2);row.append(arrow);card.style.gridRow='2';
+}
+row.append(card);container.append(row);
+}
+}
+async function load(){try{
+const atEnd=events.length===0||el('time').value===el('time').max;
+const response=await fetch('/api/events?source='+encodeURIComponent(el('source').value));
+if(!response.ok)throw Error(await response.text());
+events=await response.json();el('time').max=Math.max(0,events.length-1);
+if(atEnd)el('time').value=el('time').max;
+el('status').textContent='已加载 '+events.length+' 条 · '+new Date().toLocaleTimeString();render();
+}catch(error){el('status').textContent='读取失败：'+error.message}}
+function render(){
+const visible=events.slice(0,Number(el('time').value)+1);
+el('position').textContent=visible.length+' / '+events.length;
+const states=new Map();
+for(const event of visible){if(event.agent!==null&&event.agent!==undefined)states.set(String(event.agent),event)}
+el('agents').replaceChildren();
+const members=['0','1','2'];
+for(const agent of members){const own=visible.filter(event=>String(event.agent)===agent);const work=own.filter(event=>event.kind==='tool').at(-1);const event=own.at(-1);const card=make('div');card.className='card';card.append(make('b','Agent '+agent),make('p',work?chatLine(work):event?'正在协调 / 等待可执行任务':'等待任务开始'));el('agents').append(card)}
+renderSequence(visible);
+const snapshots=visible.filter(event=>['snapshot','tool'].includes(event.kind));
+el('snapshot').textContent=snapshots.length?JSON.stringify(snapshots.at(-1).data,null,2):'暂无快照';
+matches=visible.filter(event=>(!el('agent').value||String(event.agent)===el('agent').value||String(event.peer)===el('agent').value)&&(!el('kind').value||event.kind===el('kind').value)&&JSON.stringify(event).toLowerCase().includes(el('query').value.toLowerCase()));
+el('count').textContent='匹配 '+matches.length+' 条；显示最近300条，导出包含全部匹配。';el('logs').replaceChildren();
+for(const event of matches.slice(-300).reverse()){const detail=make('details');detail.append(make('summary','#'+event.sequence+' | 时间 '+show(event.time)+' | Agent '+show(event.agent)+' → '+show(event.peer)+' | '+event.kind+' | '+JSON.stringify(event.data).slice(0,100)),make('pre',JSON.stringify(event,null,2)));el('logs').append(detail)}
+}
+for(const id of ['time','query','agent','kind'])el(id).oninput=render;
+el('refresh').onclick=load;el('source').onchange=()=>{el('time').value=el('time').max;load()};
+el('export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(matches,null,2)],{type:'application/json'}));const link=make('a');link.href=url;link.download='agent-events.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+let active=false;
+el('start').onclick=async()=>{el('start').disabled=true;try{const response=await fetch('/api/start',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({task:el('task').value})});if(!response.ok)throw Error(await response.text());const run=await response.json();const option=make('option',run.source);option.value=run.source;el('source').append(option);el('source').value=run.source;events=[];active=true;el('live').checked=true;el('runStatus').textContent='运行中 · PID '+run.pid}catch(error){el('runStatus').textContent='启动失败：'+error.message;el('start').disabled=false}};
+setInterval(async()=>{if(el('live').checked)await load();if(active){try{const response=await fetch('/api/status');const state=await response.json();if(!state.running){active=false;el('start').disabled=false;el('runStatus').textContent='进程已结束，退出码 '+state.exit_code+'；任务结果见群聊回执'}}catch(error){el('runStatus').textContent='连接异常：'+error.message}}},2000);
+(async()=>{try{const response=await fetch('/api/sources');const paths=await response.json();for(const path of paths){const option=make('option',path);option.value=path;el('source').append(option)}if(paths.length)await load();else el('status').textContent='暂无日志'}catch(error){el('status').textContent=error.message}})();
+</script><script src='/sequence.js'></script></html>

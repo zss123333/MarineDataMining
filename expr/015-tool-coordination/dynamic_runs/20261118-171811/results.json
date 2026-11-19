@@ -1,0 +1,635 @@
+[
+  {
+    "method": "local",
+    "configuration": 0,
+    "success": false,
+    "error": "RuntimeError('Event loop is closed')",
+    "makespan": 0,
+    "calls": 2,
+    "input_tokens": 95,
+    "output_tokens": 10,
+    "protocol_messages": 2,
+    "trajectory": [],
+    "artifacts": {},
+    "trace": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  },
+  {
+    "method": "global",
+    "configuration": 0,
+    "success": false,
+    "error": "RuntimeError('Event loop is closed')",
+    "makespan": 0,
+    "calls": 2,
+    "input_tokens": 95,
+    "output_tokens": 10,
+    "protocol_messages": 4,
+    "trajectory": [],
+    "artifacts": {},
+    "trace": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  },
+  {
+    "method": "autogen",
+    "configuration": 0,
+    "success": true,
+    "error": null,
+    "makespan": 14,
+    "calls": 16,
+    "input_tokens": 3718,
+    "output_tokens": 142,
+    "protocol_messages": 0,
+    "trajectory": [
+      {
+        "time": 0,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 1,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 2,
+        "dependency_changed": true,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 3,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 4,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 5,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 6,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 7,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 8,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "verify",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "reference"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 9,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "verify"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 10,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 11,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 12,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 13,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      }
+    ],
+    "artifacts": {
+      "collect": {
+        "inputs": []
+      },
+      "analyse": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "reference": {
+        "inputs": []
+      },
+      "verify": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "publish": {
+        "inputs": [
+          "analyse",
+          "verify"
+        ]
+      }
+    },
+    "trace": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  },
+  {
+    "method": "autogen",
+    "configuration": 1,
+    "success": true,
+    "error": null,
+    "makespan": 18,
+    "calls": 20,
+    "input_tokens": 4680,
+    "output_tokens": 174,
+    "protocol_messages": 0,
+    "trajectory": [
+      {
+        "time": 0,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 1,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 2,
+        "dependency_changed": true,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 3,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 4,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 5,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 6,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 7,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 8,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "reference",
+          "analyse"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 9,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 10,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 11,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 12,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "verify",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 13,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 14,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "verify"
+        ],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 15,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 16,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5
+        }
+      },
+      {
+        "time": 17,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ],
+        "versions": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5
+        }
+      }
+    ],
+    "artifacts": {
+      "collect": {
+        "inputs": []
+      },
+      "reference": {
+        "inputs": []
+      },
+      "analyse": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "verify": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "publish": {
+        "inputs": [
+          "analyse",
+          "verify"
+        ]
+      }
+    },
+    "trace": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  },
+  {
+    "method": "global",
+    "configuration": 1,
+    "success": false,
+    "error": "RuntimeError('Event loop is closed')",
+    "makespan": 0,
+    "calls": 2,
+    "input_tokens": 95,
+    "output_tokens": 10,
+    "protocol_messages": 4,
+    "trajectory": [],
+    "artifacts": {},
+    "trace": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  },
+  {
+    "method": "local",
+    "configuration": 1,
+    "success": false,
+    "error": "RuntimeError('Event loop is closed')",
+    "makespan": 0,
+    "calls": 2,
+    "input_tokens": 95,
+    "output_tokens": 10,
+    "protocol_messages": 2,
+    "trajectory": [],
+    "artifacts": {},
+    "trace": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  }
+]

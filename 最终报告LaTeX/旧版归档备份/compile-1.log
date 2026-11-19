@@ -1,0 +1,365 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./report.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./zjuthesis.cls
+Document Class: zjuthesis Zhejiang University Thesis and Design Template, Zixua
+n Wang zxwang42@gmail.com
+(./config/version.tex)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/kvoptions/kv
+options.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics/key
+val.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/ltxcmds/lt
+xcmds.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kv
+setkeys.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/xifthen/xift
+hen.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/tools/calc.s
+ty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/base/ifthen.
+sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ifmtarg/ifmt
+arg.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/ctexrep
+.cls
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/config/
+ctexbackend.cfg)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/l3kernel/exp
+l3.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/l3backend/l3
+backend-xetex.def))
+Document Class: ctexrep 2022/07/14 v2.5.10 Chinese adapter for class report (CT
+EX)
+
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/ctexhoo
+k.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/ctexpat
+ch.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/base/fix-cm.
+sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/base/ts1enc.
+def))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/config/
+ctexopts.cfg)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/base/report.
+cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/base/size12.
+clo))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/engine/
+ctex-engine-xetex.def
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJ
+K.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/l3packages/x
+template/xtemplate.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/fontspec/fon
+tspec.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/l3packages/x
+parse/xparse.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/fontspec/fon
+tspec-xetex.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/base/fontenc
+.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/fontspec/fon
+tspec.cfg)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJ
+K.cfg)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/zhnumber/zhn
+umber.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/zhnumber/zhn
+umber-utf8.cfg))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/scheme/
+ctex-scheme-chinese-report.def
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/config/
+ctex-name-utf8.cfg))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/ctex-cs
+4size.clo)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/fontset
+/ctex-fontset-windows.def))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/ctex/config/
+ctex.cfg) (./config/packages.tex
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics/gra
+phicx.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics/gra
+phics.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics/tri
+g.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics-cfg
+/graphics.cfg)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics-def
+/xetex.def)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/geometry/geo
+metry.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/iftex/ifvt
+ex.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/iftex/ifte
+x.sty)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/tools/tabula
+rx.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/tools/array.
+sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/multido/mult
+ido.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/multido/mu
+ltido.tex  v1.42, 2010/05/14 <tvz>))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/fancyhdr/fan
+cyhdr.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/titlesec/tit
+lesec.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/tocloft/tocl
+oft.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/multirow/mul
+tirow.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/makecell/mak
+ecell.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/hyperref/hyp
+erref.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/kvdefineke
+ys/kvdefinekeys.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/pdfescape/
+pdfescape.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/pdftexcmds
+/pdftexcmds.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/infwarerr/
+infwarerr.sty)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/hycolor/hyco
+lor.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/hyperref/nam
+eref.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/refcount/ref
+count.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/gettitlest
+ring/gettitlestring.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/etoolbox/eto
+olbox.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/stringenc/
+stringenc.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/hyperref/pd1
+enc.def)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/intcalc/in
+tcalc.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/hyperref/pue
+nc.def)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/bitset/bit
+set.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/bigintcalc
+/bigintcalc.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/base/atbegsh
+i-ltx.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/hyperref/hxe
+tex.def
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/rerunfileche
+ck/rerunfilecheck.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/base/atverye
+nd-ltx.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/uniquecoun
+ter/uniquecounter.sty)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/ulem/ulem.
+sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/pdfpages/pdf
+pages.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-
+pic.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/xcolor/xcolo
+r.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics-cfg
+/color.cfg)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics/mat
+hcolor.ltx)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/pdfpages/ppx
+etex.def))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/bib
+latex.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/logreq/logre
+q.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/logreq/logre
+q.def))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/blx
+-dm.def)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/blx
+-unicode.def)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/blx
+-compat.def)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/bib
+latex.def)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex-gb7
+714-2015/gb7714-2015.bbx
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/bbx
+/numeric-comp.bbx
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/bbx
+/numeric.bbx
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/bbx
+/standard.bbx)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/xstring/xs
+tring.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/generic/xstring/xs
+tring.tex)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex-gb7
+714-2015/gb7714-2015.cbx
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/cbx
+/numeric-comp.cbx))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/bib
+latex.cfg)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/blx
+-case-expl3.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/siunitx/siun
+itx.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/translations
+/translations.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/amsmath/amst
+ext.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/amsmath/amsg
+en.sty)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/caption/capt
+ion.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/caption/capt
+ion3.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/chngcntr/chn
+gcntr.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/enumitem/enu
+mitem.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/float/float.
+sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/listings/lis
+tings.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/listings/lst
+patch.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/listings/lst
+misc.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/listings/lis
+tings.cfg))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJ
+K-listings.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/amsfonts/ams
+symb.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/amsfonts/ams
+fonts.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/bookmark/boo
+kmark.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/bookmark/bkm
+-dvipdfm.def))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/tools/longta
+ble.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/booktabs/boo
+ktabs.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/algorithms/a
+lgorithm.sty))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/algorithms/a
+lgorithmic.sty) (./config/path.tex) (./config/commands.tex)
+(./config/format/format.tex (./config/format/general/reference.tex)
+(./config/format/general/caption.tex) (./config/format/general/geometry.tex)
+(./config/format/general/layout.tex) (./config/format/general/tables.tex)
+(./config/format/general/heading.tex) (./config/format/general/fonts.tex
+
+Package xeCJK Warning: Redefining CJKfamily `zhfs' (FangSong).
+
+
+Package xeCJK Warning: Redefining CJKfamily `zhhei' (SimHei).
+
+
+Package xeCJK Warning: Redefining CJKfamily `zhkai' (KaiTi).
+
+
+Package xeCJK Warning: Redefining CJKfamily `zhsong' (SimSun).
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
+
+) (./config/format/general/numbering.tex)
+(./config/format/general/debugging.tex) (./config/format/general/language.tex)
+(./config/format/general/title.tex)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/xurl/xurl.st
+y
+xurl: Set penalties for biblatex
+) (./report-version.tex) (./report.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/pdflscape/pd
+flscape.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/pdflscape/pd
+flscape-nometadata.sty
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/graphics/lsc
+ape.sty)))
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/biblatex/lbx
+/english.lbx)
+No file report.bbl.
+
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/translations
+/translations-basic-dictionary-english.trsl)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/caption/ltca
+ption.sty)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/amsfonts/ums
+a.fd)
+(c:/zss/important-software/latex/texlive/2025/texmf-dist/tex/latex/amsfonts/ums
+b.fd)
+[1] (./report.toc
+[1])
+[2] (./report-content.tex
+1
+
+[3]
+2
+
+[4]
+3
+
+[5]
+4
+
+[6] [7]
+[8]
+5
+
+[9]
+6
+
+[10]
+[11]
+[12]
+[13]
+7
+
+[14]
+8
+
+[15]
+9
+
+[16]
+10
+
+[17]
+11
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
+[]\TU/TimesNewRoman(0)/m/n/12.045 Qwen \TU/FangSong(0)/m/n/12.045 两 局 验 证 与 局 部
+ 探 针：| [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]、| [
+]
+
+[18]
+[19]
+12
+
+Overfull \hbox (48.82971pt too wide) in paragraph at lines 406--408
+[]\TU/TimesNewRoman(0)/m/n/12.045 Flatland \TU/FangSong(0)/m/n/12.045 环 境：| \TU
+/TimesNewRoman(0)/m/n/12.045 https://github.com/flatland-association/flatland-r
+l\TU/FangSong(0)/m/n/12.045 ；|  场 景：| \TU/TimesNewRoman(0)/m/n/12.045 https://g
+ithub.com/flatland-
+
+Overfull \hbox (5.29399pt too wide) in paragraph at lines 406--408
+\TU/TimesNewRoman(0)/m/n/12.045 association/flatland-scenarios\TU/FangSong(0)/m
+/n/12.045 ；|  工 程 基 线：| \TU/TimesNewRoman(0)/m/n/12.045 https://github.com/flat
+land-association/flatland-
+)
+[20] (./report.aux) )
+(see the transcript file for additional information)
+Output written on report.pdf (21 pages).
+Transcript written on report.log.

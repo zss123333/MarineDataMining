@@ -1,0 +1,14 @@
+{
+  "dataset": "datasets/overcooked-smoke/v1",
+  "layout": "cramped_room",
+  "upstream_commit": "739950a079cdaed5a44fcc662efc40244c205d06",
+  "horizon": 200,
+  "decision_interval": 10,
+  "commitment_steps": 20,
+  "seeds": [0, 1, 2],
+  "methods": ["independent", "fixed_commitment", "current_only", "future_aware"],
+  "max_calls": 480,
+  "max_tokens_per_call": 700,
+  "temperature": 0,
+  "timeout_seconds": 60
+}

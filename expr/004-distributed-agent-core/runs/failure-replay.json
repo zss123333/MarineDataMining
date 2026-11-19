@@ -1,0 +1,101 @@
+[
+  {
+    "scenario": "Test_00_Level_6.pkl",
+    "replay_matches": true,
+    "step": 117,
+    "candidate_counts": {
+      "2": 12,
+      "4": 8,
+      "6": 12
+    },
+    "pairwise": [
+      {
+        "members": [
+          "2",
+          "4"
+        ],
+        "compatible_candidate_pairs": 96,
+        "candidate_pairs": 96
+      },
+      {
+        "members": [
+          "2",
+          "6"
+        ],
+        "compatible_candidate_pairs": 90,
+        "candidate_pairs": 144
+      },
+      {
+        "members": [
+          "4",
+          "6"
+        ],
+        "compatible_candidate_pairs": 96,
+        "candidate_pairs": 96
+      }
+    ],
+    "scope": "recomputed candidates without installed old plan; pairwise feasibility is not joint feasibility"
+  },
+  {
+    "scenario": "Test_00_Level_8.pkl",
+    "replay_matches": true,
+    "step": 222,
+    "candidate_counts": {
+      "2": 4,
+      "3": 12,
+      "5": 12,
+      "6": 8
+    },
+    "pairwise": [
+      {
+        "members": [
+          "2",
+          "3"
+        ],
+        "compatible_candidate_pairs": 9,
+        "candidate_pairs": 48
+      },
+      {
+        "members": [
+          "2",
+          "5"
+        ],
+        "compatible_candidate_pairs": 0,
+        "candidate_pairs": 48
+      },
+      {
+        "members": [
+          "2",
+          "6"
+        ],
+        "compatible_candidate_pairs": 0,
+        "candidate_pairs": 32
+      },
+      {
+        "members": [
+          "3",
+          "5"
+        ],
+        "compatible_candidate_pairs": 33,
+        "candidate_pairs": 144
+      },
+      {
+        "members": [
+          "3",
+          "6"
+        ],
+        "compatible_candidate_pairs": 16,
+        "candidate_pairs": 96
+      },
+      {
+        "members": [
+          "5",
+          "6"
+        ],
+        "compatible_candidate_pairs": 45,
+        "candidate_pairs": 96
+      }
+    ],
+    "scope": "recomputed candidates without installed old plan; pairwise feasibility is not joint feasibility"
+  }
+]

@@ -1,0 +1,404 @@
+[
+  {
+    "seed": 201,
+    "level": "single",
+    "valid": true,
+    "plans": {
+      "0": [
+        0,
+        2
+      ]
+    },
+    "errors": [],
+    "calls": 1
+  },
+  {
+    "seed": 201,
+    "level": "parallel",
+    "valid": false,
+    "plans": {
+      "0": [
+        2,
+        0
+      ],
+      "1": [
+        2,
+        0
+      ],
+      "2": [
+        2,
+        0
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 201,
+    "level": "shared",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        2
+      ],
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 201,
+    "level": "dependency",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        2
+      ],
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1",
+      "dependency 0:0 -> 1:1",
+      "dependency 1:0 -> 2:1"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 201,
+    "level": "closure",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        2
+      ],
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation",
+      "0:1: resource closed [3,9)",
+      "1:1: own precedence violation",
+      "1:1: resource closed [3,9)",
+      "2:1: own precedence violation",
+      "2:1: resource closed [3,9)",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1",
+      "dependency 0:0 -> 1:1",
+      "dependency 1:0 -> 2:1"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 202,
+    "level": "single",
+    "valid": true,
+    "plans": {
+      "0": [
+        1,
+        3
+      ]
+    },
+    "errors": [],
+    "calls": 1
+  },
+  {
+    "seed": 202,
+    "level": "parallel",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        1
+      ],
+      "2": [
+        1,
+        1
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 202,
+    "level": "shared",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        1
+      ],
+      "2": [
+        1,
+        1
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 202,
+    "level": "dependency",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        2
+      ],
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ]
+    },
+    "errors": [
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 202,
+    "level": "closure",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        1
+      ],
+      "2": [
+        1,
+        1
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1",
+      "dependency 0:0 -> 1:1",
+      "dependency 1:0 -> 2:1"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 203,
+    "level": "single",
+    "valid": false,
+    "plans": {
+      "0": [
+        2,
+        0
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 203,
+    "level": "parallel",
+    "valid": false,
+    "plans": {
+      "0": [
+        2,
+        0
+      ],
+      "1": [
+        2,
+        0
+      ],
+      "2": [
+        2,
+        0
+      ]
+    },
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 203,
+    "level": "shared",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        2
+      ],
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1,
+        2
+      ]
+    },
+    "errors": [
+      "0:0: release or horizon violation",
+      "0:1: own precedence violation",
+      "1:0: release or horizon violation",
+      "1:1: own precedence violation",
+      "2:0: release or horizon violation",
+      "2:1: own precedence violation",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 203,
+    "level": "dependency",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        2
+      ],
+      "1": [
+        2,
+        3
+      ],
+      "2": [
+        3,
+        4
+      ]
+    },
+    "errors": [
+      "0:0: release or horizon violation",
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation",
+      "overlap 0:0 and 1:0",
+      "overlap 0:1 and 1:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ],
+    "calls": 2
+  },
+  {
+    "seed": 203,
+    "level": "closure",
+    "valid": false,
+    "plans": {
+      "0": [
+        1,
+        3
+      ],
+      "1": [
+        2,
+        4
+      ],
+      "2": [
+        3,
+        5
+      ]
+    },
+    "errors": [
+      "0:0: release or horizon violation",
+      "0:1: resource closed [3,9)",
+      "1:1: resource closed [3,9)",
+      "2:1: resource closed [3,9)",
+      "overlap 0:0 and 1:0",
+      "overlap 0:1 and 1:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ],
+    "calls": 2
+  }
+]

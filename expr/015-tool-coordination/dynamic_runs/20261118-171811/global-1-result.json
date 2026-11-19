@@ -1,0 +1,19 @@
+{
+  "method": "global",
+  "configuration": 1,
+  "success": false,
+  "error": "RuntimeError('Event loop is closed')",
+  "makespan": 0,
+  "calls": 2,
+  "input_tokens": 95,
+  "output_tokens": 10,
+  "protocol_messages": 4,
+  "trajectory": [],
+  "artifacts": {},
+  "trace": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": []
+  }
+}

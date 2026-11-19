@@ -1,0 +1,238 @@
+[
+  {
+    "method": "independent",
+    "phase": 0,
+    "plans": {
+      "0": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ]
+    },
+    "valid": false,
+    "errors": [
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 2:1",
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 5,
+    "input_tokens": 1978,
+    "output_tokens": 80
+  },
+  {
+    "method": "independent",
+    "phase": 1,
+    "plans": {
+      "2": [
+        0,
+        1
+      ]
+    },
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 8,
+    "input_tokens": 3256,
+    "output_tokens": 128
+  },
+  {
+    "method": "central",
+    "phase": 0,
+    "plans": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        2,
+        1
+      ],
+      "2": [
+        1,
+        1
+      ]
+    },
+    "valid": false,
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:1 and 2:1",
+      "dependency 0:0 -> 1:1",
+      "dependency 1:0 -> 2:1"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 9,
+    "input_tokens": 4457,
+    "output_tokens": 369,
+    "error": "RuntimeError('per-phase model call budget exhausted')"
+  },
+  {
+    "method": "central",
+    "phase": 1,
+    "plans": {
+      "0": [
+        1,
+        0
+      ],
+      "1": [
+        2,
+        1
+      ],
+      "2": [
+        1,
+        0
+      ]
+    },
+    "valid": false,
+    "errors": [
+      "0:1: own precedence violation",
+      "1:1: own precedence violation",
+      "2:1: own precedence violation",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:1 and 2:1",
+      "dependency 0:0 -> 1:1",
+      "dependency 1:0 -> 2:1"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 9,
+    "input_tokens": 4502,
+    "output_tokens": 369,
+    "error": "RuntimeError('per-phase model call budget exhausted')"
+  },
+  {
+    "method": "autogen",
+    "phase": 0,
+    "plans": {
+      "0": [
+        0,
+        2
+      ],
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ]
+    },
+    "valid": false,
+    "errors": [
+      "1:0: release or horizon violation",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 9,
+    "input_tokens": 5328,
+    "output_tokens": 84,
+    "validation_errors": [
+      "1:0: release or horizon violation",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ]
+  },
+  {
+    "method": "autogen",
+    "phase": 1,
+    "plans": {
+      "0": [
+        0,
+        2
+      ],
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        2
+      ]
+    },
+    "valid": false,
+    "errors": [
+      "0:1: resource closed [3,9)",
+      "1:0: release or horizon violation",
+      "1:1: resource closed [3,9)",
+      "2:1: resource closed [3,9)",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 9,
+    "input_tokens": 5697,
+    "output_tokens": 84,
+    "validation_errors": [
+      "0:1: resource closed [3,9)",
+      "1:0: release or horizon violation",
+      "1:1: resource closed [3,9)",
+      "2:1: resource closed [3,9)",
+      "overlap 0:0 and 1:0",
+      "overlap 0:0 and 2:0",
+      "overlap 0:1 and 1:1",
+      "overlap 0:1 and 2:1",
+      "overlap 1:0 and 2:0",
+      "overlap 1:1 and 2:1"
+    ]
+  },
+  {
+    "method": "protocol",
+    "phase": 0,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 9,
+    "input_tokens": 3477,
+    "output_tokens": 135,
+    "error": "RuntimeError('per-phase model call budget exhausted')"
+  },
+  {
+    "method": "protocol",
+    "phase": 1,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 4,
+    "input_tokens": 1266,
+    "output_tokens": 58,
+    "error": "RuntimeError('Model failed response validation after three attempts; no rule substitution')"
+  }
+]

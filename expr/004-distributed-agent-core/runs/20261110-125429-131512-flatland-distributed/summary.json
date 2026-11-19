@@ -1,0 +1,99 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_0.pkl",
+    "steps": 300,
+    "backend": "ollama",
+    "max_llm_calls": 6,
+    "groups": "all"
+  },
+  "agents": 7,
+  "arrived": 6,
+  "arrival_steps": {
+    "5": 97,
+    "4": 117,
+    "0": 125,
+    "2": 159,
+    "3": 163,
+    "1": 191
+  },
+  "steps": 234,
+  "reward": -84.0,
+  "messages": 1162,
+  "communication_phases": 360,
+  "installs": 175,
+  "revocations": 2,
+  "wall_seconds": 32.76032799994573,
+  "scenario_sha256": "04bcc81c21c9697f9f41cf1bfb919a7e84a6805722e5f81c6a8a86e775d5ca76",
+  "backend": "ollama",
+  "groups": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "3": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "5": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "6": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 6,
+  "budget_rule_fallbacks": 1785,
+  "input_tokens": 2742,
+  "output_tokens": 42,
+  "scope": "single traffic group",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

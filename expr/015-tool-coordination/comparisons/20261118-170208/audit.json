@@ -1,0 +1,43 @@
+{
+  "scope": "internal trigger ablation, not external baseline",
+  "pairs": [
+    {
+      "seed": 0,
+      "both_success": true,
+      "same_trajectory": true,
+      "same_durations": true,
+      "event_makespan": 13,
+      "periodic_makespan": 13
+    },
+    {
+      "seed": 1,
+      "both_success": true,
+      "same_trajectory": true,
+      "same_durations": true,
+      "event_makespan": 14,
+      "periodic_makespan": 14
+    },
+    {
+      "seed": 2,
+      "both_success": true,
+      "same_trajectory": true,
+      "same_durations": true,
+      "event_makespan": 15,
+      "periodic_makespan": 15
+    }
+  ],
+  "totals": {
+    "False": {
+      "llm_calls": 44,
+      "messages": 165,
+      "input_tokens": 9874,
+      "output_tokens": 443
+    },
+    "True": {
+      "llm_calls": 60,
+      "messages": 225,
+      "input_tokens": 13554,
+      "output_tokens": 600
+    }
+  }
+}

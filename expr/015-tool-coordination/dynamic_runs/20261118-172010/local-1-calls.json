@@ -1,0 +1,314 @@
+[
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"request\": \"coordinate\"\n}",
+      "usage": {
+        "prompt_tokens": 95,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 95,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"collect\"]}}, \"required\": [\"job\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"collect\"\n}",
+      "usage": {
+        "prompt_tokens": 198,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 198,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"3\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"reference\"]}}, \"required\": [\"job\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"reference\"\n}",
+      "usage": {
+        "prompt_tokens": 198,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 198,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"request\": \"coordinate\"\n}",
+      "usage": {
+        "prompt_tokens": 95,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 95,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 1, \"completed\": [\"collect\"], \"running\": [\"reference\"], \"time\": 4}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 221,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 221,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 0, \"completed\": [\"collect\"], \"running\": [\"reference\"], \"time\": 4}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"analyse\", \"verify\"]}}, \"required\": [\"job\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"analyse\"\n}",
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 11
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 225,
+    "output_tokens": 11
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"request\": \"coordinate\"\n}",
+      "usage": {
+        "prompt_tokens": 95,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 95,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 2, \"completed\": [\"analyse\", \"collect\", \"reference\"], \"running\": [], \"time\": 12}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 227,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 1, \"completed\": [\"analyse\", \"collect\", \"reference\"], \"running\": [], \"time\": 12}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"verify\"]}}, \"required\": [\"job\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"verify\"\n}",
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 227,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"request\": \"coordinate\"\n}",
+      "usage": {
+        "prompt_tokens": 95,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 95,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 3, \"completed\": [\"analyse\", \"collect\", \"reference\", \"verify\"], \"running\": [], \"time\": 16}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 230,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return required JSON.",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 0, \"completed\": [\"analyse\", \"collect\", \"reference\", \"verify\"], \"running\": [], \"time\": 16}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"publish\"]}}, \"required\": [\"job\"]}}",
+        "source": "task",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"publish\"\n}",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 230,
+    "output_tokens": 10
+  }
+]

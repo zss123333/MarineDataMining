@@ -1,0 +1,9818 @@
+{
+  "0": [
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 504.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 507.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 512.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 520.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 504.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 507.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 512.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 520.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 524.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "9",
+      "combinations_checked": 1,
+      "cost": 527.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "10",
+      "combinations_checked": 1,
+      "cost": 532.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "11",
+      "combinations_checked": 1,
+      "cost": 540.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "11:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "11:4:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "21:0:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "30:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "33:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "35:0:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "40:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "42:0:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "44:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "49:0:5",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "49:0:5",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "49:0:5",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "49:0:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "54:5:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "56:0:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "58:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "63:0:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "70:0:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "72:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "77:0:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "79:2:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "84:0:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "86:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "91:0:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "93:2:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "98:0:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "100:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "105:0:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "112:0:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "114:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "119:0:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "121:2:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "126:0:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "128:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "133:0:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "135:2:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "140:0:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "147:0:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "149:2:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "154:0:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "161:0:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "163:2:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "168:0:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "170:2:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "175:0:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "177:2:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "182:0:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "189:0:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:50",
+      "decision": "abort"
+    },
+    {
+      "proposal": "191:2:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:50",
+      "decision": "abort"
+    }
+  ],
+  "1": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 3.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 8.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 16.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 4.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 7.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 12.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 20.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "11:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "11:4:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "21:0:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 109.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 113.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "22:1:4",
+      "event": "selected_combination",
+      "candidate": "4",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "22:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "30:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "33:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "35:0:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "36:1:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "36:1:6",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "36:1:6",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "36:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "40:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "42:0:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "43:1:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "43:1:8",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "43:1:8",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "43:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "44:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "49:0:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:10",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "50:1:10",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "50:1:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "54:5:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "56:0:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:12",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "57:1:12",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "57:1:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "58:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "63:0:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:14",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:14",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "70:0:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:16",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "71:1:16",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "71:1:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "72:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "77:0:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:18",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "78:1:18",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "78:1:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "79:2:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "84:0:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:20",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "85:1:20",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "85:1:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "86:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "91:0:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:22",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:22",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "93:2:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "98:0:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:24",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "99:1:24",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "99:1:24",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "99:1:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "100:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "105:0:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:26",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "106:1:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "112:0:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:28",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "113:1:28",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "113:1:28",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "113:1:28",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "113:1:28",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "113:1:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "114:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "119:0:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:30",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "120:1:30",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "120:1:30",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "120:1:30",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "120:1:30",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "120:1:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "121:2:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "126:0:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:32",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "127:1:32",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "127:1:32",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "127:1:32",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "127:1:32",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "127:1:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "128:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "133:0:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:34",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "134:1:34",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "134:1:34",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "134:1:34",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "134:1:34",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "134:1:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "135:2:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "140:0:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:36",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "141:1:36",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "141:1:36",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "141:1:36",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "141:1:36",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "141:1:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "147:0:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:38",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:38",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:38",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:38",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:38",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "149:2:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "154:0:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:40",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "155:1:40",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "155:1:40",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "155:1:40",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "155:1:40",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "155:1:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "161:0:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:42",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "162:1:42",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "162:1:42",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "162:1:42",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "162:1:42",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "162:1:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "163:2:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "168:0:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:44",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "169:1:44",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "169:1:44",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "169:1:44",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "169:1:44",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "169:1:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "170:2:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "175:0:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:46",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "176:1:46",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "176:1:46",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "176:1:46",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "176:1:46",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "176:1:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "177:2:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "182:0:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:48",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "183:1:48",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "183:1:48",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "183:1:48",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "183:1:48",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "183:1:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "189:0:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:50",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "190:1:50",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "190:1:50",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "190:1:50",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "190:1:50",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "190:1:50",
+      "decision": "abort"
+    },
+    {
+      "proposal": "191:2:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:50",
+      "decision": "abort"
+    }
+  ],
+  "2": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "11:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "11:4:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "21:0:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "30:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "33:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "35:0:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "40:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "42:0:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "44:2:3",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "44:2:3",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "44:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "49:0:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "54:5:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "56:0:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "58:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "63:0:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "70:0:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "72:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "77:0:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "79:2:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "84:0:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "86:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "91:0:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "93:2:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "98:0:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "100:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "105:0:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "112:0:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "114:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "119:0:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "121:2:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "126:0:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "128:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "133:0:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "135:2:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "140:0:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "147:0:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "149:2:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "154:0:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "161:0:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "163:2:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "168:0:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "170:2:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "175:0:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "177:2:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "182:0:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "189:0:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:50",
+      "decision": "abort"
+    },
+    {
+      "proposal": "191:2:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:50",
+      "decision": "abort"
+    }
+  ],
+  "3": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "11:4:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "21:0:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "30:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "31:3:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "33:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "35:0:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "40:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "42:0:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "44:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "45:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "49:0:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "52:3:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "54:5:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "56:0:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "58:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "63:0:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "66:3:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "70:0:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "72:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "77:0:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "79:2:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "80:3:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "84:0:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "86:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "87:3:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "91:0:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "93:2:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "98:0:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "100:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "101:3:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "105:0:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "108:3:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "112:0:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "114:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "119:0:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "121:2:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "122:3:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "126:0:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "128:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:30",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "129:3:30",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "129:3:30",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "129:3:30",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "129:3:30",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "129:3:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "133:0:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "135:2:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "140:0:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "147:0:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "149:2:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "154:0:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "161:0:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "163:2:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "168:0:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "170:2:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "175:0:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "177:2:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "182:0:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "189:0:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:50",
+      "decision": "abort"
+    },
+    {
+      "proposal": "191:2:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:50",
+      "decision": "abort"
+    }
+  ],
+  "4": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 54.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 54.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 57.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 62.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 70.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 62.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 78.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "11:4:2",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "11:4:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "21:0:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "30:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "32:4:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "32:4:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "32:4:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "32:4:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "32:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "33:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "35:0:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "39:4:6",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "39:4:6",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "39:4:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "39:4:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "39:4:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "40:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "42:0:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "44:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:8",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:8",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:8",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "49:0:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:10",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "53:4:10",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "53:4:10",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "53:4:10",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "53:4:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "54:5:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "56:0:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "58:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:12",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "60:4:12",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "60:4:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "63:0:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:14",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "67:4:14",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "67:4:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "70:0:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "72:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:16",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "74:4:16",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "74:4:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "77:0:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "79:2:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:18",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "81:4:18",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "81:4:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "84:0:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "86:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:20",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "88:4:20",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "88:4:20",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "88:4:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "91:0:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "93:2:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:22",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "95:4:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "98:0:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "100:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "105:0:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "112:0:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "114:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "119:0:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "121:2:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "126:0:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "128:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "133:0:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "135:2:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "140:0:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "147:0:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "149:2:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "154:0:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "161:0:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "163:2:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "168:0:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "170:2:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "175:0:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "177:2:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "182:0:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "189:0:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:50",
+      "decision": "abort"
+    },
+    {
+      "proposal": "191:2:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:50",
+      "decision": "abort"
+    }
+  ],
+  "5": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "11:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "11:4:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 3.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 8.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 25.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 1.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 4.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 9.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 25.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "9",
+      "combinations_checked": 1,
+      "cost": 30.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "10",
+      "combinations_checked": 1,
+      "cost": 33.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "11",
+      "combinations_checked": 1,
+      "cost": 39.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "12",
+      "combinations_checked": 1,
+      "cost": 55.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "21:0:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "30:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "33:5:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "33:5:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "33:5:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "33:5:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "33:5:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "33:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "35:0:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "40:5:3",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "40:5:3",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "40:5:3",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "40:5:3",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "40:5:3",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "40:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "42:0:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "44:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "49:0:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "54:5:5",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "54:5:5",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "54:5:5",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "54:5:5",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "54:5:5",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "54:5:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "56:0:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "58:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:6",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:6",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "63:0:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "70:0:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "72:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "77:0:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "79:2:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "84:0:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "86:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "91:0:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "93:2:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "98:0:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "100:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "105:0:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "112:0:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "114:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "119:0:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "121:2:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "126:0:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "128:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "133:0:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "135:2:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "140:0:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "147:0:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "149:2:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "154:0:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "161:0:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "163:2:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "168:0:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "170:2:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "175:0:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "177:2:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "182:0:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "189:0:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:50",
+      "decision": "abort"
+    },
+    {
+      "proposal": "191:2:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:50",
+      "decision": "abort"
+    }
+  ],
+  "6": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "11:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "11:4:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "21:0:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "22:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "30:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "31:3:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "32:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "33:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "34:6:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "35:0:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "36:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "39:4:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "40:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "41:6:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "42:0:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "43:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "44:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "45:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "49:0:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "50:1:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "52:3:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "53:4:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "54:5:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "55:6:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "56:0:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "57:1:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "58:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "63:0:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "66:3:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "67:4:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "69:6:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "70:0:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "71:1:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "72:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "76:6:14",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "76:6:14",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "76:6:14",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "76:6:14",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "76:6:14",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "76:6:14",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "76:6:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "77:0:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "78:1:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "79:2:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "80:3:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "81:4:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:16",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "83:6:16",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "83:6:16",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "83:6:16",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "83:6:16",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "83:6:16",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "83:6:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "84:0:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "85:1:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "86:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "87:3:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "88:4:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "90:6:18",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "90:6:18",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "90:6:18",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "90:6:18",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "90:6:18",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "90:6:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "91:0:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "93:2:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "95:4:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "97:6:20",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "97:6:20",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "97:6:20",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "97:6:20",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "97:6:20",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "97:6:20",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "97:6:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "98:0:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "99:1:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "100:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "101:3:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "104:6:22",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "104:6:22",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "104:6:22",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "104:6:22",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "104:6:22",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "104:6:22",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "104:6:22",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "104:6:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "105:0:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "106:1:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:12",
+      "decision": "abort"
+    },
+    {
+      "proposal": "108:3:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "109:4:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "111:6:24",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "111:6:24",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "111:6:24",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "111:6:24",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "111:6:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "112:0:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "113:1:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "114:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:27",
+      "decision": "abort"
+    },
+    {
+      "proposal": "116:4:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "118:6:26",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "118:6:26",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "118:6:26",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "118:6:26",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "118:6:26",
+      "decision": "abort"
+    },
+    {
+      "proposal": "119:0:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "120:1:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "121:2:14",
+      "decision": "abort"
+    },
+    {
+      "proposal": "122:3:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:29",
+      "decision": "abort"
+    },
+    {
+      "proposal": "123:4:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:28",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:28",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:28",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:28",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:28",
+      "decision": "abort"
+    },
+    {
+      "proposal": "126:0:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "128:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "129:3:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:31",
+      "decision": "abort"
+    },
+    {
+      "proposal": "130:4:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "132:6:30",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "132:6:30",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "132:6:30",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "132:6:30",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "132:6:30",
+      "decision": "abort"
+    },
+    {
+      "proposal": "133:0:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "135:2:16",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:33",
+      "decision": "abort"
+    },
+    {
+      "proposal": "137:4:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "139:6:32",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "139:6:32",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "139:6:32",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "139:6:32",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "139:6:32",
+      "decision": "abort"
+    },
+    {
+      "proposal": "140:0:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "141:1:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:35",
+      "decision": "abort"
+    },
+    {
+      "proposal": "144:4:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "146:6:34",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "146:6:34",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "146:6:34",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "146:6:34",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "146:6:34",
+      "decision": "abort"
+    },
+    {
+      "proposal": "147:0:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "149:2:18",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:37",
+      "decision": "abort"
+    },
+    {
+      "proposal": "151:4:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "153:6:36",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "153:6:36",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "153:6:36",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "153:6:36",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "153:6:36",
+      "decision": "abort"
+    },
+    {
+      "proposal": "154:0:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "155:1:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:39",
+      "decision": "abort"
+    },
+    {
+      "proposal": "158:4:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "160:6:38",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "160:6:38",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "160:6:38",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "160:6:38",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "160:6:38",
+      "decision": "abort"
+    },
+    {
+      "proposal": "161:0:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "162:1:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "163:2:20",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:41",
+      "decision": "abort"
+    },
+    {
+      "proposal": "165:4:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "167:6:40",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "167:6:40",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "167:6:40",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "167:6:40",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "167:6:40",
+      "decision": "abort"
+    },
+    {
+      "proposal": "168:0:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "170:2:21",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:43",
+      "decision": "abort"
+    },
+    {
+      "proposal": "172:4:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "174:6:42",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "174:6:42",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "174:6:42",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "174:6:42",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "174:6:42",
+      "decision": "abort"
+    },
+    {
+      "proposal": "175:0:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "177:2:22",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:45",
+      "decision": "abort"
+    },
+    {
+      "proposal": "179:4:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "181:6:44",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "181:6:44",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "181:6:44",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "181:6:44",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "181:6:44",
+      "decision": "abort"
+    },
+    {
+      "proposal": "182:0:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "183:1:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:23",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:47",
+      "decision": "abort"
+    },
+    {
+      "proposal": "186:4:48",
+      "decision": "abort"
+    },
+    {
+      "proposal": "188:6:46",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "188:6:46",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "188:6:46",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "188:6:46",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "188:6:46",
+      "decision": "abort"
+    },
+    {
+      "proposal": "189:0:25",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:50",
+      "decision": "abort"
+    },
+    {
+      "proposal": "191:2:24",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:49",
+      "decision": "abort"
+    },
+    {
+      "proposal": "193:4:50",
+      "decision": "abort"
+    }
+  ]
+}

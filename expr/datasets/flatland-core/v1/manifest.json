@@ -1,0 +1,67 @@
+{
+  "upstream_commit": "2e20db2f0e1bc4ea79f4e164b0f132b11e1552c8",
+  "source": "https://raw.githubusercontent.com/flatland-association/flatland-scenarios/2e20db2f0e1bc4ea79f4e164b0f132b11e1552c8/",
+  "flatland_version": "4.2.6",
+  "kind": "regenerated official configurations, not original serialized benchmark",
+  "selected": [
+    {
+      "test_id": "Test_00",
+      "env_id": "Level_0",
+      "n_agents": "7",
+      "x_dim": "30",
+      "y_dim": "30",
+      "n_cities": "2",
+      "max_rail_pairs_in_city": "2",
+      "n_envs_run": "10",
+      "seed": "42",
+      "grid_mode": "False",
+      "max_rails_between_cities": "2",
+      "malfunction_duration_min": "20",
+      "malfunction_duration_max": "50",
+      "malfunction_interval": "540",
+      "speed_ratios": "{1.0: 0.25, 0.5: 0.25, 0.33: 0.25, 0.25: 0.25}"
+    },
+    {
+      "test_id": "Test_00",
+      "env_id": "Level_1",
+      "n_agents": "7",
+      "x_dim": "30",
+      "y_dim": "30",
+      "n_cities": "2",
+      "max_rail_pairs_in_city": "2",
+      "n_envs_run": "10",
+      "seed": "43",
+      "grid_mode": "False",
+      "max_rails_between_cities": "2",
+      "malfunction_duration_min": "20",
+      "malfunction_duration_max": "50",
+      "malfunction_interval": "540",
+      "speed_ratios": "{1.0: 0.25, 0.5: 0.25, 0.33: 0.25, 0.25: 0.25}"
+    },
+    {
+      "test_id": "Test_00",
+      "env_id": "Level_2",
+      "n_agents": "7",
+      "x_dim": "30",
+      "y_dim": "30",
+      "n_cities": "2",
+      "max_rail_pairs_in_city": "2",
+      "n_envs_run": "10",
+      "seed": "44",
+      "grid_mode": "False",
+      "max_rails_between_cities": "2",
+      "malfunction_duration_min": "20",
+      "malfunction_duration_max": "50",
+      "malfunction_interval": "540",
+      "speed_ratios": "{1.0: 0.25, 0.5: 0.25, 0.33: 0.25, 0.25: 0.25}"
+    }
+  ],
+  "sha256": {
+    "upstream_metadata.csv": "23cf43c3e26e92473834d8ee0b42775fb04c4fd90f1eaee2e484a39ec558c46b",
+    "upstream_gen_envs.py": "6a60b74818e54b78c787818e776cf0e2cd66341f92a4033df09001ae6b2bce27",
+    "upstream_README.md": "807e30efc4650043980f90cb99edd43bb63631377dcabb8ca6a0549592e5c427",
+    "Test_00_Level_0.pkl": "04bcc81c21c9697f9f41cf1bfb919a7e84a6805722e5f81c6a8a86e775d5ca76",
+    "Test_00_Level_1.pkl": "1b99724e57a1a9d8bbfc83fabbab14e2489d7957f2dda00a968ce16add72e4b0",
+    "Test_00_Level_2.pkl": "cbdfbb7340422858a941864d8be341829228adc90b3b8482d14f9a37ee54626c"
+  }
+}

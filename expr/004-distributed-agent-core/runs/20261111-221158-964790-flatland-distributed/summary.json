@@ -1,0 +1,113 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_0.pkl",
+    "dataset_version": "v3-holdout",
+    "method": "single",
+    "steps": 1000,
+    "backend": "rule",
+    "max_llm_calls": 6,
+    "groups": "resource"
+  },
+  "agents": 7,
+  "arrived": 7,
+  "implementation": "resource-scoped-response-v2",
+  "official_baseline_commit": null,
+  "capped_completion_steps": 762,
+  "unfinished_penalty": 157,
+  "message_bytes": 7720184,
+  "arrival_steps": {
+    "6": 99,
+    "4": 103,
+    "0": 105,
+    "2": 106,
+    "5": 109,
+    "3": 115,
+    "1": 125
+  },
+  "steps": 125,
+  "reward": 0.0,
+  "messages": 1738,
+  "communication_phases": 287,
+  "installs": 112,
+  "revocations": 19,
+  "repair_cost": 8.0,
+  "repair_installs": 8,
+  "committed_alternative_combinations": 0,
+  "combinations_checked": 295,
+  "alternative_combinations_found": 0,
+  "wall_seconds": 6.280943499878049,
+  "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+  "backend": "rule",
+  "groups": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "3": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "5": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "6": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "scope": "resource",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

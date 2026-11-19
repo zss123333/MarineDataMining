@@ -1,0 +1,282 @@
+[
+  {
+    "agent": 0,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control one train. Select a candidate minimizing delay and disruptions to teammates. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 0, \"candidates\": [{\"wait\": 0, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 19}, {\"wait\": 3, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 19}, {\"wait\": 8, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 19}], \"context\": {\"step\": 0, \"old_version\": null}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 2048,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-09T16:49:19.1366347Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2324519100,
+      "load_duration": 1442882600,
+      "prompt_eval_count": 134,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 661089000,
+      "eval_count": 7,
+      "eval_duration": 214563000
+    }
+  },
+  {
+    "agent": 1,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control one train. Select a candidate minimizing delay and disruptions to teammates. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 1, \"candidates\": [{\"wait\": 0, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 33}, {\"wait\": 3, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 33}, {\"wait\": 8, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 33}], \"context\": {\"step\": 0, \"old_version\": null}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 2048,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-09T16:49:21.9280044Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 1}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 757090100,
+      "load_duration": 14655700,
+      "prompt_eval_count": 134,
+      "prompt_eval_cached_count": 31,
+      "prompt_eval_duration": 529260999,
+      "eval_count": 7,
+      "eval_duration": 203137000
+    }
+  },
+  {
+    "agent": 2,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control one train. Select a candidate minimizing delay and disruptions to teammates. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 2, \"candidates\": [{\"wait\": 0, \"predicted_conflicts\": 1, \"dependencies\": [{\"peer\": 1, \"version\": 1, \"use_at\": 0, \"kind\": \"current\", \"evidence\": \"published route; constant-speed forecast, not guarantee\"}], \"remaining_cells\": 19}, {\"wait\": 3, \"predicted_conflicts\": 1, \"dependencies\": [{\"peer\": 1, \"version\": 1, \"use_at\": 0, \"kind\": \"current\", \"evidence\": \"published route; constant-speed forecast, not guarantee\"}], \"remaining_cells\": 19}, {\"wait\": 8, \"predicted_conflicts\": 1, \"dependencies\": [{\"peer\": 1, \"version\": 1, \"use_at\": 0, \"kind\": \"current\", \"evidence\": \"published route; constant-speed forecast, not guarantee\"}], \"remaining_cells\": 19}], \"context\": {\"step\": 0, \"old_version\": null}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 2048,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-09T16:49:25.2907351Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 2}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1320201100,
+      "load_duration": 16791300,
+      "prompt_eval_count": 254,
+      "prompt_eval_cached_count": 31,
+      "prompt_eval_duration": 1084819000,
+      "eval_count": 7,
+      "eval_duration": 206181000
+    }
+  },
+  {
+    "agent": 3,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control one train. Select a candidate minimizing delay and disruptions to teammates. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 3, \"candidates\": [{\"wait\": 0, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 37}, {\"wait\": 3, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 37}, {\"wait\": 8, \"predicted_conflicts\": 0, \"dependencies\": [], \"remaining_cells\": 37}], \"context\": {\"step\": 0, \"old_version\": null}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 2048,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-09T16:49:28.0858079Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 2}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 766376800,
+      "load_duration": 7033800,
+      "prompt_eval_count": 134,
+      "prompt_eval_cached_count": 31,
+      "prompt_eval_duration": 546841000,
+      "eval_count": 7,
+      "eval_duration": 200195000
+    }
+  },
+  {
+    "agent": 4,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control one train. Select a candidate minimizing delay and disruptions to teammates. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 4, \"candidates\": [{\"wait\": 0, \"predicted_conflicts\": 1, \"dependencies\": [{\"peer\": 1, \"version\": 1, \"use_at\": 0, \"kind\": \"current\", \"evidence\": \"published route; constant-speed forecast, not guarantee\"}], \"remaining_cells\": 33}, {\"wait\": 3, \"predicted_conflicts\": 1, \"dependencies\": [{\"peer\": 1, \"version\": 1, \"use_at\": 0, \"kind\": \"current\", \"evidence\": \"published route; constant-speed forecast, not guarantee\"}], \"remaining_cells\": 33}, {\"wait\": 8, \"predicted_conflicts\": 1, \"dependencies\": [{\"peer\": 1, \"version\": 1, \"use_at\": 0, \"kind\": \"current\", \"evidence\": \"published route; constant-speed forecast, not guarantee\"}], \"remaining_cells\": 33}], \"context\": {\"step\": 0, \"old_version\": null}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 2048,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-09T16:49:31.4819692Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 2}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1374933700,
+      "load_duration": 15927200,
+      "prompt_eval_count": 254,
+      "prompt_eval_cached_count": 31,
+      "prompt_eval_duration": 1137756000,
+      "eval_count": 7,
+      "eval_duration": 208966000
+    }
+  }
+]

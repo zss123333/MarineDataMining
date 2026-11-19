@@ -1,0 +1,333 @@
+{
+  "method": "local",
+  "configuration": 0,
+  "success": true,
+  "error": null,
+  "makespan": 12,
+  "calls": 8,
+  "input_tokens": 1299,
+  "output_tokens": 81,
+  "protocol_messages": 25,
+  "trajectory": [
+    {
+      "time": 0,
+      "dependency_changed": false,
+      "submitted": [
+        {
+          "task_id": "collect",
+          "status": "running",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "completed": [],
+      "versions": {
+        "0": 1,
+        "1": 0,
+        "2": 0
+      }
+    },
+    {
+      "time": 1,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [],
+      "versions": {
+        "0": 1,
+        "1": 0,
+        "2": 0
+      }
+    },
+    {
+      "time": 2,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [
+        "collect"
+      ],
+      "versions": {
+        "0": 1,
+        "1": 0,
+        "2": 0
+      }
+    },
+    {
+      "time": 3,
+      "dependency_changed": false,
+      "submitted": [
+        {
+          "task_id": "reference",
+          "status": "running",
+          "missing": [],
+          "detail": ""
+        },
+        {
+          "task_id": "analyse",
+          "status": "running",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "completed": [],
+      "versions": {
+        "0": 2,
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "time": 4,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [],
+      "versions": {
+        "0": 2,
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "time": 5,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [],
+      "versions": {
+        "0": 2,
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "time": 6,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [
+        "analyse"
+      ],
+      "versions": {
+        "0": 2,
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "time": 7,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [],
+      "versions": {
+        "0": 2,
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "time": 8,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [],
+      "versions": {
+        "0": 2,
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "time": 9,
+      "dependency_changed": false,
+      "submitted": [
+        {
+          "task_id": "publish",
+          "status": "running",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "completed": [],
+      "versions": {
+        "0": 3,
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "time": 10,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [
+        "publish"
+      ],
+      "versions": {
+        "0": 3,
+        "1": 1,
+        "2": 1
+      }
+    },
+    {
+      "time": 11,
+      "dependency_changed": false,
+      "submitted": [],
+      "completed": [
+        "reference"
+      ],
+      "versions": {
+        "0": 3,
+        "1": 1,
+        "2": 1
+      }
+    }
+  ],
+  "artifacts": {
+    "collect": {
+      "inputs": []
+    },
+    "analyse": {
+      "inputs": [
+        "collect"
+      ]
+    },
+    "publish": {
+      "inputs": [
+        "analyse"
+      ]
+    },
+    "reference": {
+      "inputs": []
+    }
+  },
+  "trace": {
+    "0": [
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "0:0:1"
+      },
+      {
+        "proposal": "0:0:1",
+        "event": "combination_found",
+        "candidate": "reservation",
+        "combinations_checked": 1,
+        "cost": 0,
+        "selection": {
+          "0": 0
+        }
+      },
+      {
+        "proposal": "0:0:1",
+        "event": "combination_search",
+        "candidate": "reservation",
+        "checked": 1,
+        "limit": 128
+      },
+      {
+        "proposal": "0:0:1",
+        "event": "selected_combination",
+        "candidate": "reservation",
+        "selection": {
+          "0": 0
+        },
+        "uses_alternative": false
+      },
+      {
+        "proposal": "0:0:1",
+        "decision": "commit"
+      },
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "3:0:2"
+      },
+      {
+        "proposal": "3:0:2",
+        "event": "combination_found",
+        "candidate": "reservation",
+        "combinations_checked": 1,
+        "cost": 0,
+        "selection": {
+          "0": 0,
+          "1": 0
+        }
+      },
+      {
+        "proposal": "3:0:2",
+        "event": "combination_search",
+        "candidate": "reservation",
+        "checked": 1,
+        "limit": 128
+      },
+      {
+        "proposal": "3:0:2",
+        "event": "selected_combination",
+        "candidate": "reservation",
+        "selection": {
+          "0": 0,
+          "1": 0
+        },
+        "uses_alternative": false
+      },
+      {
+        "proposal": "3:0:2",
+        "decision": "commit"
+      },
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "9:0:3"
+      },
+      {
+        "proposal": "9:0:3",
+        "event": "combination_found",
+        "candidate": "reservation",
+        "combinations_checked": 1,
+        "cost": 0,
+        "selection": {
+          "0": 0,
+          "2": 0
+        }
+      },
+      {
+        "proposal": "9:0:3",
+        "event": "combination_search",
+        "candidate": "reservation",
+        "checked": 1,
+        "limit": 128
+      },
+      {
+        "proposal": "9:0:3",
+        "event": "selected_combination",
+        "candidate": "reservation",
+        "selection": {
+          "0": 0,
+          "2": 0
+        },
+        "uses_alternative": false
+      },
+      {
+        "proposal": "9:0:3",
+        "decision": "commit"
+      }
+    ],
+    "1": [
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "3:0:2"
+      },
+      {
+        "proposal": "3:0:2",
+        "decision": "commit"
+      }
+    ],
+    "2": [
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "9:0:3"
+      },
+      {
+        "proposal": "9:0:3",
+        "decision": "commit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "model": "qwen2.5:1.5b",
+  "cases": [
+    {
+      "seed": 201,
+      "level": "single",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 201,
+      "level": "parallel",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep0",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish0",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep1",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish1",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep2",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish2",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 201,
+      "level": "shared",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 201,
+      "level": "dependency",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [
+          [
+            "0:0",
+            "1:1"
+          ],
+          [
+            "1:0",
+            "2:1"
+          ]
+        ],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 201,
+      "level": "closure",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 0
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [
+          [
+            "0:0",
+            "1:1"
+          ],
+          [
+            "1:0",
+            "2:1"
+          ]
+        ],
+        "horizon": 24,
+        "closures": {
+          "finish": [
+            [
+              3,
+              9
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "level": "single",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "level": "parallel",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep0",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish0",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep1",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish1",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep2",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish2",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "level": "shared",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "level": "dependency",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [
+          [
+            "0:0",
+            "1:1"
+          ],
+          [
+            "1:0",
+            "2:1"
+          ]
+        ],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "level": "closure",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 1,
+              "release": 1
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [
+          [
+            "0:0",
+            "1:1"
+          ],
+          [
+            "1:0",
+            "2:1"
+          ]
+        ],
+        "horizon": 24,
+        "closures": {
+          "finish": [
+            [
+              3,
+              9
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "level": "single",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "level": "parallel",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep0",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish0",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep1",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish1",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep2",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish2",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "level": "shared",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "level": "dependency",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [
+          [
+            "0:0",
+            "1:1"
+          ],
+          [
+            "1:0",
+            "2:1"
+          ]
+        ],
+        "horizon": 24,
+        "closures": {
+          "finish": []
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "level": "closure",
+      "task": {
+        "jobs": {
+          "0": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "1": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ],
+          "2": [
+            {
+              "resource": "prep",
+              "duration": 2,
+              "release": 2
+            },
+            {
+              "resource": "finish",
+              "duration": 2,
+              "release": 0
+            }
+          ]
+        },
+        "dependencies": [
+          [
+            "0:0",
+            "1:1"
+          ],
+          [
+            "1:0",
+            "2:1"
+          ]
+        ],
+        "horizon": 24,
+        "closures": {
+          "finish": [
+            [
+              3,
+              9
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "calls_per_case": 2,
+  "selection_rule": "No formal comparison if single-owner feasibility is below 2/3. Development cases only; never select by protocol wins.",
+  "holdout_seeds_not_used": [
+    301,
+    302,
+    303,
+    304,
+    305
+  ],
+  "source_hashes": {
+    "run.py": "dc575ed3a6cd06bbfc1f1e4dea154bdfc657cecf4c288611ecf46dfb07a82900",
+    "preflight.py": "11a57286a30fcb68119b5ba8deed72cef826520241c84d0403a151657fc2f1c2"
+  }
+}

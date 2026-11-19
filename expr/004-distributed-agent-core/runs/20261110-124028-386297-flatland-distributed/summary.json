@@ -1,0 +1,27 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_0.pkl",
+    "steps": 300
+  },
+  "agents": 7,
+  "arrived": 6,
+  "arrival_steps": {
+    "5": 97,
+    "4": 117,
+    "0": 125,
+    "2": 159,
+    "3": 163,
+    "1": 191
+  },
+  "steps": 234,
+  "reward": -84.0,
+  "messages": 1162,
+  "communication_phases": 360,
+  "installs": 175,
+  "revocations": 2,
+  "wall_seconds": 2.488940500188619,
+  "scenario_sha256": "04bcc81c21c9697f9f41cf1bfb919a7e84a6805722e5f81c6a8a86e775d5ca76",
+  "backend": "local deterministic task response, no LLM",
+  "scope": "one seven-train shared traffic task group",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

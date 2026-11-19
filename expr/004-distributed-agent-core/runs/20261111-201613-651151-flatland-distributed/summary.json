@@ -1,0 +1,109 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_2.pkl",
+    "dataset_version": "v2-audit",
+    "method": "independent",
+    "steps": 1000,
+    "backend": "rule",
+    "max_llm_calls": 6,
+    "groups": "all"
+  },
+  "agents": 7,
+  "arrived": 3,
+  "implementation": "response-menu-alignment-v1",
+  "official_baseline_commit": null,
+  "capped_completion_steps": 1139,
+  "unfinished_penalty": 179,
+  "message_bytes": 0,
+  "arrival_steps": {
+    "3": 112,
+    "6": 155,
+    "1": 156
+  },
+  "steps": 179,
+  "reward": -295.0,
+  "messages": 0,
+  "communication_phases": 179,
+  "installs": 404,
+  "revocations": 318,
+  "repair_cost": 0.0,
+  "repair_installs": 0,
+  "committed_alternative_combinations": 0,
+  "combinations_checked": 0,
+  "alternative_combinations_found": 0,
+  "wall_seconds": 0.22127579990774393,
+  "scenario_sha256": "cbdfbb7340422858a941864d8be341829228adc90b3b8482d14f9a37ee54626c",
+  "backend": "rule",
+  "groups": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "3": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "5": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "6": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "scope": "single traffic group",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "existing Agent and ResourceTask integration; not external baseline or framework ranking",
+  "success": false,
+  "error": "RuntimeError('Model failed response validation after three attempts; no rule substitution')",
+  "rounds": [],
+  "llm_calls": 4,
+  "messages": 3,
+  "input_tokens": 819,
+  "output_tokens": 40,
+  "artifacts": {},
+  "trace": {
+    "0": [],
+    "1": [],
+    "2": []
+  }
+}

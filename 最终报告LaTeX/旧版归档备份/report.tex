@@ -1,0 +1,43 @@
+\documentclass[TwoSide=false,Degree=graduate,GradLevel=master,Type=thesis,Period=final,Language=chinese,MajorFormat=general,Title={从ReAct再想到多Agent滚动响应协同},TitleEng={Rolling Coordination for Multi-Agent Systems},StudentName={待填写},StudentID={待填写},SubmitDate={2026年11月14日}]{zjuthesis}
+\usepackage{array}
+\usepackage{xurl}
+\let\originaltexttt\texttt
+\renewcommand{\texttt}[1]{{\small\nolinkurl{#1}}}
+\lstset{basicstyle=\ttfamily\scriptsize,breaklines=true,columns=fullflexible}
+\AtBeginEnvironment{longtable}{\scriptsize\setlength{\tabcolsep}{2pt}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+\renewcommand{\TitleTypeName}{海洋数据挖掘课程实验报告}
+\hypersetup{pdftitle={从ReAct“再想”到多Agent滚动响应协同},pdfauthor={},colorlinks=true,linkcolor=black,urlcolor=blue}
+\setlength{\emergencystretch}{3em}
+\input{report-version.tex}
+\begin{document}
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\zihao{2}\heiti 海洋数据挖掘课程实验报告\par}
+\vspace{2cm}
+{\zihao{1}\heiti 从ReAct“再想”到\\多Agent滚动响应协同\par}
+\vspace{0.8cm}
+{\zihao{3} 基于Flatland的设计与实验\par}
+\vspace{2cm}
+{\zihao{4} 姓名：\underline{\hspace{4cm}}\par}
+\vspace{0.5cm}
+{\zihao{4} 学号：\underline{\hspace{4cm}}\par}
+\vfill
+{\zihao{4} 2026年11月14日\par}
+\vspace{0.4cm}
+{\zihao{5} 报告版本：\ReportVersion\par}
+\end{titlepage}
+\chapter*{提交核查}
+本报告的最终实验结论限定为：在所测开发场景中，验证了保留有效安排、按需协调的降本价值，不代表整个框架已获证明。
+
+完整AI聊天记录和Public GitHub链接尚待补齐。正式提交前须填写真实公开仓库地址，并确认完整原始会话可访问；本版不虚构链接。
+
+公开仓库：\underline{\hspace{10cm}}
+
+完整会话入口：\underline{\hspace{9cm}}
+\tableofcontents
+\clearpage
+\input{report-content.tex}
+\end{document}

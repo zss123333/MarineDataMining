@@ -1,0 +1,54 @@
+[
+  {
+    "request": [
+      {
+        "content": "You schedule only owner 0. {\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"public_board\": {}, \"validation_feedback\": [], \"instruction\": \"Each owner returns JSON with starts: [integer, integer].\"}",
+        "source": "user",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\"starts\": [0, 1]}",
+      "usage": {
+        "prompt_tokens": 309,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 309,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "You schedule only owner 0. {\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "{\"public_board\": {}, \"validation_feedback\": [], \"instruction\": \"Each owner returns JSON with starts: [integer, integer].\"}",
+        "source": "user",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\"starts\": [0, 0]}",
+      "usage": {
+        "prompt_tokens": 314,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 314,
+    "output_tokens": 10
+  }
+]

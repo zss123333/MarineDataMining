@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync(__dirname+'/sequence.js','utf8');
+const context={};vm.createContext(context);vm.runInContext(source,context);
+const events=[{sequence:0,kind:'message_send',agent:'1',peer:'0',data:{message:{kind:'respond',proposal:'p1',payload:{option:{public:{job:'analyse'}}}}}},{sequence:1,kind:'tool',agent:'1',data:{status:'running',task_id:'analyse'}},{sequence:2,kind:'tool',agent:'1',data:{status:'completed',task_id:'analyse'}}];
+context.records=events;const result=vm.runInContext('sequenceItems(records)',context);
+assert(result.items[0].title.includes('分析资料'));assert(result.items[0].detail.includes('尚未实际执行'));
+assert(result.states['1'].includes('完成交付'));assert.strictEqual(events[0].data.message.payload.option.public.job,'analyse');
+context.records=[{kind:'message_send',agent:'0',peer:'1',data:{message:{kind:'commit',payload:{}}}}];
+assert(vm.runInContext('sequenceItems(records).items[0].detail',context).includes('不代表工作已经完成'));
+console.log('Sequence semantic tests passed');

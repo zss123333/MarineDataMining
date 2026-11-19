@@ -1,0 +1,1 @@
+{"scenario": "coding", "task_id": 1, "llm": "ollama_chat/qwen2.5:7b", "error": "UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 515: illegal multibyte sequence"}

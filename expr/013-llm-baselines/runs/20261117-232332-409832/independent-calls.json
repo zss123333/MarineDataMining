@@ -1,0 +1,898 @@
+[
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:35.4240753Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 968823100,
+      "load_duration": 22062800,
+      "prompt_eval_count": 284,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 150638000,
+      "eval_count": 25,
+      "eval_duration": 778110000
+    }
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [\"0: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:38.3264012Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 819080000,
+      "load_duration": 9523900,
+      "prompt_eval_count": 292,
+      "prompt_eval_cached_count": 265,
+      "prompt_eval_duration": 142670000,
+      "eval_count": 21,
+      "eval_duration": 658836000
+    }
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"1\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:41.3345039Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 954412500,
+      "load_duration": 6687600,
+      "prompt_eval_count": 284,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 168005000,
+      "eval_count": 23,
+      "eval_duration": 762072000
+    }
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"1\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [\"1: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:44.1003071Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [0, 1, 2]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 703161300,
+      "load_duration": 6571900,
+      "prompt_eval_count": 292,
+      "prompt_eval_cached_count": 265,
+      "prompt_eval_duration": 164533000,
+      "eval_count": 17,
+      "eval_duration": 522937000
+    }
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"1\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [\"1: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:46.9680997Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 831802400,
+      "load_duration": 17097800,
+      "prompt_eval_count": 292,
+      "prompt_eval_cached_count": 291,
+      "prompt_eval_duration": 31479000,
+      "eval_count": 25,
+      "eval_duration": 771285000
+    }
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"2\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:49.9071699Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 909358900,
+      "load_duration": 16889600,
+      "prompt_eval_count": 284,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 156687000,
+      "eval_count": 23,
+      "eval_duration": 719739000
+    }
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"2\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [\"2: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:52.9160437Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 958091600,
+      "load_duration": 19025000,
+      "prompt_eval_count": 292,
+      "prompt_eval_cached_count": 265,
+      "prompt_eval_duration": 141264000,
+      "eval_count": 25,
+      "eval_duration": 786048000
+    }
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"2\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [\"2: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:55.7033064Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 739223500,
+      "load_duration": 6655300,
+      "prompt_eval_count": 292,
+      "prompt_eval_cached_count": 291,
+      "prompt_eval_duration": 38221000,
+      "eval_count": 23,
+      "eval_duration": 688222000
+    }
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:23:58.6752066Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 919820300,
+      "load_duration": 7359400,
+      "prompt_eval_count": 289,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 191133000,
+      "eval_count": 23,
+      "eval_duration": 708530000
+    }
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [\"0: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:24:01.4624493Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 734201900,
+      "load_duration": 7741300,
+      "prompt_eval_count": 297,
+      "prompt_eval_cached_count": 270,
+      "prompt_eval_duration": 138838000,
+      "eval_count": 19,
+      "eval_duration": 577946000
+    }
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"1\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:24:04.4716558Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 959398200,
+      "load_duration": 20599500,
+      "prompt_eval_count": 289,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 208822000,
+      "eval_count": 23,
+      "eval_duration": 707304000
+    }
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"1\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [\"1: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:24:07.3418898Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    3\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 822063000,
+      "load_duration": 7049700,
+      "prompt_eval_count": 297,
+      "prompt_eval_cached_count": 270,
+      "prompt_eval_duration": 130622999,
+      "eval_count": 23,
+      "eval_duration": 675153000
+    }
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"1\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [\"1: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:24:10.1459403Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    3\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 751408300,
+      "load_duration": 17236600,
+      "prompt_eval_count": 297,
+      "prompt_eval_cached_count": 296,
+      "prompt_eval_duration": 47587000,
+      "eval_count": 23,
+      "eval_duration": 676389000
+    }
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"2\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:24:13.116841Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    2\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 932407100,
+      "load_duration": 9042000,
+      "prompt_eval_count": 289,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 183521000,
+      "eval_count": 23,
+      "eval_duration": 725439000
+    }
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"2\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [\"2: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:24:15.9550187Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [0, 1, 3]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 789916700,
+      "load_duration": 7437000,
+      "prompt_eval_count": 297,
+      "prompt_eval_cached_count": 270,
+      "prompt_eval_duration": 138748000,
+      "eval_count": 19,
+      "eval_duration": 628265000
+    }
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"2\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [\"2: expected two integer start times\"], \"schema\": {\"starts\": [\"integer\", \"integer\"]}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-17T15:24:18.7395925Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [\n    0,\n    1,\n    3\n  ]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 739344900,
+      "load_duration": 12539200,
+      "prompt_eval_count": 297,
+      "prompt_eval_cached_count": 296,
+      "prompt_eval_duration": 32473999,
+      "eval_count": 23,
+      "eval_duration": 684278000
+    }
+  }
+]

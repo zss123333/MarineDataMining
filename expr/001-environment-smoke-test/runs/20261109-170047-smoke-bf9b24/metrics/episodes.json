@@ -1,0 +1,104 @@
+[
+  {
+    "method": "idle",
+    "seed": 0,
+    "steps": 200,
+    "sparse_reward": 0.0,
+    "deliveries": 0,
+    "stationary_joint_steps": 200,
+    "macros": [
+      "idle"
+    ],
+    "llm_calls": 0,
+    "llm_tokens": 0,
+    "replayed_steps": 200
+  },
+  {
+    "method": "idle",
+    "seed": 1,
+    "steps": 200,
+    "sparse_reward": 0.0,
+    "deliveries": 0,
+    "stationary_joint_steps": 200,
+    "macros": [
+      "idle"
+    ],
+    "llm_calls": 0,
+    "llm_tokens": 0,
+    "replayed_steps": 200
+  },
+  {
+    "method": "idle",
+    "seed": 2,
+    "steps": 200,
+    "sparse_reward": 0.0,
+    "deliveries": 0,
+    "stationary_joint_steps": 200,
+    "macros": [
+      "idle"
+    ],
+    "llm_calls": 0,
+    "llm_tokens": 0,
+    "replayed_steps": 200
+  },
+  {
+    "method": "scripted_delivery",
+    "seed": 0,
+    "steps": 200,
+    "sparse_reward": 80.0,
+    "deliveries": 4,
+    "stationary_joint_steps": 136,
+    "macros": [
+      "deliver_soup",
+      "deposit_onion",
+      "fetch_dish",
+      "fetch_onion",
+      "plate_soup",
+      "start_cooking",
+      "wait_cooking"
+    ],
+    "llm_calls": 0,
+    "llm_tokens": 0,
+    "replayed_steps": 200
+  },
+  {
+    "method": "scripted_delivery",
+    "seed": 1,
+    "steps": 200,
+    "sparse_reward": 80.0,
+    "deliveries": 4,
+    "stationary_joint_steps": 136,
+    "macros": [
+      "deliver_soup",
+      "deposit_onion",
+      "fetch_dish",
+      "fetch_onion",
+      "plate_soup",
+      "start_cooking",
+      "wait_cooking"
+    ],
+    "llm_calls": 0,
+    "llm_tokens": 0,
+    "replayed_steps": 200
+  },
+  {
+    "method": "scripted_delivery",
+    "seed": 2,
+    "steps": 200,
+    "sparse_reward": 80.0,
+    "deliveries": 4,
+    "stationary_joint_steps": 136,
+    "macros": [
+      "deliver_soup",
+      "deposit_onion",
+      "fetch_dish",
+      "fetch_onion",
+      "plate_soup",
+      "start_cooking",
+      "wait_cooking"
+    ],
+    "llm_calls": 0,
+    "llm_tokens": 0,
+    "replayed_steps": 200
+  }
+]

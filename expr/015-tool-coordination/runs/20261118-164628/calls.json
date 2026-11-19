@@ -1,0 +1,662 @@
+[
+  {
+    "identity": "0",
+    "stage": "revise",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "request": {
+            "type": "string",
+            "enum": [
+              "coordinate"
+            ]
+          }
+        },
+        "required": [
+          "request"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:31.0479131Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"request\": \"coordinate\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 349432300,
+      "load_duration": 28483800,
+      "prompt_eval_count": 119,
+      "prompt_eval_cached_count": 118,
+      "prompt_eval_duration": 32955000,
+      "eval_count": 10,
+      "eval_duration": 253355000
+    },
+    "seconds": 2.409069000001182
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"collect\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "collect"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:33.6571512Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"job\": \"collect\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 530941900,
+      "load_duration": 13940300,
+      "prompt_eval_count": 222,
+      "prompt_eval_cached_count": 180,
+      "prompt_eval_duration": 210468000,
+      "eval_count": 10,
+      "eval_duration": 284106000
+    },
+    "seconds": 2.6092490000010002
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "wait"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:36.8092787Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"job\": \"wait\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1107682700,
+      "load_duration": 46533900,
+      "prompt_eval_count": 222,
+      "prompt_eval_cached_count": 47,
+      "prompt_eval_duration": 747670000,
+      "eval_count": 10,
+      "eval_duration": 260278000
+    },
+    "seconds": 3.1519202000054065
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"reference\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "reference"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:39.9274521Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"job\": \"reference\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1053498100,
+      "load_duration": 30805000,
+      "prompt_eval_count": 222,
+      "prompt_eval_cached_count": 47,
+      "prompt_eval_duration": 710534000,
+      "eval_count": 10,
+      "eval_duration": 298565000
+    },
+    "seconds": 3.118057999992743
+  },
+  {
+    "identity": "0",
+    "stage": "revise",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "request": {
+            "type": "string",
+            "enum": [
+              "coordinate"
+            ]
+          }
+        },
+        "required": [
+          "request"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:42.3220705Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"request\": \"coordinate\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 339415000,
+      "load_duration": 19991900,
+      "prompt_eval_count": 119,
+      "prompt_eval_cached_count": 118,
+      "prompt_eval_duration": 30887000,
+      "eval_count": 10,
+      "eval_duration": 274973000
+    },
+    "seconds": 2.3940019000001485
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 1, \"completed\": [\"collect\", \"reference\"], \"running\": [], \"time\": 3}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "wait"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:45.0192874Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"job\": \"wait\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 627985300,
+      "load_duration": 20051100,
+      "prompt_eval_count": 227,
+      "prompt_eval_cached_count": 160,
+      "prompt_eval_duration": 306613000,
+      "eval_count": 10,
+      "eval_duration": 282225000
+    },
+    "seconds": 2.6966058000107296
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 1, \"completed\": [\"collect\", \"reference\"], \"running\": [], \"time\": 3}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"analyse\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "analyse"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:47.7747442Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"job\": \"analyse\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 694671000,
+      "load_duration": 18127900,
+      "prompt_eval_count": 228,
+      "prompt_eval_cached_count": 160,
+      "prompt_eval_duration": 312858000,
+      "eval_count": 11,
+      "eval_duration": 316344000
+    },
+    "seconds": 2.755377399997087
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 1, \"completed\": [\"collect\", \"reference\"], \"running\": [], \"time\": 3}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "wait"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:50.4612103Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"job\": \"wait\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 628790800,
+      "load_duration": 13738200,
+      "prompt_eval_count": 227,
+      "prompt_eval_cached_count": 160,
+      "prompt_eval_duration": 306552000,
+      "eval_count": 10,
+      "eval_duration": 295634000
+    },
+    "seconds": 2.685846699998365
+  },
+  {
+    "identity": "0",
+    "stage": "revise",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "request": {
+            "type": "string",
+            "enum": [
+              "coordinate"
+            ]
+          }
+        },
+        "required": [
+          "request"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:52.8324362Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"request\": \"coordinate\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 321005400,
+      "load_duration": 14163000,
+      "prompt_eval_count": 119,
+      "prompt_eval_cached_count": 118,
+      "prompt_eval_duration": 46323000,
+      "eval_count": 10,
+      "eval_duration": 251707000
+    },
+    "seconds": 2.3704810999915935
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 2, \"completed\": [\"analyse\", \"collect\", \"reference\"], \"running\": [], \"time\": 6}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "wait"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:55.5407059Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"job\": \"wait\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 636984800,
+      "load_duration": 19484800,
+      "prompt_eval_count": 231,
+      "prompt_eval_cached_count": 160,
+      "prompt_eval_duration": 328151000,
+      "eval_count": 10,
+      "eval_duration": 277780000
+    },
+    "seconds": 2.7085206999909133
+  },
+  {
+    "identity": "1",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 2, \"completed\": [\"analyse\", \"collect\", \"reference\"], \"running\": [], \"time\": 6}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "wait"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:46:58.1831063Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"job\": \"wait\"}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 557306300,
+      "load_duration": 17825900,
+      "prompt_eval_count": 231,
+      "prompt_eval_cached_count": 160,
+      "prompt_eval_duration": 329899000,
+      "eval_count": 7,
+      "eval_duration": 192537000
+    },
+    "seconds": 2.6425432999967597
+  },
+  {
+    "identity": "2",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"2\", \"requires\": []}}, \"observation\": {\"version\": 2, \"completed\": [\"analyse\", \"collect\", \"reference\"], \"running\": [], \"time\": 6}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"publish\"]}}, \"required\": [\"job\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "job": {
+            "type": "string",
+            "enum": [
+              "publish"
+            ]
+          }
+        },
+        "required": [
+          "job"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T08:47:00.9176699Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"job\": \"publish\"\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 683823600,
+      "load_duration": 18927900,
+      "prompt_eval_count": 231,
+      "prompt_eval_cached_count": 160,
+      "prompt_eval_duration": 335607000,
+      "eval_count": 10,
+      "eval_duration": 308041000
+    },
+    "seconds": 2.734613199994783
+  }
+]

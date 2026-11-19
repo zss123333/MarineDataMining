@@ -1,0 +1,394 @@
+[
+  {
+    "step": 20,
+    "agents": [
+      0,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 40,
+    "agents": [
+      5,
+      0
+    ],
+    "duration": 8
+  },
+  {
+    "step": 60,
+    "agents": [
+      2,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 80,
+    "agents": [
+      1,
+      4
+    ],
+    "duration": 8
+  },
+  {
+    "step": 100,
+    "agents": [
+      1,
+      6
+    ],
+    "duration": 8
+  },
+  {
+    "step": 120,
+    "agents": [
+      3,
+      6
+    ],
+    "duration": 8
+  },
+  {
+    "step": 140,
+    "agents": [
+      0,
+      4
+    ],
+    "duration": 8
+  },
+  {
+    "step": 160,
+    "agents": [
+      1,
+      2
+    ],
+    "duration": 8
+  },
+  {
+    "step": 180,
+    "agents": [
+      3,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 200,
+    "agents": [
+      2,
+      0
+    ],
+    "duration": 8
+  },
+  {
+    "step": 220,
+    "agents": [
+      0,
+      2
+    ],
+    "duration": 8
+  },
+  {
+    "step": 240,
+    "agents": [
+      5,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 260,
+    "agents": [
+      2,
+      6
+    ],
+    "duration": 8
+  },
+  {
+    "step": 280,
+    "agents": [
+      6,
+      0
+    ],
+    "duration": 8
+  },
+  {
+    "step": 300,
+    "agents": [
+      6,
+      2
+    ],
+    "duration": 8
+  },
+  {
+    "step": 320,
+    "agents": [
+      0,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 340,
+    "agents": [
+      6,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 360,
+    "agents": [
+      3,
+      1
+    ],
+    "duration": 8
+  },
+  {
+    "step": 380,
+    "agents": [
+      5,
+      4
+    ],
+    "duration": 8
+  },
+  {
+    "step": 400,
+    "agents": [
+      4,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 420,
+    "agents": [
+      3,
+      1
+    ],
+    "duration": 8
+  },
+  {
+    "step": 440,
+    "agents": [
+      1,
+      2
+    ],
+    "duration": 8
+  },
+  {
+    "step": 460,
+    "agents": [
+      5,
+      1
+    ],
+    "duration": 8
+  },
+  {
+    "step": 480,
+    "agents": [
+      3,
+      4
+    ],
+    "duration": 8
+  },
+  {
+    "step": 500,
+    "agents": [
+      5,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 520,
+    "agents": [
+      2,
+      1
+    ],
+    "duration": 8
+  },
+  {
+    "step": 540,
+    "agents": [
+      1,
+      0
+    ],
+    "duration": 8
+  },
+  {
+    "step": 560,
+    "agents": [
+      3,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 580,
+    "agents": [
+      2,
+      6
+    ],
+    "duration": 8
+  },
+  {
+    "step": 600,
+    "agents": [
+      2,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 620,
+    "agents": [
+      5,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 640,
+    "agents": [
+      0,
+      2
+    ],
+    "duration": 8
+  },
+  {
+    "step": 660,
+    "agents": [
+      1,
+      0
+    ],
+    "duration": 8
+  },
+  {
+    "step": 680,
+    "agents": [
+      0,
+      2
+    ],
+    "duration": 8
+  },
+  {
+    "step": 700,
+    "agents": [
+      1,
+      2
+    ],
+    "duration": 8
+  },
+  {
+    "step": 720,
+    "agents": [
+      4,
+      0
+    ],
+    "duration": 8
+  },
+  {
+    "step": 740,
+    "agents": [
+      0,
+      4
+    ],
+    "duration": 8
+  },
+  {
+    "step": 760,
+    "agents": [
+      4,
+      0
+    ],
+    "duration": 8
+  },
+  {
+    "step": 780,
+    "agents": [
+      5,
+      6
+    ],
+    "duration": 8
+  },
+  {
+    "step": 800,
+    "agents": [
+      1,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 820,
+    "agents": [
+      5,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 840,
+    "agents": [
+      6,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 860,
+    "agents": [
+      6,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 880,
+    "agents": [
+      2,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 900,
+    "agents": [
+      0,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 920,
+    "agents": [
+      4,
+      3
+    ],
+    "duration": 8
+  },
+  {
+    "step": 940,
+    "agents": [
+      2,
+      5
+    ],
+    "duration": 8
+  },
+  {
+    "step": 960,
+    "agents": [
+      5,
+      6
+    ],
+    "duration": 8
+  },
+  {
+    "step": 980,
+    "agents": [
+      3,
+      2
+    ],
+    "duration": 8
+  }
+]

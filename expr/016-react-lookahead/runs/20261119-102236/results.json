@@ -1,0 +1,450 @@
+[
+  {
+    "method": "react",
+    "case": "direct",
+    "success": true,
+    "error": null,
+    "steps": 4,
+    "calls": 4,
+    "input_tokens": 1627,
+    "output_tokens": 114,
+    "history": [
+      {
+        "step": 0,
+        "decision": {
+          "action": "inspect",
+          "decision_summary": "Check the raw material availability and ensure it is ready for the next action."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": false,
+          "time": 1
+        }
+      },
+      {
+        "step": 1,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Create a report draft using the available raw material."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": true,
+          "required_review": false,
+          "time": 2
+        }
+      },
+      {
+        "step": 2,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Create a report draft using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": true,
+          "required_review": false,
+          "time": 2
+        }
+      },
+      {
+        "step": 3,
+        "decision": {
+          "action": "publish",
+          "decision_summary": "The report draft is ready, and the next step is to publish it."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": true,
+          "draft_completed": true,
+          "required_review": false,
+          "time": 3
+        }
+      }
+    ]
+  },
+  {
+    "method": "lookahead",
+    "case": "direct",
+    "success": false,
+    "error": null,
+    "steps": 6,
+    "calls": 6,
+    "input_tokens": 3525,
+    "output_tokens": 204,
+    "history": [
+      {
+        "step": 0,
+        "decision": {
+          "decision_summary": "Check raw material, create draft report, and wait for review.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": false,
+          "time": 1
+        }
+      },
+      {
+        "step": 1,
+        "decision": {
+          "decision_summary": "Inspect raw material, draft report, and publish report.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": false,
+          "time": 2
+        }
+      },
+      {
+        "step": 2,
+        "decision": {
+          "decision_summary": "Inspect raw material, draft report, and publish report.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": false,
+          "time": 3
+        }
+      },
+      {
+        "step": 3,
+        "decision": {
+          "decision_summary": "Inspect raw material, draft report, and publish report.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": false,
+          "time": 4
+        }
+      },
+      {
+        "step": 4,
+        "decision": {
+          "decision_summary": "Continue with inspection, draft, and publish steps.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": false,
+          "time": 5
+        }
+      },
+      {
+        "step": 5,
+        "decision": {
+          "decision_summary": "Continue with inspection, draft, and publish steps.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": false,
+          "time": 6
+        }
+      }
+    ]
+  },
+  {
+    "method": "react",
+    "case": "review",
+    "success": false,
+    "error": null,
+    "steps": 6,
+    "calls": 6,
+    "input_tokens": 2953,
+    "output_tokens": 185,
+    "history": [
+      {
+        "step": 0,
+        "decision": {
+          "action": "inspect",
+          "decision_summary": "Check the raw material availability and ensure it is ready for the next action."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": true,
+          "time": 1
+        }
+      },
+      {
+        "step": 1,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Create a report draft using the available raw material."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": true,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 2,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Create a report draft using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": true,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 3,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "The report draft is complete, and the next step is to review and publish the report."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": true,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 4,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "The report draft is complete, and the next step is to review and publish the report."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": true,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 5,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "The report draft is complete, and the next step is to review and publish the report."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": true,
+          "required_review": true,
+          "time": 2
+        }
+      }
+    ]
+  },
+  {
+    "method": "lookahead",
+    "case": "review",
+    "success": false,
+    "error": null,
+    "steps": 6,
+    "calls": 6,
+    "input_tokens": 3526,
+    "output_tokens": 206,
+    "history": [
+      {
+        "step": 0,
+        "decision": {
+          "decision_summary": "Check raw material, create draft report, and wait for review.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": true,
+          "time": 1
+        }
+      },
+      {
+        "step": 1,
+        "decision": {
+          "decision_summary": "Inspect raw material, draft report, and publish report.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 2,
+        "decision": {
+          "decision_summary": "Inspect raw material, draft report, and publish report.",
+          "future_plan": [
+            "inspect",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": true,
+          "time": 3
+        }
+      },
+      {
+        "step": 3,
+        "decision": {
+          "decision_summary": "Wait for review and then draft and publish the report.",
+          "future_plan": [
+            "wait",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": true,
+          "time": 4
+        }
+      },
+      {
+        "step": 4,
+        "decision": {
+          "decision_summary": "Wait for review and then draft and publish the report.",
+          "future_plan": [
+            "wait",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": true,
+          "time": 5
+        }
+      },
+      {
+        "step": 5,
+        "decision": {
+          "decision_summary": "Wait for review, draft report, and publish report.",
+          "future_plan": [
+            "wait",
+            "draft",
+            "publish"
+          ]
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "draft_completed": false,
+          "required_review": true,
+          "time": 6
+        }
+      }
+    ]
+  }
+]

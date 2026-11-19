@@ -1,0 +1,20 @@
+{
+  "scenario": "coding",
+  "num_tasks": 1,
+  "num_completed": 1,
+  "num_failed": 0,
+  "planning_score": 4.0,
+  "communication_score": null,
+  "coordination_score": 4.0,
+  "avg_milestones": 1.0,
+  "avg_token_usage": 7378.0,
+  "avg_iterations": 1.0,
+  "task_scores": {
+    "code_quality.executability": 4.0,
+    "code_quality.consistency": 4.0,
+    "code_quality.instruction_following": 4.0,
+    "code_quality.quality": 3.0
+  },
+  "task_score": 3.75,
+  "model": "ollama_chat/qwen2.5:7b"
+}

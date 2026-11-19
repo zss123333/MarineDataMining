@@ -1,0 +1,25 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_0.pkl",
+    "method": "full",
+    "backend": "ollama",
+    "steps": 300,
+    "max_llm_calls": 5
+  },
+  "flatland": "4.2.6",
+  "scenario_sha256": "04bcc81c21c9697f9f41cf1bfb919a7e84a6805722e5f81c6a8a86e775d5ca76",
+  "agents": 7,
+  "arrived": 2,
+  "arrival_steps": {
+    "4": 125,
+    "1": 194
+  },
+  "steps": 234,
+  "reward": -461.0,
+  "decisions": 253,
+  "messages": 507,
+  "wall_seconds": 17.024977599736303,
+  "llm_calls": 5,
+  "budget_rule_fallbacks": 248,
+  "interpretation": "integration run, not evidence of method superiority"
+}

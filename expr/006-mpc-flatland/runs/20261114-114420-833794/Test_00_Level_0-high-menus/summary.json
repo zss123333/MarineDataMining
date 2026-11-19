@@ -1,0 +1,104 @@
+{
+  "method": "menus",
+  "case": {
+    "scenario": "Test_00_Level_0.pkl",
+    "tier": "high",
+    "events": "level0-high-events.json",
+    "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+    "events_sha256": "0853b7e91c4cfc3a1c8115db4f38f089f528bccb1bfe58105216c9b3402f6492"
+  },
+  "agents": 7,
+  "arrived": 7,
+  "steps": 472,
+  "arrival_steps": {
+    "0": 111,
+    "1": 119,
+    "2": 198,
+    "3": 251,
+    "4": 322,
+    "5": 406,
+    "6": 472
+  },
+  "initial_departures": [
+    40,
+    108,
+    208,
+    278,
+    326,
+    394,
+    464
+  ],
+  "original_episode_limit": 157,
+  "experiment_episode_limit": 1000,
+  "initialization": [
+    {
+      "agent": "0",
+      "departure": 40,
+      "travel_budget": 68
+    },
+    {
+      "agent": "1",
+      "departure": 108,
+      "travel_budget": 100
+    },
+    {
+      "agent": "2",
+      "departure": 208,
+      "travel_budget": 70
+    },
+    {
+      "agent": "3",
+      "departure": 278,
+      "travel_budget": 48
+    },
+    {
+      "agent": "4",
+      "departure": 326,
+      "travel_budget": 68
+    },
+    {
+      "agent": "5",
+      "departure": 394,
+      "travel_budget": 70
+    },
+    {
+      "agent": "6",
+      "departure": 464,
+      "travel_budget": 70
+    }
+  ],
+  "serial_budget": 534,
+  "original_deadlines": [
+    137,
+    141,
+    126,
+    143,
+    135,
+    126,
+    127
+  ],
+  "completion_penalty": 1879,
+  "penalty_per_unfinished": 1000,
+  "messages": 7602,
+  "message_bytes": 18696309,
+  "checks": 1049,
+  "commits": 679,
+  "aborts": 798,
+  "revocations": 73,
+  "observed_occupancy_violations": 0,
+  "unauthorized_entries": [],
+  "native_fault_samples": 0,
+  "proposals": 222,
+  "feedback_proposals": 0,
+  "committed_alternatives": 0,
+  "menu_exhausted": 5,
+  "budget_exhausted": 0,
+  "repair_installs": 2,
+  "execution_blocks": 1379,
+  "fallback_uses": 69,
+  "route_guard_waits": 0,
+  "implementation": "route-order-guard-v1",
+  "distinct_proposers": 7,
+  "seconds": 4.37174380000215,
+  "llm_calls": 0
+}

@@ -1,0 +1,7078 @@
+{
+  "0": [
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 434.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 437.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 442.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 450.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 440.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 443.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 448.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 456.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 464.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "9",
+      "combinations_checked": 1,
+      "cost": 467.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "10",
+      "combinations_checked": 1,
+      "cost": 472.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_found",
+      "candidate": "11",
+      "combinations_checked": 1,
+      "cost": 480.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "0:0:1",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "16:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "16:2:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "27:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "27:6:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "29:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "29:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "37:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "46:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "51:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "59:3:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "64:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "73:3:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "82:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "92:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "102:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "107:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "115:3:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "117:5:5",
+      "decision": "commit"
+    },
+    {
+      "proposal": "125:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "131:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "142:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "145:5:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "156:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "159:5:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "169:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "176:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:18",
+      "decision": "commit"
+    },
+    {
+      "proposal": "184:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "190:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:20",
+      "decision": "commit"
+    },
+    {
+      "proposal": "198:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "198:2:18",
+      "decision": "commit"
+    }
+  ],
+  "1": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 3.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 8.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 16.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 2.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 5.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 10.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 18.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "8:1:2",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "16:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "16:2:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "27:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "27:6:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 51.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 51.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 54.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 59.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 67.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 53.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 56.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 61.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 69.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "29:1:4",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "29:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "37:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "46:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "51:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "59:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "64:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "73:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "82:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "92:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "102:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "107:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "115:3:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "117:5:5",
+      "decision": "commit"
+    },
+    {
+      "proposal": "125:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:10",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 12.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "127:1:10",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "127:1:10",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 14.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "127:1:10",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "127:1:10",
+      "event": "selected_combination",
+      "candidate": "4",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "127:1:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "131:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:12",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 64.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "134:1:12",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "134:1:12",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 58.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "134:1:12",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "134:1:12",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 66.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "134:1:12",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "134:1:12",
+      "event": "selected_combination",
+      "candidate": "7",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "134:1:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "142:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "145:5:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 54.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 62.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 56.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 64.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "148:1:14",
+      "event": "selected_combination",
+      "candidate": "3",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "148:1:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "156:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "159:5:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "169:1:16",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 3.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "169:1:16",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "169:1:16",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 8.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "169:1:16",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "169:1:16",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 16.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "169:1:16",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "169:1:16",
+      "event": "selected_combination",
+      "candidate": "2",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "169:1:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "176:1:18",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 30.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "176:1:18",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "176:1:18",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 35.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "176:1:18",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "176:1:18",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 43.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "176:1:18",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "176:1:18",
+      "event": "selected_combination",
+      "candidate": "2",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "176:1:18",
+      "decision": "commit"
+    },
+    {
+      "proposal": "184:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "190:1:20",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 26.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "190:1:20",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "190:1:20",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 34.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "190:1:20",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "190:1:20",
+      "event": "selected_combination",
+      "candidate": "3",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "190:1:20",
+      "decision": "commit"
+    },
+    {
+      "proposal": "198:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "198:2:18",
+      "decision": "commit"
+    }
+  ],
+  "2": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 3.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 8.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 16.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 6.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 9.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 14.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 22.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "9",
+      "combinations_checked": 1,
+      "cost": 6.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "10",
+      "combinations_checked": 1,
+      "cost": 9.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "11",
+      "combinations_checked": 1,
+      "cost": 14.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_found",
+      "candidate": "12",
+      "combinations_checked": 1,
+      "cost": 22.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "16:2:2",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "16:2:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "27:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "27:6:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "29:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "29:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "37:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "46:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "51:2:6",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 30.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "51:2:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "51:2:6",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 9,
+      "limit": 128
+    },
+    {
+      "proposal": "51:2:6",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 28.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "51:2:6",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "51:2:6",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 37.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "51:2:6",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "51:2:6",
+      "event": "selected_combination",
+      "candidate": "6",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "51:2:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "59:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "64:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 18.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 9,
+      "limit": 128
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 9.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 25.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "65:2:8",
+      "event": "selected_combination",
+      "candidate": "7",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "65:2:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "73:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "82:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "92:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "102:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 78.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 81.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 86.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 97.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 84.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 87.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 92.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 103.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "107:2:10",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "107:2:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "115:3:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "117:5:5",
+      "decision": "commit"
+    },
+    {
+      "proposal": "125:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "131:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 7.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 7.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 12.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 17.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 31.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 13.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 18.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 23.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 37.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "142:2:12",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "142:2:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "145:5:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 6.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 6.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 12.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 17.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 27.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 12.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 18.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 23.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 33.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "156:2:14",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "156:2:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "159:5:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "169:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "176:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:18",
+      "decision": "commit"
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 7.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 17.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 33.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 15.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 18.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 31.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "184:2:16",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "184:2:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "190:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:20",
+      "decision": "commit"
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 3.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 17.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 33.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 10.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 18.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 31.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "198:2:18",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "198:2:18",
+      "decision": "commit"
+    }
+  ],
+  "3": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "16:2:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "27:6:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "29:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "37:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 49,
+      "cost": 24.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 49,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 49,
+      "cost": 24.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 49,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 49,
+      "cost": 27.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 49,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 49,
+      "cost": 32.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 49,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 49,
+      "cost": 40.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 49,
+      "limit": 128
+    },
+    {
+      "proposal": "38:3:2",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      },
+      "uses_alternative": true
+    },
+    {
+      "proposal": "38:3:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "46:4:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "51:2:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "59:3:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "59:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "64:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "73:3:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:6",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:6",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "73:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "82:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "92:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 12,
+      "cost": 96.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 12,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 12,
+      "cost": 96.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 12,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 12,
+      "cost": 99.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 12,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 12,
+      "cost": 104.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 12,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 12,
+      "cost": 112.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      }
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 12,
+      "limit": 128
+    },
+    {
+      "proposal": "94:3:8",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2
+      },
+      "uses_alternative": true
+    },
+    {
+      "proposal": "94:3:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "102:4:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "107:2:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 38,
+      "cost": 17.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 38,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 38,
+      "cost": 17.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 38,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 38,
+      "cost": 20.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 38,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 38,
+      "cost": 25.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 38,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 38,
+      "cost": 33.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 38,
+      "limit": 128
+    },
+    {
+      "proposal": "115:3:10",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": true
+    },
+    {
+      "proposal": "115:3:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "117:5:5",
+      "decision": "commit"
+    },
+    {
+      "proposal": "125:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "131:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "142:2:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "145:5:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "156:2:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "159:5:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "169:1:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "176:1:18",
+      "decision": "commit"
+    },
+    {
+      "proposal": "184:2:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "190:1:20",
+      "decision": "commit"
+    },
+    {
+      "proposal": "198:2:18",
+      "decision": "commit"
+    }
+  ],
+  "4": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "16:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "16:2:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "27:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "27:6:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "29:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "29:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "37:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "46:4:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 9,
+      "limit": 128
+    },
+    {
+      "proposal": "46:4:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "51:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "59:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "60:4:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "60:4:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "60:4:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "60:4:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 18,
+      "limit": 128
+    },
+    {
+      "proposal": "60:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "64:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "73:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 9,
+      "cost": 104.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 9,
+      "limit": 128
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 9,
+      "cost": 104.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 9,
+      "limit": 128
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 9,
+      "cost": 107.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 9,
+      "limit": 128
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 54,
+      "limit": 128
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 36,
+      "limit": 128
+    },
+    {
+      "proposal": "74:4:6",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": true
+    },
+    {
+      "proposal": "74:4:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "82:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "92:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 4,
+      "cost": 8.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 4,
+      "limit": 128
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 4,
+      "cost": 8.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 4,
+      "limit": 128
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 10,
+      "cost": 21.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 10,
+      "limit": 128
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 10,
+      "cost": 26.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 10,
+      "limit": 128
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 10,
+      "cost": 34.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 10,
+      "limit": 128
+    },
+    {
+      "proposal": "102:4:8",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": true
+    },
+    {
+      "proposal": "102:4:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "107:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "115:3:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "117:5:5",
+      "decision": "commit"
+    },
+    {
+      "proposal": "125:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "131:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "142:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "145:5:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "156:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "159:5:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "169:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "176:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:18",
+      "decision": "commit"
+    },
+    {
+      "proposal": "184:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "190:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:20",
+      "decision": "commit"
+    },
+    {
+      "proposal": "198:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "198:2:18",
+      "decision": "commit"
+    }
+  ],
+  "5": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "16:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "16:2:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 60.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 60.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 63.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 68.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 76.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 62.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 65.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 70.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 78.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "9",
+      "combinations_checked": 1,
+      "cost": 70.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "10",
+      "combinations_checked": 1,
+      "cost": 73.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "11",
+      "combinations_checked": 1,
+      "cost": 78.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_found",
+      "candidate": "12",
+      "combinations_checked": 1,
+      "cost": 86.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "19:5:1",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "27:6:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "27:6:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "29:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "29:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "37:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "46:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "47:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "51:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "59:3:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "59:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "61:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "64:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "73:3:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "73:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "82:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "92:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "102:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "107:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "115:3:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "115:3:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 50,
+      "cost": 69.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 50,
+      "cost": 69.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 50,
+      "cost": 72.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 50,
+      "cost": 77.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 50,
+      "cost": 85.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 50,
+      "cost": 71.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 50,
+      "cost": 74.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 50,
+      "cost": 79.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 50,
+      "cost": 87.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "9",
+      "combinations_checked": 50,
+      "cost": 79.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "9",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "10",
+      "combinations_checked": 50,
+      "cost": 82.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "10",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "11",
+      "combinations_checked": 50,
+      "cost": 87.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "11",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_found",
+      "candidate": "12",
+      "combinations_checked": 50,
+      "cost": 95.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "combination_search",
+      "candidate": "12",
+      "checked": 50,
+      "limit": 128
+    },
+    {
+      "proposal": "117:5:5",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": true
+    },
+    {
+      "proposal": "117:5:5",
+      "decision": "commit"
+    },
+    {
+      "proposal": "125:6:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "125:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "131:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "142:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 27,
+      "limit": 128
+    },
+    {
+      "proposal": "145:5:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "156:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 4,
+      "cost": 41.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 4,
+      "limit": 128
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 4,
+      "cost": 41.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 4,
+      "limit": 128
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 4,
+      "cost": 44.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 4,
+      "limit": 128
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 4,
+      "cost": 49.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 4,
+      "limit": 128
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 4,
+      "cost": 57.0,
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 4,
+      "limit": 128
+    },
+    {
+      "proposal": "159:5:8",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": true
+    },
+    {
+      "proposal": "159:5:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "169:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "176:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:18",
+      "decision": "commit"
+    },
+    {
+      "proposal": "184:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "190:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:20",
+      "decision": "commit"
+    },
+    {
+      "proposal": "198:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "198:2:18",
+      "decision": "commit"
+    }
+  ],
+  "6": [
+    {
+      "proposal": "0:0:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "8:1:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "8:1:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "16:2:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "16:2:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "19:5:1",
+      "decision": "commit"
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "0",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "1",
+      "combinations_checked": 1,
+      "cost": 0.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "2",
+      "combinations_checked": 1,
+      "cost": 3.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 8.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 16.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "5",
+      "combinations_checked": 1,
+      "cost": 2.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "5",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "6",
+      "combinations_checked": 1,
+      "cost": 5.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "6",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "7",
+      "combinations_checked": 1,
+      "cost": 10.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "7",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_found",
+      "candidate": "8",
+      "combinations_checked": 1,
+      "cost": 18.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "combination_search",
+      "candidate": "8",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "27:6:2",
+      "event": "selected_combination",
+      "candidate": "0",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "27:6:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "29:1:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "29:1:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "37:2:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "37:2:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "38:3:2",
+      "decision": "commit"
+    },
+    {
+      "proposal": "46:4:1",
+      "decision": "abort"
+    },
+    {
+      "proposal": "46:4:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "47:5:2",
+      "decision": "abort"
+    },
+    {
+      "proposal": "48:6:4",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 19.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "48:6:4",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "48:6:4",
+      "event": "selected_combination",
+      "candidate": "4",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "48:6:4",
+      "decision": "commit"
+    },
+    {
+      "proposal": "51:2:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "51:2:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "59:3:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "60:4:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "61:5:3",
+      "decision": "abort"
+    },
+    {
+      "proposal": "62:6:6",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 31.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "62:6:6",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "62:6:6",
+      "event": "selected_combination",
+      "candidate": "4",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "62:6:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "64:1:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "64:1:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "65:2:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "73:3:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:5",
+      "decision": "abort"
+    },
+    {
+      "proposal": "74:4:6",
+      "decision": "commit"
+    },
+    {
+      "proposal": "82:5:4",
+      "decision": "abort"
+    },
+    {
+      "proposal": "83:6:8",
+      "event": "combination_found",
+      "candidate": "3",
+      "combinations_checked": 1,
+      "cost": 17.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "83:6:8",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "83:6:8",
+      "event": "combination_found",
+      "candidate": "4",
+      "combinations_checked": 1,
+      "cost": 33.0,
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      }
+    },
+    {
+      "proposal": "83:6:8",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 1,
+      "limit": 128
+    },
+    {
+      "proposal": "83:6:8",
+      "event": "selected_combination",
+      "candidate": "3",
+      "selection": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "uses_alternative": false
+    },
+    {
+      "proposal": "83:6:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "92:1:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "92:1:8",
+      "decision": "abort"
+    },
+    {
+      "proposal": "94:3:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "102:4:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "102:4:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "107:2:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "107:2:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "115:3:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "117:5:5",
+      "decision": "commit"
+    },
+    {
+      "proposal": "125:6:10",
+      "event": "combination_search",
+      "candidate": "0",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:10",
+      "event": "combination_search",
+      "candidate": "1",
+      "checked": 81,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:10",
+      "event": "combination_search",
+      "candidate": "2",
+      "checked": 128,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:10",
+      "event": "combination_search",
+      "candidate": "3",
+      "checked": 128,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:10",
+      "event": "combination_search",
+      "candidate": "4",
+      "checked": 128,
+      "limit": 128
+    },
+    {
+      "proposal": "125:6:10",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:9",
+      "decision": "abort"
+    },
+    {
+      "proposal": "127:1:10",
+      "decision": "commit"
+    },
+    {
+      "proposal": "131:5:6",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "134:1:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "142:2:11",
+      "decision": "abort"
+    },
+    {
+      "proposal": "142:2:12",
+      "decision": "commit"
+    },
+    {
+      "proposal": "145:5:7",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "148:1:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "156:2:13",
+      "decision": "abort"
+    },
+    {
+      "proposal": "156:2:14",
+      "decision": "commit"
+    },
+    {
+      "proposal": "159:5:8",
+      "decision": "commit"
+    },
+    {
+      "proposal": "169:1:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "169:1:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "176:1:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "176:1:18",
+      "decision": "commit"
+    },
+    {
+      "proposal": "184:2:15",
+      "decision": "abort"
+    },
+    {
+      "proposal": "184:2:16",
+      "decision": "commit"
+    },
+    {
+      "proposal": "190:1:19",
+      "decision": "abort"
+    },
+    {
+      "proposal": "190:1:20",
+      "decision": "commit"
+    },
+    {
+      "proposal": "198:2:17",
+      "decision": "abort"
+    },
+    {
+      "proposal": "198:2:18",
+      "decision": "commit"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+
+\bibitem[{海洋数据挖掘课程}(无日期)]{course}
+{海洋数据挖掘课程}.
+\newblock 第7讲: 课时1, 质量良好是怎么来的\allowbreak[Z].
+
+\bibitem[Yao et~al.(2023)Yao, Zhao, Yu, Du, Shafran, Narasimhan, and
+  Cao]{react}
+Yao Shunyu, Zhao J, Yu Dian, et~al.
+\newblock {ReAct}: synergizing reasoning and acting in language
+  models\allowbreak[C]//\allowbreak
+International conference on learning representations.
+\newblock 2023.
+
+\bibitem[Komenda et~al.(2012)Komenda, Novak, and Pechoucek]{repair}
+Komenda A, Novak P, Pechoucek M.
+\newblock Decentralized multi-agent plan repair in dynamic
+  environments\allowbreak[EB/OL].
+\newblock \allowbreak (2012)\allowbreak[2026-11-15].
+\newblock \url{https://arxiv.org/abs/1202.2773}.
+
+\bibitem[{Microsoft}({[2026]})]{autogen}
+{Microsoft}.
+\newblock {AutoGen AgentChat}: teams and RoundRobinGroupChat, version
+  0.7.5\allowbreak[EB/OL].
+\newblock \allowbreak[2026-11-18].
+\newblock
+  \url{https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/tutorial/teams.html}.
+
+\bibitem[{CoELA authors}(2023)]{coela}
+{CoELA authors}.
+\newblock Building cooperative embodied agents modularly with large language
+  models\allowbreak[EB/OL].
+\newblock \allowbreak (2023).
+\newblock \url{https://arxiv.org/abs/2307.02485}.
+
+\bibitem[{RoCo authors}(2023)]{roco}
+{RoCo authors}.
+\newblock RoCo: dialectic multi-robot collaboration with large language
+  models\allowbreak[EB/OL].
+\newblock \allowbreak (2023).
+\newblock \url{https://arxiv.org/abs/2307.04738}.
+
+\end{thebibliography}

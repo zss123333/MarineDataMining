@@ -1,0 +1,8 @@
+{
+  "args": {
+    "levels": 3,
+    "steps": 1000
+  },
+  "core_sha256": "97d568b55b9faa1a78ee67193ae4a46ffb4c94f5af2fe1fcd7347b7e5a63666b",
+  "protocol": "development-fixed-order-whole-route-permits-v1"
+}

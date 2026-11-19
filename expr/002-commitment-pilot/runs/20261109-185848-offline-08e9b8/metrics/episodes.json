@@ -1,0 +1,110 @@
+[
+  {
+    "method": "current_only",
+    "seed": 0,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "independent",
+    "seed": 0,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "fixed_commitment",
+    "seed": 0,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 197,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "future_aware",
+    "seed": 0,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "future_aware",
+    "seed": 1,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "independent",
+    "seed": 1,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "current_only",
+    "seed": 1,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "fixed_commitment",
+    "seed": 1,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 197,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "fixed_commitment",
+    "seed": 2,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 197,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "current_only",
+    "seed": 2,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "future_aware",
+    "seed": 2,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  },
+  {
+    "method": "independent",
+    "seed": 2,
+    "reward": 0.0,
+    "deliveries": 0,
+    "blocked_macro_steps": 187,
+    "dependency_protections": 0,
+    "steps": 200
+  }
+]

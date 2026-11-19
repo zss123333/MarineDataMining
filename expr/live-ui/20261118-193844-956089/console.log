@@ -1,0 +1,18 @@
+C:\zss\repo\github\zss-car-pla\课程\海洋数据挖掘\最终作业\expr\003-flatland-core\.venv\Lib\site-packages\pydantic\main.py:520: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=ProtocolDecision(request='coordinate'), input_type=ProtocolDecision])
+  return self.__pydantic_serializer__.to_python(
+C:\zss\repo\github\zss-car-pla\课程\海洋数据挖掘\最终作业\expr\003-flatland-core\.venv\Lib\site-packages\pydantic\main.py:520: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=ProtocolDecision(job='collect'), input_type=ProtocolDecision])
+  return self.__pydantic_serializer__.to_python(
+C:\zss\repo\github\zss-car-pla\课程\海洋数据挖掘\最终作业\expr\003-flatland-core\.venv\Lib\site-packages\pydantic\main.py:520: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=ProtocolDecision(job='reference'), input_type=ProtocolDecision])
+  return self.__pydantic_serializer__.to_python(
+C:\zss\repo\github\zss-car-pla\课程\海洋数据挖掘\最终作业\expr\003-flatland-core\.venv\Lib\site-packages\pydantic\main.py:520: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=ProtocolDecision(job='wait'), input_type=ProtocolDecision])
+  return self.__pydantic_serializer__.to_python(
+C:\zss\repo\github\zss-car-pla\课程\海洋数据挖掘\最终作业\expr\003-flatland-core\.venv\Lib\site-packages\pydantic\main.py:520: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=ProtocolDecision(job='analyse'), input_type=ProtocolDecision])
+  return self.__pydantic_serializer__.to_python(
+C:\zss\repo\github\zss-car-pla\课程\海洋数据挖掘\最终作业\expr\003-flatland-core\.venv\Lib\site-packages\pydantic\main.py:520: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `none` - serialized value may not be as expected [field_name='parsed', input_value=ProtocolDecision(job='publish'), input_type=ProtocolDecision])
+  return self.__pydantic_serializer__.to_python(

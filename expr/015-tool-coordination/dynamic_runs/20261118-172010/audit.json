@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "method": "local",
+      "configuration": 0,
+      "legal_publish": true,
+      "success": true,
+      "independent_plan_version": 1
+    },
+    {
+      "method": "global",
+      "configuration": 0,
+      "legal_publish": true,
+      "success": true,
+      "independent_plan_version": 4
+    },
+    {
+      "method": "autogen",
+      "configuration": 0,
+      "legal_publish": true,
+      "success": true,
+      "independent_plan_version": 4
+    },
+    {
+      "method": "autogen",
+      "configuration": 1,
+      "legal_publish": true,
+      "success": true,
+      "independent_plan_version": 5
+    },
+    {
+      "method": "global",
+      "configuration": 1,
+      "legal_publish": true,
+      "success": true,
+      "independent_plan_version": 5
+    },
+    {
+      "method": "local",
+      "configuration": 1,
+      "legal_publish": true,
+      "success": true,
+      "independent_plan_version": 1
+    }
+  ],
+  "totals": {
+    "local": {
+      "calls": 24,
+      "input_tokens": 4268,
+      "output_tokens": 242,
+      "protocol_messages": 80
+    },
+    "global": {
+      "calls": 45,
+      "input_tokens": 8763,
+      "output_tokens": 452,
+      "protocol_messages": 180
+    },
+    "autogen": {
+      "calls": 36,
+      "input_tokens": 8398,
+      "output_tokens": 312,
+      "protocol_messages": 0
+    }
+  },
+  "pairs": [
+    {
+      "configuration": 0,
+      "same_execution": true
+    },
+    {
+      "configuration": 1,
+      "same_execution": true
+    }
+  ]
+}

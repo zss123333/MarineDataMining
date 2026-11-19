@@ -1,0 +1,21 @@
+{
+  "upstream_commit": "d7ae1aa5e63d8ec076e96ee437fcbbd095278ef4",
+  "args": {
+    "source": "C:\\Users\\15085\\AppData\\Local\\Temp\\marine-collab-source\\Collab-Overcooked-d7ae1aa5e63d8ec076e96ee437fcbbd095278ef4",
+    "horizon": 3,
+    "model": "qwen2.5:7b",
+    "call_limit": 40
+  },
+  "entry": "src/main.py LLMPair/LLMPair; original task, prompts, controllers and validators",
+  "adaptations": [
+    "route OpenAI client to local Ollama",
+    "record HTTP model calls",
+    "use local all-minilm embedding instead of OpenAI embedding",
+    "use bundled llama tokenizer for upstream local-model token estimates"
+  ],
+  "source_hashes": {
+    "src/main.py": "44782bada79f355fc9f051da5c8b544cfdd9f950e72db9ff9ee6d5a6d514b36b",
+    "src/collab/collab.py": "4509ed5b2bf1a7a7137f5e2a0f2c2bcf61ec9c0cd596492ef1f043746ce959a5",
+    "src/collab/modules.py": "9ed4d9bdd30f07df54e888e30b00a778f22c77248e82b63aa781e0bff7c059f4"
+  }
+}

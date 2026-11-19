@@ -1,0 +1,6 @@
+{
+  "source": "dynamic_runs\\20261118-172010",
+  "sequence": "trajectory submission/completion; arrows are dependency availability, NOT message replay",
+  "agents": 4,
+  "note": "Historical experiment uses four agents; current UI three-agent mode is a different configuration"
+}

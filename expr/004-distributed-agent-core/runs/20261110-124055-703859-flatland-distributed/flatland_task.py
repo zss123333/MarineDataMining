@@ -1,0 +1,124 @@
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "003-flatland-core" / "src"))
+from planning import action, candidates, collisions, predict
+from agent import Candidate, Response
+
+
+class FlatlandTask:
+    def __init__(self, env, handle, horizon=32):
+        self.env = env
+        self.handle = handle
+        self.horizon = horizon
+        self.plan = None
+        self.version = 0
+        self.expires = 0
+        self.dirty = True
+        self.options = {}
+        self.installs = 0
+        self.revocations = 0
+
+    @property
+    def train(self):
+        return self.env.agents[self.handle]
+
+    def observe(self):
+        train = self.train
+        return {"step": self.env._elapsed_steps, "version": self.version,
+                "done": train.state.name == "DONE",
+                "fault": train.malfunction_handler.malfunction_down_counter > 0}
+
+    def forecast(self, plan, now):
+        path = plan.route
+        if self.train.position is not None:
+            state = (tuple(self.train.position), int(self.train.direction))
+            if state not in path:
+                return None
+            path = path[path.index(state):]
+        return predict(self.train, path, now, max(now, plan.wait_until), self.horizon)
+
+    def needs_revision(self, observation):
+        return not observation["done"] and (self.plan is None or self.dirty or observation["step"] >= self.expires)
+
+    def local_options(self, now):
+        if self.train.state.name == "DONE":
+            return []
+        return candidates(self.env, self.train, now, self.horizon, self.plan)
+
+    def cost(self, plan, now):
+        route = plan.route
+        if self.train.position is not None:
+            state = (tuple(self.train.position), int(self.train.direction))
+            if state in route:
+                route = route[route.index(state):]
+        return max(0, plan.wait_until-now) + len(route)/float(self.train.speed_counter.max_speed)
+
+    def candidates(self, observation):
+        self.options = {str(index): plan for index, plan in enumerate(self.local_options(observation["step"]))}
+        return tuple(Candidate(key, {"cells": plan.cells, "wait_until": plan.wait_until,
+                                     "valid_until": observation["step"]+8}) for key, plan in self.options.items())
+
+    def respond(self, proposal, candidate, observation):
+        now = observation["step"]
+        base = self.cost(self.plan, now) if self.plan else 0
+        if observation["done"]:
+            return Response(True, 0, {"cells": [None]*self.horizon}, {"version": self.version, "plan": None})
+        if observation["fault"]:
+            cells = [tuple(self.train.position) if self.train.position is not None else None]*self.horizon
+            valid = not collisions(candidate.public["cells"], cells)
+            return Response(valid, 0, {"cells": cells}, {"version": self.version, "plan": None})
+        if proposal.owner == str(self.handle):
+            plan = self.options[candidate.key]
+            return Response(True, self.cost(plan, now)-base, {"cells": plan.cells},
+                            {"version": self.version, "plan": plan})
+        options = self.local_options(now)
+        feasible = [plan for plan in options if not collisions(plan.cells, candidate.public["cells"])]
+        if not feasible:
+            return Response(False, 0, {"cells": []}, {"version": self.version, "plan": None})
+        selected = min(feasible, key=lambda plan: self.cost(plan, now))
+        return Response(True, self.cost(selected, now)-base, {"cells": selected.cells},
+                        {"version": self.version, "plan": selected})
+
+    def compatible(self, candidate, responses):
+        reports = list(responses.values())
+        return all(not collisions(first["public"]["cells"], second["public"]["cells"])
+                   for index, first in enumerate(reports) for second in reports[index+1:])
+
+    def valid(self, response, observation):
+        return response.private_plan["version"] == self.version
+
+    def install(self, response):
+        self.plan = response.private_plan["plan"]
+        self.version += 1
+        self.expires = self.env._elapsed_steps+8
+        self.dirty = False
+        self.installs += 1
+
+    def infeasible(self, observation):
+        if observation["done"] or self.plan is None:
+            return False
+        if observation["fault"]:
+            return True
+        offset = observation["step"]-self.plan.published
+        expected = self.plan.cells[offset] if offset < len(self.plan.cells) else None
+        actual = tuple(self.train.position) if self.train.position is not None else None
+        return offset < len(self.plan.cells) and actual != expected
+
+    def revoke(self, observation):
+        if self.plan is not None:
+            self.plan = None
+            self.version += 1
+            self.revocations += 1
+        self.dirty = True
+
+    def coordination_peers(self, proposal, observation):
+        return ()
+
+    def dependency_changed(self, peer, observation):
+        self.dirty = True
+
+    def act(self, observation):
+        if observation["done"] or observation["fault"] or self.plan is None:
+            return 4
+        return action(self.train, self.plan, observation["step"])

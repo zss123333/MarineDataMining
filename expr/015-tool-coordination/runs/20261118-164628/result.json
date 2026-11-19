@@ -1,0 +1,336 @@
+{
+  "scope": "existing Agent and ResourceTask integration; not external baseline or framework ranking",
+  "success": true,
+  "error": null,
+  "rounds": [
+    {
+      "round": 0,
+      "receipts": [
+        {
+          "task_id": "collect",
+          "status": "running",
+          "missing": [],
+          "detail": ""
+        },
+        {
+          "task_id": "reference",
+          "status": "running",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "events": [],
+      "completed": []
+    },
+    {
+      "round": 1,
+      "receipts": [],
+      "events": [
+        {
+          "task_id": "collect",
+          "status": "completed",
+          "missing": [],
+          "detail": ""
+        },
+        {
+          "task_id": "reference",
+          "status": "completed",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "completed": [
+        "collect",
+        "reference"
+      ]
+    },
+    {
+      "round": 2,
+      "receipts": [],
+      "events": [],
+      "completed": [
+        "collect",
+        "reference"
+      ]
+    },
+    {
+      "round": 3,
+      "receipts": [
+        {
+          "task_id": "analyse",
+          "status": "running",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "events": [],
+      "completed": [
+        "collect",
+        "reference"
+      ]
+    },
+    {
+      "round": 4,
+      "receipts": [],
+      "events": [
+        {
+          "task_id": "analyse",
+          "status": "completed",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "completed": [
+        "analyse",
+        "collect",
+        "reference"
+      ]
+    },
+    {
+      "round": 5,
+      "receipts": [],
+      "events": [],
+      "completed": [
+        "analyse",
+        "collect",
+        "reference"
+      ]
+    },
+    {
+      "round": 6,
+      "receipts": [
+        {
+          "task_id": "publish",
+          "status": "running",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "events": [],
+      "completed": [
+        "analyse",
+        "collect",
+        "reference"
+      ]
+    },
+    {
+      "round": 7,
+      "receipts": [],
+      "events": [
+        {
+          "task_id": "publish",
+          "status": "completed",
+          "missing": [],
+          "detail": ""
+        }
+      ],
+      "completed": [
+        "analyse",
+        "collect",
+        "publish",
+        "reference"
+      ]
+    }
+  ],
+  "llm_calls": 12,
+  "messages": 45,
+  "input_tokens": 2398,
+  "output_tokens": 118,
+  "artifacts": {
+    "collect": {
+      "input_tasks": []
+    },
+    "reference": {
+      "input_tasks": []
+    },
+    "analyse": {
+      "input_tasks": [
+        "collect"
+      ]
+    },
+    "publish": {
+      "input_tasks": [
+        "analyse"
+      ]
+    }
+  },
+  "trace": {
+    "0": [
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "0:0:1"
+      },
+      {
+        "proposal": "0:0:1",
+        "event": "combination_found",
+        "candidate": "reservation",
+        "combinations_checked": 1,
+        "cost": 0,
+        "selection": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      },
+      {
+        "proposal": "0:0:1",
+        "event": "combination_search",
+        "candidate": "reservation",
+        "checked": 1,
+        "limit": 128
+      },
+      {
+        "proposal": "0:0:1",
+        "event": "selected_combination",
+        "candidate": "reservation",
+        "selection": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        },
+        "uses_alternative": false
+      },
+      {
+        "proposal": "0:0:1",
+        "decision": "commit"
+      },
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "3:0:2"
+      },
+      {
+        "proposal": "3:0:2",
+        "event": "combination_found",
+        "candidate": "reservation",
+        "combinations_checked": 1,
+        "cost": 0,
+        "selection": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      },
+      {
+        "proposal": "3:0:2",
+        "event": "combination_search",
+        "candidate": "reservation",
+        "checked": 1,
+        "limit": 128
+      },
+      {
+        "proposal": "3:0:2",
+        "event": "selected_combination",
+        "candidate": "reservation",
+        "selection": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        },
+        "uses_alternative": false
+      },
+      {
+        "proposal": "3:0:2",
+        "decision": "commit"
+      },
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "6:0:3"
+      },
+      {
+        "proposal": "6:0:3",
+        "event": "combination_found",
+        "candidate": "reservation",
+        "combinations_checked": 1,
+        "cost": 0,
+        "selection": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      },
+      {
+        "proposal": "6:0:3",
+        "event": "combination_search",
+        "candidate": "reservation",
+        "checked": 1,
+        "limit": 128
+      },
+      {
+        "proposal": "6:0:3",
+        "event": "selected_combination",
+        "candidate": "reservation",
+        "selection": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        },
+        "uses_alternative": false
+      },
+      {
+        "proposal": "6:0:3",
+        "decision": "commit"
+      }
+    ],
+    "1": [
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "0:0:1"
+      },
+      {
+        "proposal": "0:0:1",
+        "decision": "commit"
+      },
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "3:0:2"
+      },
+      {
+        "proposal": "3:0:2",
+        "decision": "commit"
+      },
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "6:0:3"
+      },
+      {
+        "proposal": "6:0:3",
+        "decision": "commit"
+      }
+    ],
+    "2": [
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "0:0:1"
+      },
+      {
+        "proposal": "0:0:1",
+        "decision": "commit"
+      },
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "3:0:2"
+      },
+      {
+        "proposal": "3:0:2",
+        "decision": "commit"
+      },
+      {
+        "event": "model_response",
+        "attempt": 0,
+        "proposal": "6:0:3"
+      },
+      {
+        "proposal": "6:0:3",
+        "decision": "commit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2793 @@
+[
+  {
+    "agents": 3,
+    "periodic": false,
+    "release": 0,
+    "completed": 3,
+    "valid": true,
+    "selected_slots": [
+      2,
+      1,
+      3
+    ],
+    "waiting_cost": 6,
+    "execution": [
+      {
+        "time": 0,
+        "workers": []
+      },
+      {
+        "time": 1,
+        "workers": [
+          "1"
+        ]
+      },
+      {
+        "time": 2,
+        "workers": [
+          "0"
+        ]
+      },
+      {
+        "time": 3,
+        "workers": [
+          "2"
+        ]
+      },
+      {
+        "time": 4,
+        "workers": []
+      },
+      {
+        "time": 5,
+        "workers": []
+      },
+      {
+        "time": 6,
+        "workers": []
+      }
+    ],
+    "messages": 51,
+    "message_bytes": 11949,
+    "llm_calls": 16,
+    "input_tokens": 3390,
+    "output_tokens": 130,
+    "model_seconds": 52.30386899993755,
+    "rule_fallbacks": 0,
+    "unrelated_preserved": true,
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:2"
+        },
+        {
+          "proposal": "0:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:2",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:3"
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:4"
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:5"
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 6,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:2"
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:3"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:4"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:5"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:2"
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:3"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:4"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:5"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ]
+    },
+    "calls": [
+      {
+        "identity": "0",
+        "stage": "revise",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "string",
+                "enum": [
+                  "coordinate"
+                ]
+              }
+            },
+            "required": [
+              "request"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:54:50.0763958Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"request\": \"coordinate\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 3965913200,
+          "load_duration": 2913157300,
+          "prompt_eval_count": 119,
+          "prompt_eval_cached_count": 0,
+          "prompt_eval_duration": 658073000,
+          "eval_count": 10,
+          "eval_duration": 363790000
+        },
+        "seconds": 6.104518799984362
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:54:53.2053089Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1080450100,
+          "load_duration": 35271300,
+          "prompt_eval_count": 179,
+          "prompt_eval_cached_count": 53,
+          "prompt_eval_duration": 707284000,
+          "eval_count": 7,
+          "eval_duration": 305921000
+        },
+        "seconds": 3.1275153000024147
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:54:56.2603207Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1013207900,
+          "load_duration": 28822200,
+          "prompt_eval_count": 179,
+          "prompt_eval_cached_count": 47,
+          "prompt_eval_duration": 735668000,
+          "eval_count": 7,
+          "eval_duration": 223590000
+        },
+        "seconds": 3.0547812999866437
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:54:59.5226926Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1207462500,
+          "load_duration": 162414200,
+          "prompt_eval_count": 179,
+          "prompt_eval_cached_count": 47,
+          "prompt_eval_duration": 736638000,
+          "eval_count": 7,
+          "eval_duration": 268817000
+        },
+        "seconds": 3.2624968999880366
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:02.5747344Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"slot\": 6\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1010015100,
+          "load_duration": 8904400,
+          "prompt_eval_count": 226,
+          "prompt_eval_cached_count": 121,
+          "prompt_eval_duration": 626120000,
+          "eval_count": 10,
+          "eval_duration": 337444000
+        },
+        "seconds": 3.0485557000210974
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [1], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:05.6680305Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 2}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1035478600,
+          "load_duration": 28795900,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 108,
+          "prompt_eval_duration": 710072000,
+          "eval_count": 7,
+          "eval_duration": 252039000
+        },
+        "seconds": 3.0925218999909703
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [1], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:08.730501Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 2}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 998912800,
+          "load_duration": 22396300,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 108,
+          "prompt_eval_duration": 708041000,
+          "eval_count": 7,
+          "eval_duration": 227504000
+        },
+        "seconds": 3.0626972000172827
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 6, \"1\": 2, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:11.6066091Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 2}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 843000500,
+          "load_duration": 19768100,
+          "prompt_eval_count": 226,
+          "prompt_eval_cached_count": 137,
+          "prompt_eval_duration": 541988000,
+          "eval_count": 7,
+          "eval_duration": 236296000
+        },
+        "seconds": 2.8752669999958016
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [6], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 6, \"1\": 2, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:14.7539969Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"slot\": 2\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1100021300,
+          "load_duration": 22002300,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 109,
+          "prompt_eval_duration": 695172000,
+          "eval_count": 10,
+          "eval_duration": 363136000
+        },
+        "seconds": 3.14743169999565
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [2, 6], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 6, \"1\": 2, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:17.8322539Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1008395100,
+          "load_duration": 10238100,
+          "prompt_eval_count": 231,
+          "prompt_eval_cached_count": 109,
+          "prompt_eval_duration": 737775000,
+          "eval_count": 7,
+          "eval_duration": 240548000
+        },
+        "seconds": 3.0777903999842238
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 2, \"1\": 2, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:20.9210815Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"slot\": 2\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 999928900,
+          "load_duration": 62910800,
+          "prompt_eval_count": 226,
+          "prompt_eval_cached_count": 137,
+          "prompt_eval_duration": 538695000,
+          "eval_count": 10,
+          "eval_duration": 370646000
+        },
+        "seconds": 3.088779500016244
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [2], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 2, \"1\": 2, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:24.1497874Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"slot\": 1\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1170694300,
+          "load_duration": 50938200,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 109,
+          "prompt_eval_duration": 719242000,
+          "eval_count": 10,
+          "eval_duration": 359508000
+        },
+        "seconds": 3.2284229999931995
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [2], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 2, \"1\": 2, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:27.3247367Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"slot\": 1\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1119616000,
+          "load_duration": 19801400,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 110,
+          "prompt_eval_duration": 699968000,
+          "eval_count": 10,
+          "eval_duration": 380650000
+        },
+        "seconds": 3.176902399980463
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 2, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:30.2227145Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 2}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 830736600,
+          "load_duration": 41739400,
+          "prompt_eval_count": 226,
+          "prompt_eval_cached_count": 143,
+          "prompt_eval_duration": 508992000,
+          "eval_count": 7,
+          "eval_duration": 242210000
+        },
+        "seconds": 2.8947546999843325
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [2], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 2, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:33.2062446Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 937264000,
+          "load_duration": 49360200,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 145,
+          "prompt_eval_duration": 545473000,
+          "eval_count": 7,
+          "eval_duration": 302722000
+        },
+        "seconds": 2.9846040999982506
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [1, 2], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 2, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:36.2838943Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 3}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1019626200,
+          "load_duration": 21641000,
+          "prompt_eval_count": 231,
+          "prompt_eval_cached_count": 109,
+          "prompt_eval_duration": 736549000,
+          "eval_count": 7,
+          "eval_duration": 239817000
+        },
+        "seconds": 3.0768290999985766
+      }
+    ]
+  },
+  {
+    "agents": 3,
+    "periodic": true,
+    "release": 0,
+    "completed": 3,
+    "valid": true,
+    "selected_slots": [
+      3,
+      4,
+      5
+    ],
+    "waiting_cost": 12,
+    "execution": [
+      {
+        "time": 0,
+        "workers": []
+      },
+      {
+        "time": 1,
+        "workers": []
+      },
+      {
+        "time": 2,
+        "workers": []
+      },
+      {
+        "time": 3,
+        "workers": [
+          "0"
+        ]
+      },
+      {
+        "time": 4,
+        "workers": [
+          "1"
+        ]
+      },
+      {
+        "time": 5,
+        "workers": [
+          "2"
+        ]
+      },
+      {
+        "time": 6,
+        "workers": []
+      }
+    ],
+    "messages": 72,
+    "message_bytes": 14679,
+    "llm_calls": 25,
+    "input_tokens": 4502,
+    "output_tokens": 205,
+    "model_seconds": 71.24674540007254,
+    "rule_fallbacks": 0,
+    "unrelated_preserved": true,
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:2"
+        },
+        {
+          "proposal": "0:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:2",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:3"
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:4"
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 6,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:5"
+        },
+        {
+          "proposal": "3:0:5",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 9,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "3:0:5",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "3:0:5",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "3:0:5",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:6"
+        },
+        {
+          "proposal": "6:0:6",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 12,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "6:0:6",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "6:0:6",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "6:0:6",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:2"
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:3"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:4"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:5"
+        },
+        {
+          "proposal": "3:0:5",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:6"
+        },
+        {
+          "proposal": "6:0:6",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:2"
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:3"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:4"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:5"
+        },
+        {
+          "proposal": "3:0:5",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:6"
+        },
+        {
+          "proposal": "6:0:6",
+          "decision": "commit"
+        }
+      ]
+    },
+    "calls": [
+      {
+        "identity": "0",
+        "stage": "revise",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "string",
+                "enum": [
+                  "coordinate"
+                ]
+              }
+            },
+            "required": [
+              "request"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:38.7847401Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"request\": \"coordinate\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 439369800,
+          "load_duration": 29379100,
+          "prompt_eval_count": 119,
+          "prompt_eval_cached_count": 118,
+          "prompt_eval_duration": 39687000,
+          "eval_count": 10,
+          "eval_duration": 358811000
+        },
+        "seconds": 2.492630199994892
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:41.5037009Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 6}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 670434400,
+          "load_duration": 21872500,
+          "prompt_eval_count": 179,
+          "prompt_eval_cached_count": 121,
+          "prompt_eval_duration": 363165000,
+          "eval_count": 7,
+          "eval_duration": 243248000
+        },
+        "seconds": 2.7197348999907263
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:44.2897613Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 735840200,
+          "load_duration": 42938700,
+          "prompt_eval_count": 179,
+          "prompt_eval_cached_count": 108,
+          "prompt_eval_duration": 440037000,
+          "eval_count": 7,
+          "eval_duration": 230667000
+        },
+        "seconds": 2.786881200008793
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:47.173863Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 831791200,
+          "load_duration": 95608300,
+          "prompt_eval_count": 179,
+          "prompt_eval_cached_count": 108,
+          "prompt_eval_duration": 440839000,
+          "eval_count": 7,
+          "eval_duration": 250405000
+        },
+        "seconds": 2.8891612000006717
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 6, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:50.4193158Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1187740700,
+          "load_duration": 183231200,
+          "prompt_eval_count": 226,
+          "prompt_eval_cached_count": 121,
+          "prompt_eval_duration": 647326000,
+          "eval_count": 7,
+          "eval_duration": 260072000
+        },
+        "seconds": 3.238870599976508
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [6], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 6, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:53.4784752Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1011426000,
+          "load_duration": 14750500,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 108,
+          "prompt_eval_duration": 682734000,
+          "eval_count": 7,
+          "eval_duration": 285032000
+        },
+        "seconds": 3.0586872000130825
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [1, 6], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 6, \"1\": 1, \"2\": 1}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:56.733609Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"slot\": 2\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1209463700,
+          "load_duration": 31388400,
+          "prompt_eval_count": 231,
+          "prompt_eval_cached_count": 108,
+          "prompt_eval_duration": 719720000,
+          "eval_count": 10,
+          "eval_duration": 422040000
+        },
+        "seconds": 3.255263000028208
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 1, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:55:59.5991205Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 821482200,
+          "load_duration": 19759300,
+          "prompt_eval_count": 226,
+          "prompt_eval_cached_count": 137,
+          "prompt_eval_duration": 521392000,
+          "eval_count": 7,
+          "eval_duration": 250196000
+        },
+        "seconds": 2.8648252000275534
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [1], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 1, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:02.728622Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 2}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1075349700,
+          "load_duration": 71587000,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 109,
+          "prompt_eval_duration": 693447000,
+          "eval_count": 7,
+          "eval_duration": 253835000
+        },
+        "seconds": 3.128917800000636
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [1], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 1, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:05.8886594Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 2}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1113534900,
+          "load_duration": 58995200,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 110,
+          "prompt_eval_duration": 722321000,
+          "eval_count": 7,
+          "eval_duration": 273158000
+        },
+        "seconds": 3.1611279000062495
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 2, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:08.7140774Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 1}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 775986500,
+          "load_duration": 22665000,
+          "prompt_eval_count": 226,
+          "prompt_eval_cached_count": 143,
+          "prompt_eval_duration": 486364000,
+          "eval_count": 7,
+          "eval_duration": 246124000
+        },
+        "seconds": 2.8243019999936223
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [1], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 2, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:11.7307942Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"slot\": 2\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 957724200,
+          "load_duration": 15632300,
+          "prompt_eval_count": 228,
+          "prompt_eval_cached_count": 145,
+          "prompt_eval_duration": 526299999,
+          "eval_count": 10,
+          "eval_duration": 396416000
+        },
+        "seconds": 3.017302500025835
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [1, 2], \"previous_own_slot\": null, \"coordination_feedback\": {\"reason\": \"menu_exhausted\", \"slots\": {\"0\": 1, \"1\": 2, \"2\": 2}, \"rule\": \"Keep lower numeric identities' announced slots clear; choose your own slot again\"}, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:15.1251531Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"slot\": 3\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1337277700,
+          "load_duration": 68539700,
+          "prompt_eval_count": 231,
+          "prompt_eval_cached_count": 110,
+          "prompt_eval_duration": 699257000,
+          "eval_count": 10,
+          "eval_duration": 481891000
+        },
+        "seconds": 3.393936800013762
+      },
+      {
+        "identity": "0",
+        "stage": "revise",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "string",
+                "enum": [
+                  "coordinate"
+                ]
+              }
+            },
+            "required": [
+              "request"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:17.769303Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"request\": \"coordinate\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 595741300,
+          "load_duration": 63931500,
+          "prompt_eval_count": 119,
+          "prompt_eval_cached_count": 118,
+          "prompt_eval_duration": 45753000,
+          "eval_count": 10,
+          "eval_duration": 387041000
+        },
+        "seconds": 2.6430484000011347
+      },
+      {
+        "identity": "0",
+        "stage": "revise",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "string",
+                "enum": [
+                  "coordinate"
+                ]
+              }
+            },
+            "required": [
+              "request"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:20.3981321Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"request\": \"coordinate\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 565311100,
+          "load_duration": 89718400,
+          "prompt_eval_count": 119,
+          "prompt_eval_cached_count": 118,
+          "prompt_eval_duration": 40347000,
+          "eval_count": 10,
+          "eval_duration": 376963000
+        },
+        "seconds": 2.631142700003693
+      },
+      {
+        "identity": "0",
+        "stage": "revise",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "string",
+                "enum": [
+                  "coordinate"
+                ]
+              }
+            },
+            "required": [
+              "request"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:22.9381942Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"request\": \"coordinate\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 488301900,
+          "load_duration": 37617900,
+          "prompt_eval_count": 119,
+          "prompt_eval_cached_count": 118,
+          "prompt_eval_duration": 47932000,
+          "eval_count": 10,
+          "eval_duration": 388009000
+        },
+        "seconds": 2.5356882000050973
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": 1, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:25.8988805Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 2}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 902243800,
+          "load_duration": 108985900,
+          "prompt_eval_count": 180,
+          "prompt_eval_cached_count": 114,
+          "prompt_eval_duration": 452236000,
+          "eval_count": 7,
+          "eval_duration": 276616000
+        },
+        "seconds": 2.9605778999975882
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": 2, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:28.6831277Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 3}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 745742800,
+          "load_duration": 20077600,
+          "prompt_eval_count": 180,
+          "prompt_eval_cached_count": 108,
+          "prompt_eval_duration": 435559000,
+          "eval_count": 7,
+          "eval_duration": 241388000
+        },
+        "seconds": 2.7850772999809124
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": 3, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:31.4959995Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 4}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 753519800,
+          "load_duration": 19334200,
+          "prompt_eval_count": 180,
+          "prompt_eval_cached_count": 108,
+          "prompt_eval_duration": 439100000,
+          "eval_count": 7,
+          "eval_duration": 271869000
+        },
+        "seconds": 2.811772499990184
+      },
+      {
+        "identity": "0",
+        "stage": "revise",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "string",
+                "enum": [
+                  "coordinate"
+                ]
+              }
+            },
+            "required": [
+              "request"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:34.1562251Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"request\": \"coordinate\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 612541100,
+          "load_duration": 49073000,
+          "prompt_eval_count": 119,
+          "prompt_eval_cached_count": 118,
+          "prompt_eval_duration": 53918000,
+          "eval_count": 10,
+          "eval_duration": 411688000
+        },
+        "seconds": 2.6597392999974545
+      },
+      {
+        "identity": "0",
+        "stage": "revise",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "string",
+                "enum": [
+                  "coordinate"
+                ]
+              }
+            },
+            "required": [
+              "request"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:36.7466718Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"request\": \"coordinate\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 540986700,
+          "load_duration": 62986700,
+          "prompt_eval_count": 119,
+          "prompt_eval_cached_count": 118,
+          "prompt_eval_duration": 46928000,
+          "eval_count": 10,
+          "eval_duration": 385885000
+        },
+        "seconds": 2.591926399996737
+      },
+      {
+        "identity": "0",
+        "stage": "revise",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"revise\", \"task\": \"Request a shared-resource reservation for the group\", \"schema\": {\"request\": \"coordinate\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"request\": {\"type\": \"string\", \"enum\": [\"coordinate\"]}}, \"required\": [\"request\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "string",
+                "enum": [
+                  "coordinate"
+                ]
+              }
+            },
+            "required": [
+              "request"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:39.2857008Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"request\": \"coordinate\"\n}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 473510600,
+          "load_duration": 27293400,
+          "prompt_eval_count": 119,
+          "prompt_eval_cached_count": 118,
+          "prompt_eval_duration": 37474000,
+          "eval_count": 10,
+          "eval_duration": 333325000
+        },
+        "seconds": 2.562717299995711
+      },
+      {
+        "identity": "0",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"0\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": 2, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:42.0946233Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 3}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 722974200,
+          "load_duration": 59652900,
+          "prompt_eval_count": 180,
+          "prompt_eval_cached_count": 115,
+          "prompt_eval_duration": 387950000,
+          "eval_count": 7,
+          "eval_duration": 224140000
+        },
+        "seconds": 2.7835552000033204
+      },
+      {
+        "identity": "1",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"1\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": 3, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:44.8085274Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 4}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 644270600,
+          "load_duration": 24943700,
+          "prompt_eval_count": 180,
+          "prompt_eval_cached_count": 115,
+          "prompt_eval_duration": 377130000,
+          "eval_count": 7,
+          "eval_duration": 218254000
+        },
+        "seconds": 2.7144425000005867
+      },
+      {
+        "identity": "2",
+        "stage": "respond",
+        "request": {
+          "model": "qwen2.5:1.5b",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+            },
+            {
+              "role": "user",
+              "content": "{\"identity\": \"2\", \"stage\": \"respond\", \"task\": \"Propose your own integer time slot for one unit of work on a capacity-one shared resource. Prefer the smallest valid slot. Do not plan for other agents.\", \"release\": 0, \"latest\": 6, \"forbidden_slots\": [], \"previous_own_slot\": 4, \"coordination_feedback\": null, \"validation_errors\": [], \"schema\": {\"slot\": \"integer between release and latest, not forbidden\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"slot\": {\"type\": \"integer\"}}, \"required\": [\"slot\"]}}"
+            }
+          ],
+          "stream": false,
+          "format": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "slot"
+            ]
+          },
+          "options": {
+            "temperature": 0,
+            "num_predict": 96,
+            "num_ctx": 2048
+          }
+        },
+        "response": {
+          "model": "qwen2.5:1.5b",
+          "created_at": "2026-11-15T06:56:47.5454328Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"slot\": 5}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 677315600,
+          "load_duration": 46739200,
+          "prompt_eval_count": 180,
+          "prompt_eval_cached_count": 115,
+          "prompt_eval_duration": 380311000,
+          "eval_count": 7,
+          "eval_duration": 221248000
+        },
+        "seconds": 2.735417200019583
+      }
+    ]
+  }
+]

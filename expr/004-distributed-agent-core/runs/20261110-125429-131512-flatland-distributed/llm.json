@@ -1,0 +1,392 @@
+[
+  {
+    "agent": "1",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": \"1\", \"candidates\": [{\"wait\": 0, \"remaining_cost\": 33.0, \"label\": \"route_wait\", \"route_cells\": 33}, {\"wait\": 3, \"remaining_cost\": 36.0, \"label\": \"route_wait\", \"route_cells\": 33}, {\"wait\": 8, \"remaining_cost\": 41.0, \"label\": \"route_wait\", \"route_cells\": 33}, {\"wait\": 16, \"remaining_cost\": 49.0, \"label\": \"route_wait\", \"route_cells\": 33}, {\"wait\": 0, \"remaining_cost\": 35.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 3, \"remaining_cost\": 38.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 8, \"remaining_cost\": 43.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 16, \"remaining_cost\": 51.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 0, \"remaining_cost\": 35.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 3, \"remaining_cost\": 38.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 8, \"remaining_cost\": 43.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 16, \"remaining_cost\": 51.0, \"label\": \"route_wait\", \"route_cells\": 35}], \"context\": {\"step\": 0, \"role\": \"respond to a teammate proposal using your own feasible plans\"}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T04:54:38.0225272Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6817372300,
+      "load_duration": 4524502700,
+      "prompt_eval_count": 455,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 2051594999,
+      "eval_count": 7,
+      "eval_duration": 233637000
+    }
+  },
+  {
+    "agent": "2",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": \"2\", \"candidates\": [{\"wait\": 0, \"remaining_cost\": 19.0, \"label\": \"route_wait\", \"route_cells\": 19}, {\"wait\": 3, \"remaining_cost\": 22.0, \"label\": \"route_wait\", \"route_cells\": 19}, {\"wait\": 8, \"remaining_cost\": 27.0, \"label\": \"route_wait\", \"route_cells\": 19}, {\"wait\": 16, \"remaining_cost\": 35.0, \"label\": \"route_wait\", \"route_cells\": 19}, {\"wait\": 0, \"remaining_cost\": 21.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 3, \"remaining_cost\": 24.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 8, \"remaining_cost\": 29.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 16, \"remaining_cost\": 37.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 0, \"remaining_cost\": 19.0, \"label\": \"route_wait\", \"route_cells\": 19}, {\"wait\": 3, \"remaining_cost\": 22.0, \"label\": \"route_wait\", \"route_cells\": 19}, {\"wait\": 8, \"remaining_cost\": 27.0, \"label\": \"route_wait\", \"route_cells\": 19}, {\"wait\": 16, \"remaining_cost\": 35.0, \"label\": \"route_wait\", \"route_cells\": 19}], \"context\": {\"step\": 0, \"role\": \"respond to a teammate proposal using your own feasible plans\"}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T04:54:42.3234294Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2246003200,
+      "load_duration": 7864300,
+      "prompt_eval_count": 455,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 1963916000,
+      "eval_count": 7,
+      "eval_duration": 261175000
+    }
+  },
+  {
+    "agent": "3",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": \"3\", \"candidates\": [{\"wait\": 0, \"remaining_cost\": 148.0, \"label\": \"route_wait\", \"route_cells\": 37}, {\"wait\": 3, \"remaining_cost\": 151.0, \"label\": \"route_wait\", \"route_cells\": 37}, {\"wait\": 8, \"remaining_cost\": 156.0, \"label\": \"route_wait\", \"route_cells\": 37}, {\"wait\": 16, \"remaining_cost\": 164.0, \"label\": \"route_wait\", \"route_cells\": 37}, {\"wait\": 0, \"remaining_cost\": 204.0, \"label\": \"route_wait\", \"route_cells\": 51}, {\"wait\": 3, \"remaining_cost\": 207.0, \"label\": \"route_wait\", \"route_cells\": 51}, {\"wait\": 8, \"remaining_cost\": 212.0, \"label\": \"route_wait\", \"route_cells\": 51}, {\"wait\": 16, \"remaining_cost\": 220.0, \"label\": \"route_wait\", \"route_cells\": 51}, {\"wait\": 0, \"remaining_cost\": 196.0, \"label\": \"route_wait\", \"route_cells\": 49}, {\"wait\": 3, \"remaining_cost\": 199.0, \"label\": \"route_wait\", \"route_cells\": 49}, {\"wait\": 8, \"remaining_cost\": 204.0, \"label\": \"route_wait\", \"route_cells\": 49}, {\"wait\": 16, \"remaining_cost\": 212.0, \"label\": \"route_wait\", \"route_cells\": 49}], \"context\": {\"step\": 0, \"role\": \"respond to a teammate proposal using your own feasible plans\"}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T04:54:46.608512Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2228651300,
+      "load_duration": 7937100,
+      "prompt_eval_count": 467,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 1927885000,
+      "eval_count": 7,
+      "eval_duration": 279496000
+    }
+  },
+  {
+    "agent": "4",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": \"4\", \"candidates\": [{\"wait\": 0, \"remaining_cost\": 66.0, \"label\": \"route_wait\", \"route_cells\": 33}, {\"wait\": 3, \"remaining_cost\": 69.0, \"label\": \"route_wait\", \"route_cells\": 33}, {\"wait\": 8, \"remaining_cost\": 74.0, \"label\": \"route_wait\", \"route_cells\": 33}, {\"wait\": 16, \"remaining_cost\": 82.0, \"label\": \"route_wait\", \"route_cells\": 33}, {\"wait\": 0, \"remaining_cost\": 70.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 3, \"remaining_cost\": 73.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 8, \"remaining_cost\": 78.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 16, \"remaining_cost\": 86.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 0, \"remaining_cost\": 70.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 3, \"remaining_cost\": 73.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 8, \"remaining_cost\": 78.0, \"label\": \"route_wait\", \"route_cells\": 35}, {\"wait\": 16, \"remaining_cost\": 86.0, \"label\": \"route_wait\", \"route_cells\": 35}], \"context\": {\"step\": 0, \"role\": \"respond to a teammate proposal using your own feasible plans\"}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T04:54:50.7784665Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2053161300,
+      "load_duration": 16207600,
+      "prompt_eval_count": 455,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 1786890000,
+      "eval_count": 7,
+      "eval_duration": 237908000
+    }
+  },
+  {
+    "agent": "5",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": \"5\", \"candidates\": [{\"wait\": 0, \"remaining_cost\": 37.0, \"label\": \"route_wait\", \"route_cells\": 37}, {\"wait\": 3, \"remaining_cost\": 40.0, \"label\": \"route_wait\", \"route_cells\": 37}, {\"wait\": 8, \"remaining_cost\": 45.0, \"label\": \"route_wait\", \"route_cells\": 37}, {\"wait\": 16, \"remaining_cost\": 53.0, \"label\": \"route_wait\", \"route_cells\": 37}, {\"wait\": 0, \"remaining_cost\": 51.0, \"label\": \"route_wait\", \"route_cells\": 51}, {\"wait\": 3, \"remaining_cost\": 54.0, \"label\": \"route_wait\", \"route_cells\": 51}, {\"wait\": 8, \"remaining_cost\": 59.0, \"label\": \"route_wait\", \"route_cells\": 51}, {\"wait\": 16, \"remaining_cost\": 67.0, \"label\": \"route_wait\", \"route_cells\": 51}, {\"wait\": 0, \"remaining_cost\": 49.0, \"label\": \"route_wait\", \"route_cells\": 49}, {\"wait\": 3, \"remaining_cost\": 52.0, \"label\": \"route_wait\", \"route_cells\": 49}, {\"wait\": 8, \"remaining_cost\": 57.0, \"label\": \"route_wait\", \"route_cells\": 49}, {\"wait\": 16, \"remaining_cost\": 65.0, \"label\": \"route_wait\", \"route_cells\": 49}], \"context\": {\"step\": 0, \"role\": \"respond to a teammate proposal using your own feasible plans\"}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T04:54:54.949725Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2099150500,
+      "load_duration": 7819600,
+      "prompt_eval_count": 455,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 1791789000,
+      "eval_count": 7,
+      "eval_duration": 284802000
+    }
+  },
+  {
+    "agent": "6",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": \"6\", \"candidates\": [{\"wait\": 0, \"remaining_cost\": 42.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 3, \"remaining_cost\": 45.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 8, \"remaining_cost\": 50.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 16, \"remaining_cost\": 58.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 0, \"remaining_cost\": 42.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 3, \"remaining_cost\": 45.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 8, \"remaining_cost\": 50.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 16, \"remaining_cost\": 58.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 0, \"remaining_cost\": 42.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 3, \"remaining_cost\": 45.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 8, \"remaining_cost\": 50.0, \"label\": \"route_wait\", \"route_cells\": 21}, {\"wait\": 16, \"remaining_cost\": 58.0, \"label\": \"route_wait\", \"route_cells\": 21}], \"context\": {\"step\": 0, \"role\": \"respond to a teammate proposal using your own feasible plans\"}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T04:54:59.2752124Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2181859300,
+      "load_duration": 19627500,
+      "prompt_eval_count": 455,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 1874572000,
+      "eval_count": 7,
+      "eval_duration": 262261000
+    }
+  }
+]

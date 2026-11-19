@@ -1,0 +1,14971 @@
+[
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 0,
+    "version": 1,
+    "start": 0,
+    "expires": 8,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 1,
+    "version": 1,
+    "start": 0,
+    "expires": 8,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 2,
+    "version": 1,
+    "start": 0,
+    "expires": 8,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 3,
+    "version": 1,
+    "start": 0,
+    "expires": 8,
+    "path": [
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 4,
+    "version": 1,
+    "start": 0,
+    "expires": 8,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        25,
+        5
+      ],
+      [
+        25,
+        5
+      ],
+      [
+        25,
+        5
+      ],
+      [
+        25,
+        5
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 5,
+    "version": 1,
+    "start": 0,
+    "expires": 8,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        24
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 6,
+    "version": 1,
+    "start": 0,
+    "expires": 8,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 8,
+    "owner": 1,
+    "version": 2,
+    "start": 8,
+    "expires": 16,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 2,
+    "at": 8
+  },
+  {
+    "type": "propose",
+    "at": 8,
+    "owner": 2,
+    "version": 2,
+    "start": 8,
+    "expires": 16,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 2,
+    "at": 8
+  },
+  {
+    "type": "propose",
+    "at": 8,
+    "owner": 3,
+    "version": 2,
+    "start": 8,
+    "expires": 16,
+    "path": [
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 2,
+    "at": 8
+  },
+  {
+    "type": "propose",
+    "at": 8,
+    "owner": 4,
+    "version": 2,
+    "start": 8,
+    "expires": 16,
+    "path": [
+      [
+        25,
+        5
+      ],
+      [
+        25,
+        5
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 2,
+    "at": 8
+  },
+  {
+    "type": "propose",
+    "at": 8,
+    "owner": 5,
+    "version": 2,
+    "start": 8,
+    "expires": 16,
+    "path": [
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        16,
+        24
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 2,
+    "at": 8
+  },
+  {
+    "type": "propose",
+    "at": 8,
+    "owner": 6,
+    "version": 2,
+    "start": 8,
+    "expires": 16,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 2,
+    "at": 8
+  },
+  {
+    "type": "propose",
+    "at": 8,
+    "owner": 0,
+    "version": 2,
+    "start": 8,
+    "expires": 16,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 2,
+    "at": 8
+  },
+  {
+    "type": "propose",
+    "at": 16,
+    "owner": 2,
+    "version": 3,
+    "start": 16,
+    "expires": 24,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 3,
+    "at": 16
+  },
+  {
+    "type": "propose",
+    "at": 16,
+    "owner": 3,
+    "version": 3,
+    "start": 16,
+    "expires": 24,
+    "path": [
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 3,
+    "at": 16
+  },
+  {
+    "type": "propose",
+    "at": 16,
+    "owner": 4,
+    "version": 3,
+    "start": 16,
+    "expires": 24,
+    "path": [
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 3,
+    "at": 16
+  },
+  {
+    "type": "propose",
+    "at": 16,
+    "owner": 5,
+    "version": 3,
+    "start": 16,
+    "expires": 24,
+    "path": [
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 3,
+    "at": 16
+  },
+  {
+    "type": "propose",
+    "at": 16,
+    "owner": 6,
+    "version": 3,
+    "start": 16,
+    "expires": 24,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 3,
+    "at": 16
+  },
+  {
+    "type": "propose",
+    "at": 16,
+    "owner": 0,
+    "version": 3,
+    "start": 16,
+    "expires": 24,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 3,
+    "at": 16
+  },
+  {
+    "type": "propose",
+    "at": 16,
+    "owner": 1,
+    "version": 3,
+    "start": 16,
+    "expires": 24,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        23,
+        5
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 3,
+    "at": 16
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 3,
+    "at": 20,
+    "reason": "observed native malfunction"
+  },
+  {
+    "type": "propose",
+    "at": 24,
+    "owner": 3,
+    "version": 4,
+    "start": 24,
+    "expires": 32,
+    "path": [
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 4,
+    "at": 24
+  },
+  {
+    "type": "propose",
+    "at": 24,
+    "owner": 4,
+    "version": 4,
+    "start": 24,
+    "expires": 32,
+    "path": [
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 4,
+    "at": 24
+  },
+  {
+    "type": "propose",
+    "at": 24,
+    "owner": 6,
+    "version": 4,
+    "start": 24,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 4,
+    "at": 24
+  },
+  {
+    "type": "propose",
+    "at": 24,
+    "owner": 0,
+    "version": 4,
+    "start": 24,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 4,
+    "at": 24
+  },
+  {
+    "type": "propose",
+    "at": 24,
+    "owner": 1,
+    "version": 4,
+    "start": 24,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        8
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 4,
+    "at": 24
+  },
+  {
+    "type": "propose",
+    "at": 24,
+    "owner": 2,
+    "version": 4,
+    "start": 24,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 4,
+    "at": 24
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 4,
+    "version": 5,
+    "start": 32,
+    "expires": 40,
+    "path": [
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 5,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 6,
+    "version": 5,
+    "start": 32,
+    "expires": 40,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 5,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 0,
+    "version": 5,
+    "start": 32,
+    "expires": 40,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 5,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 1,
+    "version": 5,
+    "start": 32,
+    "expires": 40,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        22,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 5,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 2,
+    "version": 5,
+    "start": 32,
+    "expires": 40,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 5,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 3,
+    "version": 5,
+    "start": 32,
+    "expires": 40,
+    "path": [
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 5,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 40,
+    "owner": 6,
+    "version": 6,
+    "start": 40,
+    "expires": 48,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 6,
+    "at": 40
+  },
+  {
+    "type": "propose",
+    "at": 40,
+    "owner": 0,
+    "version": 6,
+    "start": 40,
+    "expires": 48,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 6,
+    "at": 40
+  },
+  {
+    "type": "propose",
+    "at": 40,
+    "owner": 1,
+    "version": 6,
+    "start": 40,
+    "expires": 48,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        18,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 6,
+    "at": 40
+  },
+  {
+    "type": "propose",
+    "at": 40,
+    "owner": 2,
+    "version": 6,
+    "start": 40,
+    "expires": 48,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 6,
+    "at": 40
+  },
+  {
+    "type": "propose",
+    "at": 40,
+    "owner": 3,
+    "version": 6,
+    "start": 40,
+    "expires": 48,
+    "path": [
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 6,
+    "at": 40
+  },
+  {
+    "type": "propose",
+    "at": 40,
+    "owner": 4,
+    "version": 6,
+    "start": 40,
+    "expires": 48,
+    "path": [
+      [
+        22,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 6,
+    "at": 40
+  },
+  {
+    "type": "propose",
+    "at": 48,
+    "owner": 6,
+    "version": 7,
+    "start": 48,
+    "expires": 56,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 7,
+    "at": 48
+  },
+  {
+    "type": "propose",
+    "at": 48,
+    "owner": 0,
+    "version": 7,
+    "start": 48,
+    "expires": 56,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 7,
+    "at": 48
+  },
+  {
+    "type": "propose",
+    "at": 48,
+    "owner": 1,
+    "version": 7,
+    "start": 48,
+    "expires": 56,
+    "path": [
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 7,
+    "at": 48
+  },
+  {
+    "type": "propose",
+    "at": 48,
+    "owner": 2,
+    "version": 7,
+    "start": 48,
+    "expires": 56,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 7,
+    "at": 48
+  },
+  {
+    "type": "propose",
+    "at": 48,
+    "owner": 3,
+    "version": 7,
+    "start": 48,
+    "expires": 56,
+    "path": [
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 7,
+    "at": 48
+  },
+  {
+    "type": "propose",
+    "at": 48,
+    "owner": 4,
+    "version": 7,
+    "start": 48,
+    "expires": 56,
+    "path": [
+      [
+        20,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 7,
+    "at": 48
+  },
+  {
+    "type": "propose",
+    "at": 56,
+    "owner": 0,
+    "version": 8,
+    "start": 56,
+    "expires": 64,
+    "path": [
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 8,
+    "at": 56
+  },
+  {
+    "type": "propose",
+    "at": 56,
+    "owner": 1,
+    "version": 8,
+    "start": 56,
+    "expires": 64,
+    "path": [
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 8,
+    "at": 56
+  },
+  {
+    "type": "propose",
+    "at": 56,
+    "owner": 2,
+    "version": 8,
+    "start": 56,
+    "expires": 64,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 8,
+    "at": 56
+  },
+  {
+    "type": "propose",
+    "at": 56,
+    "owner": 3,
+    "version": 8,
+    "start": 56,
+    "expires": 64,
+    "path": [
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      1
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 1,
+    "owner": 3,
+    "version": 8,
+    "at": 56,
+    "conflicts": [],
+    "broken_uses": [],
+    "accept": true
+  },
+  {
+    "type": "ack",
+    "owner": 3,
+    "version": 8,
+    "peer": 1,
+    "at": 56
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 8,
+    "at": 56
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 3,
+    "provider": 1,
+    "version": 8,
+    "resource": [
+      24,
+      10
+    ],
+    "use_at": 63,
+    "registered_at": 56,
+    "kind": "future"
+  },
+  {
+    "type": "propose",
+    "at": 56,
+    "owner": 4,
+    "version": 8,
+    "start": 56,
+    "expires": 64,
+    "path": [
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 8,
+    "at": 56
+  },
+  {
+    "type": "propose",
+    "at": 56,
+    "owner": 6,
+    "version": 8,
+    "start": 56,
+    "expires": 64,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 8,
+    "at": 56
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 6,
+    "provider": 0,
+    "version": 8,
+    "resource": [
+      14,
+      19
+    ],
+    "use_at": 61,
+    "registered_at": 56,
+    "kind": "future"
+  },
+  {
+    "type": "propose",
+    "at": 57,
+    "owner": 5,
+    "version": 4,
+    "start": 57,
+    "expires": 65,
+    "path": [
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 4,
+    "at": 57
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 1,
+    "version": 9,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        22,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 9,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 2,
+    "version": 9,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        23,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 9,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 3,
+    "version": 9,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 3,
+    "version": 9,
+    "at": 64,
+    "conflicts": [
+      9,
+      10
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 9,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 3,
+    "version": 10,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 3,
+    "version": 10,
+    "at": 64,
+    "conflicts": [
+      9
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 10,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 3,
+    "version": 11,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 3,
+    "version": 11,
+    "at": 64,
+    "conflicts": [
+      12
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 11,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 3,
+    "version": 12,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 3,
+    "version": 12,
+    "at": 64,
+    "conflicts": [
+      13
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 12,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 3,
+    "version": 13,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 3,
+    "version": 13,
+    "at": 64,
+    "conflicts": [],
+    "broken_uses": [],
+    "accept": true
+  },
+  {
+    "type": "ack",
+    "owner": 3,
+    "version": 13,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 13,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 4,
+    "version": 9,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 9,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 6,
+    "version": 9,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 9,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 0,
+    "version": 9,
+    "start": 64,
+    "expires": 72,
+    "path": [
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 9,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 65,
+    "owner": 5,
+    "version": 5,
+    "start": 65,
+    "expires": 73,
+    "path": [
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 5,
+    "at": 65
+  },
+  {
+    "type": "propose",
+    "at": 72,
+    "owner": 2,
+    "version": 10,
+    "start": 72,
+    "expires": 80,
+    "path": [
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 10,
+    "at": 72
+  },
+  {
+    "type": "propose",
+    "at": 72,
+    "owner": 3,
+    "version": 14,
+    "start": 72,
+    "expires": 80,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 14,
+    "at": 72
+  },
+  {
+    "type": "propose",
+    "at": 72,
+    "owner": 4,
+    "version": 10,
+    "start": 72,
+    "expires": 80,
+    "path": [
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 10,
+    "at": 72
+  },
+  {
+    "type": "propose",
+    "at": 72,
+    "owner": 6,
+    "version": 10,
+    "start": 72,
+    "expires": 80,
+    "path": [
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 10,
+    "at": 72
+  },
+  {
+    "type": "propose",
+    "at": 72,
+    "owner": 0,
+    "version": 10,
+    "start": 72,
+    "expires": 80,
+    "path": [
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 10,
+    "at": 72
+  },
+  {
+    "type": "propose",
+    "at": 72,
+    "owner": 1,
+    "version": 10,
+    "start": 72,
+    "expires": 80,
+    "path": [
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 10,
+    "at": 72
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 10,
+    "at": 73,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 73,
+    "owner": 5,
+    "version": 6,
+    "start": 73,
+    "expires": 81,
+    "path": [
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        15,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 6,
+    "at": 73
+  },
+  {
+    "type": "propose",
+    "at": 73,
+    "owner": 6,
+    "version": 11,
+    "start": 73,
+    "expires": 81,
+    "path": [
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 11,
+    "at": 73
+  },
+  {
+    "type": "propose",
+    "at": 80,
+    "owner": 3,
+    "version": 15,
+    "start": 80,
+    "expires": 88,
+    "path": [
+      [
+        25,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 15,
+    "at": 80
+  },
+  {
+    "type": "propose",
+    "at": 80,
+    "owner": 4,
+    "version": 11,
+    "start": 80,
+    "expires": 88,
+    "path": [
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 11,
+    "at": 80
+  },
+  {
+    "type": "propose",
+    "at": 80,
+    "owner": 0,
+    "version": 11,
+    "start": 80,
+    "expires": 88,
+    "path": [
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 11,
+    "at": 80
+  },
+  {
+    "type": "propose",
+    "at": 80,
+    "owner": 1,
+    "version": 11,
+    "start": 80,
+    "expires": 88,
+    "path": [
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 11,
+    "at": 80
+  },
+  {
+    "type": "propose",
+    "at": 80,
+    "owner": 2,
+    "version": 11,
+    "start": 80,
+    "expires": 88,
+    "path": [
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 11,
+    "at": 80
+  },
+  {
+    "type": "propose",
+    "at": 81,
+    "owner": 5,
+    "version": 7,
+    "start": 81,
+    "expires": 89,
+    "path": [
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 7,
+    "at": 81
+  },
+  {
+    "type": "propose",
+    "at": 81,
+    "owner": 6,
+    "version": 12,
+    "start": 81,
+    "expires": 89,
+    "path": [
+      [
+        15,
+        14
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 12,
+    "at": 81
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 12,
+    "at": 82,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 82,
+    "owner": 6,
+    "version": 13,
+    "start": 82,
+    "expires": 90,
+    "path": [
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 13,
+    "at": 82
+  },
+  {
+    "type": "release",
+    "owner": 3,
+    "at": 85
+  },
+  {
+    "type": "propose",
+    "at": 88,
+    "owner": 4,
+    "version": 12,
+    "start": 88,
+    "expires": 96,
+    "path": [
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 12,
+    "at": 88
+  },
+  {
+    "type": "propose",
+    "at": 88,
+    "owner": 0,
+    "version": 12,
+    "start": 88,
+    "expires": 96,
+    "path": [
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 12,
+    "at": 88
+  },
+  {
+    "type": "propose",
+    "at": 88,
+    "owner": 1,
+    "version": 12,
+    "start": 88,
+    "expires": 96,
+    "path": [
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 12,
+    "at": 88
+  },
+  {
+    "type": "propose",
+    "at": 88,
+    "owner": 2,
+    "version": 12,
+    "start": 88,
+    "expires": 96,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 12,
+    "at": 88
+  },
+  {
+    "type": "propose",
+    "at": 89,
+    "owner": 5,
+    "version": 8,
+    "start": 89,
+    "expires": 97,
+    "path": [
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 8,
+    "at": 89
+  },
+  {
+    "type": "propose",
+    "at": 90,
+    "owner": 6,
+    "version": 14,
+    "start": 90,
+    "expires": 98,
+    "path": [
+      [
+        18,
+        14
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 14,
+    "at": 90
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 14,
+    "at": 91,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 91,
+    "owner": 6,
+    "version": 15,
+    "start": 91,
+    "expires": 99,
+    "path": [
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 15,
+    "at": 91
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 0,
+    "version": 13,
+    "start": 96,
+    "expires": 104,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 13,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 1,
+    "version": 13,
+    "start": 96,
+    "expires": 104,
+    "path": [
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 13,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 2,
+    "version": 13,
+    "start": 96,
+    "expires": 104,
+    "path": [
+      [
+        22,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 13,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 4,
+    "version": 13,
+    "start": 96,
+    "expires": 104,
+    "path": [
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 13,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 97,
+    "owner": 5,
+    "version": 9,
+    "start": 97,
+    "expires": 105,
+    "path": [
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 9,
+    "at": 97
+  },
+  {
+    "type": "release",
+    "owner": 1,
+    "at": 99
+  },
+  {
+    "type": "propose",
+    "at": 99,
+    "owner": 6,
+    "version": 16,
+    "start": 99,
+    "expires": 107,
+    "path": [
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 16,
+    "at": 99
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 16,
+    "at": 100,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 100,
+    "owner": 6,
+    "version": 17,
+    "start": 100,
+    "expires": 108,
+    "path": [
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        13
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 17,
+    "at": 100
+  },
+  {
+    "type": "propose",
+    "at": 104,
+    "owner": 0,
+    "version": 14,
+    "start": 104,
+    "expires": 112,
+    "path": [
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 14,
+    "at": 104
+  },
+  {
+    "type": "propose",
+    "at": 104,
+    "owner": 2,
+    "version": 14,
+    "start": 104,
+    "expires": 112,
+    "path": [
+      [
+        20,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 14,
+    "at": 104
+  },
+  {
+    "type": "propose",
+    "at": 104,
+    "owner": 4,
+    "version": 14,
+    "start": 104,
+    "expires": 112,
+    "path": [
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 14,
+    "at": 104
+  },
+  {
+    "type": "release",
+    "owner": 0,
+    "at": 105
+  },
+  {
+    "type": "propose",
+    "at": 105,
+    "owner": 5,
+    "version": 10,
+    "start": 105,
+    "expires": 113,
+    "path": [
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 10,
+    "at": 105
+  },
+  {
+    "type": "propose",
+    "at": 108,
+    "owner": 6,
+    "version": 18,
+    "start": 108,
+    "expires": 116,
+    "path": [
+      [
+        22,
+        12
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 18,
+    "at": 108
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 18,
+    "at": 109,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 109,
+    "owner": 6,
+    "version": 19,
+    "start": 109,
+    "expires": 117,
+    "path": [
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 19,
+    "at": 109
+  },
+  {
+    "type": "propose",
+    "at": 112,
+    "owner": 2,
+    "version": 15,
+    "start": 112,
+    "expires": 120,
+    "path": [
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 15,
+    "at": 112
+  },
+  {
+    "type": "propose",
+    "at": 112,
+    "owner": 4,
+    "version": 15,
+    "start": 112,
+    "expires": 120,
+    "path": [
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        12
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 15,
+    "at": 112
+  },
+  {
+    "type": "propose",
+    "at": 113,
+    "owner": 5,
+    "version": 11,
+    "start": 113,
+    "expires": 121,
+    "path": [
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 11,
+    "at": 113
+  },
+  {
+    "type": "propose",
+    "at": 117,
+    "owner": 6,
+    "version": 20,
+    "start": 117,
+    "expires": 125,
+    "path": [
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 20,
+    "at": 117
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 20,
+    "at": 118,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 118,
+    "owner": 6,
+    "version": 21,
+    "start": 118,
+    "expires": 126,
+    "path": [
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 21,
+    "at": 118
+  },
+  {
+    "type": "propose",
+    "at": 120,
+    "owner": 2,
+    "version": 16,
+    "start": 120,
+    "expires": 128,
+    "path": [
+      [
+        17,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 16,
+    "at": 120
+  },
+  {
+    "type": "propose",
+    "at": 120,
+    "owner": 4,
+    "version": 16,
+    "start": 120,
+    "expires": 128,
+    "path": [
+      [
+        15,
+        13
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 16,
+    "at": 120
+  },
+  {
+    "type": "propose",
+    "at": 121,
+    "owner": 5,
+    "version": 12,
+    "start": 121,
+    "expires": 129,
+    "path": [
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        22,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 12,
+    "at": 121
+  },
+  {
+    "type": "propose",
+    "at": 126,
+    "owner": 6,
+    "version": 22,
+    "start": 126,
+    "expires": 134,
+    "path": [
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 22,
+    "at": 126
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 22,
+    "at": 127,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 127,
+    "owner": 6,
+    "version": 23,
+    "start": 127,
+    "expires": 135,
+    "path": [
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 23,
+    "at": 127
+  },
+  {
+    "type": "propose",
+    "at": 128,
+    "owner": 2,
+    "version": 17,
+    "start": 128,
+    "expires": 136,
+    "path": [
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 17,
+    "at": 128
+  },
+  {
+    "type": "propose",
+    "at": 128,
+    "owner": 4,
+    "version": 17,
+    "start": 128,
+    "expires": 136,
+    "path": [
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 17,
+    "at": 128
+  },
+  {
+    "type": "propose",
+    "at": 129,
+    "owner": 5,
+    "version": 13,
+    "start": 129,
+    "expires": 137,
+    "path": [
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 13,
+    "at": 129
+  },
+  {
+    "type": "propose",
+    "at": 135,
+    "owner": 6,
+    "version": 24,
+    "start": 135,
+    "expires": 143,
+    "path": [
+      [
+        25,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 24,
+    "at": 135
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 24,
+    "at": 136,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 136,
+    "owner": 4,
+    "version": 18,
+    "start": 136,
+    "expires": 144,
+    "path": [
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 18,
+    "at": 136
+  },
+  {
+    "type": "propose",
+    "at": 136,
+    "owner": 6,
+    "version": 25,
+    "start": 136,
+    "expires": 144,
+    "path": [
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        26,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 25,
+    "at": 136
+  },
+  {
+    "type": "propose",
+    "at": 136,
+    "owner": 2,
+    "version": 18,
+    "start": 136,
+    "expires": 144,
+    "path": [
+      [
+        14,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 18,
+    "at": 136
+  },
+  {
+    "type": "propose",
+    "at": 137,
+    "owner": 5,
+    "version": 14,
+    "start": 137,
+    "expires": 145,
+    "path": [
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        15
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 14,
+    "at": 137
+  },
+  {
+    "type": "release",
+    "owner": 6,
+    "at": 139
+  },
+  {
+    "type": "propose",
+    "at": 144,
+    "owner": 4,
+    "version": 19,
+    "start": 144,
+    "expires": 152,
+    "path": [
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 19,
+    "at": 144
+  },
+  {
+    "type": "propose",
+    "at": 144,
+    "owner": 2,
+    "version": 19,
+    "start": 144,
+    "expires": 152,
+    "path": [
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 19,
+    "at": 144
+  },
+  {
+    "type": "propose",
+    "at": 145,
+    "owner": 5,
+    "version": 15,
+    "start": 145,
+    "expires": 153,
+    "path": [
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        23,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 15,
+    "at": 145
+  },
+  {
+    "type": "release",
+    "owner": 4,
+    "at": 150
+  },
+  {
+    "type": "propose",
+    "at": 152,
+    "owner": 2,
+    "version": 20,
+    "start": 152,
+    "expires": 160,
+    "path": [
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 20,
+    "at": 152
+  },
+  {
+    "type": "propose",
+    "at": 153,
+    "owner": 5,
+    "version": 16,
+    "start": 153,
+    "expires": 161,
+    "path": [
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        13
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 16,
+    "at": 153
+  },
+  {
+    "type": "propose",
+    "at": 160,
+    "owner": 2,
+    "version": 21,
+    "start": 160,
+    "expires": 168,
+    "path": [
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        15,
+        19
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 21,
+    "at": 160
+  },
+  {
+    "type": "propose",
+    "at": 161,
+    "owner": 5,
+    "version": 17,
+    "start": 161,
+    "expires": 169,
+    "path": [
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        10
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 17,
+    "at": 161
+  },
+  {
+    "type": "release",
+    "owner": 2,
+    "at": 165
+  },
+  {
+    "type": "propose",
+    "at": 169,
+    "owner": 5,
+    "version": 18,
+    "start": 169,
+    "expires": 177,
+    "path": [
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 18,
+    "at": 169
+  },
+  {
+    "type": "propose",
+    "at": 177,
+    "owner": 5,
+    "version": 19,
+    "start": 177,
+    "expires": 185,
+    "path": [
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        7
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        24,
+        5
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 19,
+    "at": 177
+  }
+]

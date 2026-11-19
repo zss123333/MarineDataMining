@@ -1,0 +1,38 @@
+[
+  {
+    "case": "Test_00_Level_0-none",
+    "identical_trajectory": true
+  },
+  {
+    "case": "Test_00_Level_0-low",
+    "identical_trajectory": true
+  },
+  {
+    "case": "Test_00_Level_0-high",
+    "identical_trajectory": true
+  },
+  {
+    "case": "Test_00_Level_1-none",
+    "identical_trajectory": true
+  },
+  {
+    "case": "Test_00_Level_1-low",
+    "identical_trajectory": true
+  },
+  {
+    "case": "Test_00_Level_1-high",
+    "identical_trajectory": true
+  },
+  {
+    "case": "Test_00_Level_2-none",
+    "identical_trajectory": true
+  },
+  {
+    "case": "Test_00_Level_2-low",
+    "identical_trajectory": true
+  },
+  {
+    "case": "Test_00_Level_2-high",
+    "identical_trajectory": true
+  }
+]

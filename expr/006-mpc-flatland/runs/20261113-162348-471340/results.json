@@ -1,0 +1,37 @@
+[
+  {
+    "method": "fixed",
+    "case": {
+      "scenario": "Test_00_Level_0.pkl",
+      "tier": "none",
+      "events": "level0-none-events.json",
+      "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+      "events_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "agents": 7,
+    "arrived": 1,
+    "steps": 157,
+    "arrival_steps": {
+      "0": 103
+    },
+    "initial_departures": [
+      40,
+      108,
+      208,
+      278,
+      326,
+      394,
+      464
+    ],
+    "completion_penalty": 1045,
+    "penalty_per_unfinished": 157,
+    "messages": 0,
+    "message_bytes": 0,
+    "checks": 0,
+    "commits": 0,
+    "aborts": 0,
+    "revocations": 0,
+    "seconds": 0.03929390000121202,
+    "llm_calls": 0
+  }
+]

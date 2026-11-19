@@ -1,0 +1,93 @@
+{
+  "scope": "official scripted RecipePolicy environment acceptance, NOT LLM coordination",
+  "environment_gate_passed": true,
+  "llm_execution_gate_passed": false,
+  "coordination_comparison_allowed": false,
+  "reason": "Scripted recipe completion does not validate an LLM executor or replace an LLM baseline.",
+  "source_hashes": {
+    "src/human_coop/policies.py": "7550107d41091bd292513cb34bad2434d2a09ce201d523cbcd8f124493dfbfec",
+    "src/human_coop/session.py": "f133f8e361d63d802d798b864d5955617e7e737aa90b8f2250c79ffd5ff97786"
+  },
+  "episodes": [
+    {
+      "order": "apple",
+      "human_index": 0,
+      "steps": 11,
+      "score": 20,
+      "remaining_orders": [],
+      "done": true,
+      "handoff_in_recent_history": true,
+      "passed": true
+    },
+    {
+      "order": "apple",
+      "human_index": 1,
+      "steps": 11,
+      "score": 20,
+      "remaining_orders": [],
+      "done": true,
+      "handoff_in_recent_history": true,
+      "passed": true
+    },
+    {
+      "order": "boiled_egg",
+      "human_index": 0,
+      "steps": 17,
+      "score": 20,
+      "remaining_orders": [],
+      "done": true,
+      "handoff_in_recent_history": true,
+      "passed": true
+    },
+    {
+      "order": "boiled_egg",
+      "human_index": 1,
+      "steps": 17,
+      "score": 20,
+      "remaining_orders": [],
+      "done": true,
+      "handoff_in_recent_history": true,
+      "passed": true
+    },
+    {
+      "order": "boiled_corn_slices",
+      "human_index": 0,
+      "steps": 26,
+      "score": 20,
+      "remaining_orders": [],
+      "done": true,
+      "handoff_in_recent_history": true,
+      "passed": true
+    },
+    {
+      "order": "boiled_corn_slices",
+      "human_index": 1,
+      "steps": 26,
+      "score": 20,
+      "remaining_orders": [],
+      "done": true,
+      "handoff_in_recent_history": true,
+      "passed": true
+    },
+    {
+      "order": "baked_carrot_soup",
+      "human_index": 0,
+      "steps": 43,
+      "score": 20,
+      "remaining_orders": [],
+      "done": true,
+      "handoff_in_recent_history": true,
+      "passed": true
+    },
+    {
+      "order": "baked_carrot_soup",
+      "human_index": 1,
+      "steps": 43,
+      "score": 20,
+      "remaining_orders": [],
+      "done": true,
+      "handoff_in_recent_history": true,
+      "passed": true
+    }
+  ]
+}

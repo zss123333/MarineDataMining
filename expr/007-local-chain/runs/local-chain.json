@@ -1,0 +1,175 @@
+{
+  "agents": {
+    "A": {
+      "segments": {
+        "shared": {
+          "slot": 12
+        },
+        "independent": {
+          "payload": "private work",
+          "slot": 90
+        }
+      },
+      "versions": {
+        "shared": 1,
+        "independent": 0
+      },
+      "applied": 1
+    },
+    "B": {
+      "segments": {
+        "shared": {
+          "slot": 12
+        },
+        "independent": {
+          "payload": "private work",
+          "slot": 90
+        }
+      },
+      "versions": {
+        "shared": 1,
+        "independent": 0
+      },
+      "applied": 1
+    },
+    "C": {
+      "segments": {
+        "shared": {
+          "slot": 12
+        },
+        "independent": {
+          "payload": "private work",
+          "slot": 90
+        }
+      },
+      "versions": {
+        "shared": 1,
+        "independent": 0
+      },
+      "applied": 1
+    },
+    "D": {
+      "segments": {
+        "shared": {
+          "slot": 12
+        },
+        "independent": {
+          "payload": "private work",
+          "slot": 90
+        }
+      },
+      "versions": {
+        "shared": 1,
+        "independent": 0
+      },
+      "applied": 1
+    },
+    "E": {
+      "segments": {
+        "shared": {
+          "slot": 10
+        },
+        "independent": {
+          "payload": "private work",
+          "slot": 90
+        }
+      },
+      "versions": {
+        "shared": 0,
+        "independent": 0
+      },
+      "applied": 0
+    }
+  },
+  "recipients": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "trace": {
+    "A": [
+      {
+        "proposal": "0:A:3",
+        "event": "combination_found",
+        "candidate": "move",
+        "combinations_checked": 1,
+        "cost": 8,
+        "selection": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "proposal": "0:A:3",
+        "event": "combination_search",
+        "candidate": "move",
+        "checked": 1,
+        "limit": 128
+      },
+      {
+        "proposal": "0:A:3",
+        "event": "selected_combination",
+        "candidate": "move",
+        "selection": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "uses_alternative": false
+      },
+      {
+        "proposal": "0:A:3",
+        "decision": "commit"
+      }
+    ],
+    "B": [
+      {
+        "proposal": "0:A:1",
+        "event": "response_dependency_expansion",
+        "peers": [
+          "C"
+        ]
+      },
+      {
+        "proposal": "0:A:1",
+        "decision": "abort"
+      },
+      {
+        "proposal": "0:A:2",
+        "decision": "abort"
+      },
+      {
+        "proposal": "0:A:3",
+        "decision": "commit"
+      }
+    ],
+    "C": [
+      {
+        "proposal": "0:A:2",
+        "event": "response_dependency_expansion",
+        "peers": [
+          "D"
+        ]
+      },
+      {
+        "proposal": "0:A:2",
+        "decision": "abort"
+      },
+      {
+        "proposal": "0:A:3",
+        "decision": "commit"
+      }
+    ],
+    "D": [
+      {
+        "proposal": "0:A:3",
+        "decision": "commit"
+      }
+    ],
+    "E": []
+  }
+}

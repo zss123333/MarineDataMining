@@ -1,0 +1,66 @@
+{
+  "status": "failed",
+  "error": "KeyboardInterrupt('local safety call limit reached')",
+  "calls": 200,
+  "episodes": [
+    {
+      "file": "data\\qwen-local\\boiled_egg\\experiment_2026-11-18_22-53-56_boiled_egg.json",
+      "steps": 47,
+      "score": 0,
+      "finished_orders": [],
+      "actions": [
+        [
+          {
+            "timestamp": 38,
+            "action": "pickup(egg, counter)"
+          }
+        ],
+        [
+          {
+            "timestamp": 8,
+            "action": "pickup(egg, ingredient_dispenser)"
+          },
+          {
+            "timestamp": 16,
+            "action": "place_obj_on_counter()"
+          },
+          {
+            "timestamp": 21,
+            "action": "pickup(egg, counter)"
+          },
+          {
+            "timestamp": 23,
+            "action": "place_obj_on_counter()"
+          },
+          {
+            "timestamp": 25,
+            "action": "pickup(egg, counter)"
+          },
+          {
+            "timestamp": 31,
+            "action": "place_obj_on_counter()"
+          },
+          {
+            "timestamp": 33,
+            "action": "pickup(egg, counter)"
+          },
+          {
+            "timestamp": 34,
+            "action": "place_obj_on_counter()"
+          },
+          {
+            "timestamp": 43,
+            "action": "pickup(egg, ingredient_dispenser)"
+          },
+          {
+            "timestamp": 45,
+            "action": "place_obj_on_counter()"
+          }
+        ]
+      ]
+    }
+  ],
+  "task_completion_observed": false,
+  "shared_executor_validated": false,
+  "acceptance_note": "Task completion is necessary but not sufficient: LLMPair couples planning and coordination; a reusable shared executor requires separate interface validation."
+}

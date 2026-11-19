@@ -1,0 +1,538 @@
+[
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"collect\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\"job\": \"collect\"}",
+      "usage": {
+        "prompt_tokens": 204,
+        "completion_tokens": 7
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 204,
+    "output_tokens": 7
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"collect\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 209,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 209,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"collect\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_1",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\"job\":\"wait\"}",
+      "usage": {
+        "prompt_tokens": 214,
+        "completion_tokens": 6
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 214,
+    "output_tokens": 6
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}}, \"observation\": {\"version\": 0, \"completed\": [], \"running\": [], \"time\": 0}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"reference\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"collect\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_1",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_2",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\"job\":\"reference\"}",
+      "usage": {
+        "prompt_tokens": 219,
+        "completion_tokens": 6
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 219,
+    "output_tokens": 6
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 1, \"completed\": [\"collect\"], \"running\": [\"reference\"], \"time\": 4}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 227,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 1, \"completed\": [\"collect\"], \"running\": [\"reference\"], \"time\": 4}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"analyse\", \"verify\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\"job\":\"analyse\"}",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 7
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 236,
+    "output_tokens": 7
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 1, \"completed\": [\"collect\"], \"running\": [\"reference\"], \"time\": 4}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"analyse\"}",
+        "source": "owner_1",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 238,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 1, \"completed\": [\"collect\"], \"running\": [\"reference\"], \"time\": 4}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"analyse\"}",
+        "source": "owner_1",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_2",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 243,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 2, \"completed\": [\"analyse\", \"collect\"], \"running\": [\"reference\"], \"time\": 8}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 231,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 2, \"completed\": [\"analyse\", \"collect\"], \"running\": [\"reference\"], \"time\": 8}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"verify\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"verify\"\n}",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 236,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 2, \"completed\": [\"analyse\", \"collect\"], \"running\": [\"reference\"], \"time\": 8}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"verify\"}",
+        "source": "owner_1",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 241,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 2, \"completed\": [\"analyse\", \"collect\"], \"running\": [\"reference\"], \"time\": 8}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"verify\"}",
+        "source": "owner_1",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_2",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 246,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 3, \"completed\": [\"analyse\", \"collect\", \"reference\", \"verify\"], \"running\": [], \"time\": 12}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 236,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 3, \"completed\": [\"analyse\", \"collect\", \"reference\", \"verify\"], \"running\": [], \"time\": 12}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 241,
+    "output_tokens": 10
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 3, \"completed\": [\"analyse\", \"collect\", \"reference\", \"verify\"], \"running\": [], \"time\": 12}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"publish\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_1",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\"job\":\"publish\"}",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 6
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 246,
+    "output_tokens": 6
+  },
+  {
+    "request": [
+      {
+        "content": "Decide only your own work. Return the required JSON. {\"task\": \"Choose your own work whose dependencies are completed; otherwise wait. Prefer work to waiting. A promise is not completion. Never choose work for others.\", \"jobs\": {\"collect\": {\"owner\": \"0\", \"requires\": []}, \"analyse\": {\"owner\": \"1\", \"requires\": [\"collect\"]}, \"publish\": {\"owner\": \"2\", \"requires\": [\"analyse\", \"verify\"]}, \"reference\": {\"owner\": \"3\", \"requires\": []}, \"verify\": {\"owner\": \"1\", \"requires\": [\"collect\"]}}, \"observation\": {\"version\": 3, \"completed\": [\"analyse\", \"collect\", \"reference\", \"verify\"], \"running\": [], \"time\": 12}, \"validation_errors\": [], \"output_schema\": {\"type\": \"object\", \"properties\": {\"job\": {\"type\": \"string\", \"enum\": [\"wait\"]}}, \"required\": [\"job\"]}}",
+        "type": "SystemMessage"
+      },
+      {
+        "content": "Coordinate next work using the supplied completed-state snapshot. Do not assume requests are completed.",
+        "source": "user",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_0",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"wait\"}",
+        "source": "owner_1",
+        "type": "UserMessage"
+      },
+      {
+        "content": "{\"job\":\"publish\"}",
+        "source": "owner_2",
+        "type": "UserMessage"
+      }
+    ],
+    "response": {
+      "finish_reason": "stop",
+      "content": "{\n  \"job\": \"wait\"\n}",
+      "usage": {
+        "prompt_tokens": 251,
+        "completion_tokens": 10
+      },
+      "cached": false,
+      "logprobs": null,
+      "thought": null
+    },
+    "input_tokens": 251,
+    "output_tokens": 10
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_0.pkl",
+    "steps": 300,
+    "backend": "rule",
+    "max_llm_calls": 6,
+    "groups": "destination"
+  },
+  "agents": 7,
+  "arrived": 7,
+  "arrival_steps": {
+    "5": 89,
+    "4": 117,
+    "0": 142,
+    "2": 159,
+    "6": 166,
+    "3": 172,
+    "1": 191
+  },
+  "steps": 191,
+  "reward": 0.0,
+  "messages": 1635,
+  "communication_phases": 405,
+  "installs": 161,
+  "revocations": 1,
+  "wall_seconds": 3.8476901999674737,
+  "scenario_sha256": "04bcc81c21c9697f9f41cf1bfb919a7e84a6805722e5f81c6a8a86e775d5ca76",
+  "backend": "rule",
+  "groups": {
+    "0": [
+      "0"
+    ],
+    "1": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "2": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "3": [
+      "3",
+      "5"
+    ],
+    "4": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "5": [
+      "3",
+      "5"
+    ],
+    "6": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ]
+  },
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "scope": "destination delivery groups with publicly declared route resource dependencies",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

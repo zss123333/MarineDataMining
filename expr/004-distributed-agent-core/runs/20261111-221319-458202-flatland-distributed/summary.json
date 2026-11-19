@@ -1,0 +1,113 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_0.pkl",
+    "dataset_version": "v3-holdout",
+    "method": "menus",
+    "steps": 1000,
+    "backend": "ollama",
+    "max_llm_calls": 6,
+    "groups": "resource"
+  },
+  "agents": 7,
+  "arrived": 7,
+  "implementation": "resource-scoped-response-v2",
+  "official_baseline_commit": null,
+  "capped_completion_steps": 800,
+  "unfinished_penalty": 157,
+  "message_bytes": 12275064,
+  "arrival_steps": {
+    "6": 105,
+    "4": 109,
+    "0": 111,
+    "3": 115,
+    "2": 116,
+    "5": 119,
+    "1": 125
+  },
+  "steps": 125,
+  "reward": 0.0,
+  "messages": 2373,
+  "communication_phases": 333,
+  "installs": 231,
+  "revocations": 57,
+  "repair_cost": 18.0,
+  "repair_installs": 18,
+  "committed_alternative_combinations": 8,
+  "combinations_checked": 5950,
+  "alternative_combinations_found": 74,
+  "wall_seconds": 25.01152480021119,
+  "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+  "backend": "ollama",
+  "groups": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "3": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "5": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "6": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 6,
+  "budget_rule_fallbacks": 2669,
+  "input_tokens": 2486,
+  "output_tokens": 42,
+  "scope": "resource",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

@@ -1,0 +1,7 @@
+{
+  "scenario": "coding",
+  "num_tasks": 1,
+  "num_completed": 0,
+  "num_failed": 1,
+  "model": "ollama_chat/qwen2.5:7b"
+}

@@ -1,0 +1,26 @@
+\contentsline {chapter}{\numberline {1\hspace {.3em}}摘要}{3}{chapter.0.1}%
+\contentsline {chapter}{\numberline {2\hspace {.3em}}课程切入点与问题}{4}{chapter.0.2}%
+\contentsline {chapter}{\numberline {3\hspace {.3em}}相关思想与原创设计边界}{5}{chapter.0.3}%
+\contentsline {chapter}{\numberline {4\hspace {.3em}}方法详细拆解}{6}{chapter.0.4}%
+\contentsline {section}{\numberline {4.1}状态、对象与角色}{6}{section.0.4.1}%
+\contentsline {section}{\numberline {4.2}六模块及004历史实现}{6}{section.0.4.2}%
+\contentsline {section}{\numberline {4.3}响应组合与近期执行}{6}{section.0.4.3}%
+\contentsline {section}{\numberline {4.4}可插拔实现}{7}{section.0.4.4}%
+\contentsline {section}{\numberline {4.5}最新方案与本次实现逐项对齐}{7}{section.0.4.5}%
+\contentsline {chapter}{\numberline {5\hspace {.3em}}实验设置与公平性}{9}{chapter.0.5}%
+\contentsline {chapter}{\numberline {6\hspace {.3em}}分层实验结果}{11}{chapter.0.6}%
+\contentsline {section}{\numberline {6.1}早期12局开发对照：用于形成设计，不作最终泛化结论}{11}{section.0.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}早期开发对照的成本}{11}{subsection.0.6.1.1}%
+\contentsline {section}{\numberline {6.2}扩展40局开发对照}{11}{section.0.6.2}%
+\contentsline {section}{\numberline {6.3}20局新种子保留对照：主要评价依据}{12}{section.0.6.3}%
+\contentsline {section}{\numberline {6.4}Qwen2.5-1.5B混合验证：不能证明模型增益}{13}{section.0.6.4}%
+\contentsline {section}{\numberline {6.5}最终验证：保留有效安排、按需协调的降本价值}{13}{section.0.6.5}%
+\contentsline {chapter}{\numberline {7\hspace {.3em}}一次实际发生的协商}{16}{chapter.0.7}%
+\contentsline {chapter}{\numberline {8\hspace {.3em}}补充探索与失败}{17}{chapter.0.8}%
+\contentsline {section}{\numberline {8.1}历史Qwen接口试跑}{17}{section.0.8.1}%
+\contentsline {section}{\numberline {8.2}分组失败}{17}{section.0.8.2}%
+\contentsline {section}{\numberline {8.3}官方工程参照}{17}{section.0.8.3}%
+\contentsline {chapter}{\numberline {9\hspace {.3em}}学生提出的设计选择及反思}{18}{chapter.0.9}%
+\contentsline {chapter}{\numberline {10\hspace {.3em}}结论与后续}{19}{chapter.0.10}%
+\contentsline {chapter}{\numberline {11\hspace {.3em}}复现与证据索引}{20}{chapter.0.11}%
+\contentsline {chapter}{\numberline {12\hspace {.3em}}参考资料与AI使用说明}{22}{chapter.0.12}%

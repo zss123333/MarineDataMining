@@ -1,0 +1,70 @@
+{
+  "status": "development; reused previously observed seeded configurations, not unseen holdout",
+  "source": "../flatland-core/v3-holdout/manifest.json",
+  "cases": [
+    {
+      "scenario": "Test_00_Level_0.pkl",
+      "tier": "none",
+      "events": "level0-none-events.json",
+      "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+      "events_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "scenario": "Test_00_Level_0.pkl",
+      "tier": "low",
+      "events": "level0-low-events.json",
+      "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+      "events_sha256": "f7cef0b851c4727102a1ea6b7518eeab7e983d62f52b6799ee78fbe3e4f6fdb6"
+    },
+    {
+      "scenario": "Test_00_Level_0.pkl",
+      "tier": "high",
+      "events": "level0-high-events.json",
+      "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+      "events_sha256": "0853b7e91c4cfc3a1c8115db4f38f089f528bccb1bfe58105216c9b3402f6492"
+    },
+    {
+      "scenario": "Test_00_Level_1.pkl",
+      "tier": "none",
+      "events": "level1-none-events.json",
+      "scenario_sha256": "e8eb14df7ab7cf39775b88ce0c3c24fe201931069aad56980b83ae308dffe5a4",
+      "events_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "scenario": "Test_00_Level_1.pkl",
+      "tier": "low",
+      "events": "level1-low-events.json",
+      "scenario_sha256": "e8eb14df7ab7cf39775b88ce0c3c24fe201931069aad56980b83ae308dffe5a4",
+      "events_sha256": "2e74e7e14cfcc63b61bc31e6bc1d8400f7a63493b359322e4cf500a33161a403"
+    },
+    {
+      "scenario": "Test_00_Level_1.pkl",
+      "tier": "high",
+      "events": "level1-high-events.json",
+      "scenario_sha256": "e8eb14df7ab7cf39775b88ce0c3c24fe201931069aad56980b83ae308dffe5a4",
+      "events_sha256": "dbb3653a9aae30b0cf23d138a30380edbcd6f7536b3cab60318ba4b2c8ebd26d"
+    },
+    {
+      "scenario": "Test_00_Level_2.pkl",
+      "tier": "none",
+      "events": "level2-none-events.json",
+      "scenario_sha256": "27a977740426e22b66cc13987bcf76e6462b0482ddd9c51c0a5458732a8b861c",
+      "events_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "scenario": "Test_00_Level_2.pkl",
+      "tier": "low",
+      "events": "level2-low-events.json",
+      "scenario_sha256": "27a977740426e22b66cc13987bcf76e6462b0482ddd9c51c0a5458732a8b861c",
+      "events_sha256": "fb5586c510a8aeedd55fbf9fd4d6b3b60d977b03d6ed7f6941b7eca3606f55ea"
+    },
+    {
+      "scenario": "Test_00_Level_2.pkl",
+      "tier": "high",
+      "events": "level2-high-events.json",
+      "scenario_sha256": "27a977740426e22b66cc13987bcf76e6462b0482ddd9c51c0a5458732a8b861c",
+      "events_sha256": "8cf7ec50087e72b0700539b061ab1d7d1890df0908b750a379f3cd3416db178f"
+    }
+  ],
+  "disturbance": "fixed clock-indexed action-STOP commands; native malfunctions disabled"
+}

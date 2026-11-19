@@ -1,0 +1,79 @@
+[
+  {
+    "identity": "worker",
+    "stage": "next_action",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are one distributed agent, not a central planner. Decide only your own local change or response. Respect the supplied hard constraints. Return JSON only, using the required schema."
+        },
+        {
+          "role": "user",
+          "content": "{\"identity\": \"worker\", \"stage\": \"next_action\", \"task\": \"Prepare and publish a report. Tool operation details are encapsulated.\", \"instruction\": \"Use a ReAct-style observation-action loop. Choose the next tool action using the task and interaction history. Give a brief decision summary, not detailed internal reasoning. You may plan as needed. Explicitly propose the next 2-3 tool actions in future_plan. Check prerequisites and irreversible effects across the plan. Execute only action (the first planned action), then replan from real feedback.\", \"observation\": {\"raw_material_available\": true, \"reviewed\": false, \"done\": false, \"required_review\": false, \"time\": 0}, \"history\": [], \"tools\": {\"inspect\": \"Checks original material without consuming it; requires raw material.\", \"draft\": \"Creates report draft and irreversibly consumes original material.\", \"publish\": \"Requires a draft and review when required_review=true.\", \"wait\": \"No progress.\"}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"action\": {\"type\": \"string\", \"enum\": [\"inspect\", \"draft\", \"publish\", \"wait\"]}, \"decision_summary\": {\"type\": \"string\"}, \"future_plan\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"enum\": [\"inspect\", \"draft\", \"publish\", \"wait\"]}, \"minItems\": 1, \"maxItems\": 3}}, \"required\": [\"action\", \"decision_summary\", \"future_plan\"]}}"
+        }
+      ],
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "inspect",
+              "draft",
+              "publish",
+              "wait"
+            ]
+          },
+          "decision_summary": {
+            "type": "string"
+          },
+          "future_plan": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "inspect",
+                "draft",
+                "publish",
+                "wait"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 3
+          }
+        },
+        "required": [
+          "action",
+          "decision_summary",
+          "future_plan"
+        ]
+      },
+      "options": {
+        "temperature": 0,
+        "num_predict": 32768,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-19T02:21:32.2573826Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"action\": \"inspect\",\n  \"decision_summary\": \"Check the raw material availability and ensure it is ready for the next action.\",\n  \"future_plan\": [\"draft\", \"publish\"]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2754321400,
+      "load_duration": 20324800,
+      "prompt_eval_count": 364,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 1297749000,
+      "eval_count": 42,
+      "eval_duration": 1411464000
+    },
+    "seconds": 4.817429999995511
+  }
+]

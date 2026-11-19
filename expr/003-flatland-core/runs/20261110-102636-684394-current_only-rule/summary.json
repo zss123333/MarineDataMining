@@ -1,0 +1,39 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_2.pkl",
+    "dataset_version": "v2-audit",
+    "method": "current_only",
+    "backend": "rule",
+    "steps": 1000,
+    "max_llm_calls": 20
+  },
+  "implementation": "dependency-contract-v2",
+  "flatland": "4.2.6",
+  "scenario_sha256": "cbdfbb7340422858a941864d8be341829228adc90b3b8482d14f9a37ee54626c",
+  "agents": 7,
+  "arrived": 7,
+  "arrival_steps": {
+    "4": 91,
+    "2": 116,
+    "3": 121,
+    "0": 122,
+    "5": 129,
+    "6": 155,
+    "1": 159
+  },
+  "steps": 159,
+  "reward": -28.0,
+  "decisions": 51,
+  "messages": 222,
+  "wall_seconds": 0.09545239992439747,
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "rejected_candidates": 33,
+  "local_repairs": 0,
+  "native_fault_revocations": 2,
+  "monitor_revocations": 19,
+  "future_registrations": 0,
+  "dependency_candidate_checks": 0,
+  "dependency_unique_blocks": 0,
+  "interpretation": "paired evaluation needed; no safety or superiority guarantee"
+}

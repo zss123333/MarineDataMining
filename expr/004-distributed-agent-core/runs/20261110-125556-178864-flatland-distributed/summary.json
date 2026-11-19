@@ -1,0 +1,71 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_2.pkl",
+    "steps": 300,
+    "backend": "rule",
+    "max_llm_calls": 6,
+    "groups": "destination"
+  },
+  "agents": 7,
+  "arrived": 1,
+  "arrival_steps": {
+    "3": 112
+  },
+  "steps": 179,
+  "reward": -379.0,
+  "messages": 4850,
+  "communication_phases": 739,
+  "installs": 56,
+  "revocations": 2,
+  "wall_seconds": 4.14910770021379,
+  "scenario_sha256": "cbdfbb7340422858a941864d8be341829228adc90b3b8482d14f9a37ee54626c",
+  "backend": "rule",
+  "groups": {
+    "0": [
+      "0",
+      "2",
+      "4"
+    ],
+    "1": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "2",
+      "4"
+    ],
+    "3": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "2",
+      "4"
+    ],
+    "5": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ],
+    "6": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "scope": "destination delivery groups with publicly declared route resource dependencies",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

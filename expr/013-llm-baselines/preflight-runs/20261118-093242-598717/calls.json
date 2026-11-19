@@ -1,0 +1,2250 @@
+[
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"starts\": [\"integer\", \"integer\"]}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:32:49.9583724Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [0, 2]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5260388100,
+      "load_duration": 3287896000,
+      "prompt_eval_count": 300,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1328855000,
+      "eval_count": 16,
+      "eval_duration": 624824000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep0\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish0\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep1\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish1\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep2\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish2\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:32:55.0045714Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [2, 0],\n    \"1\": [2, 0],\n    \"2\": [2, 0]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2975499000,
+      "load_duration": 61975700,
+      "prompt_eval_count": 371,
+      "prompt_eval_cached_count": 89,
+      "prompt_eval_duration": 1289086000,
+      "eval_count": 41,
+      "eval_duration": 1579097000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep0\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish0\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep1\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish1\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep2\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish2\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [2, 0], \"1\": [2, 0], \"2\": [2, 0]}, \"validation_errors\": [\"0:1: own precedence violation\", \"1:1: own precedence violation\", \"2:1: own precedence violation\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:00.0453701Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [2, 0],\n    \"1\": [2, 0],\n    \"2\": [2, 0]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2992876700,
+      "load_duration": 17372700,
+      "prompt_eval_count": 423,
+      "prompt_eval_cached_count": 246,
+      "prompt_eval_duration": 940844000,
+      "eval_count": 41,
+      "eval_duration": 2008071000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:05.1590818Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3049804400,
+      "load_duration": 25988700,
+      "prompt_eval_count": 365,
+      "prompt_eval_cached_count": 105,
+      "prompt_eval_duration": 1207509000,
+      "eval_count": 41,
+      "eval_duration": 1775002000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [1, 2], \"1\": [1, 2], \"2\": [1, 2]}, \"validation_errors\": [\"0:1: own precedence violation\", \"1:1: own precedence violation\", \"2:1: own precedence violation\", \"overlap 0:0 and 1:0\", \"overlap 0:0 and 2:0\", \"overlap 0:1 and 1:1\", \"overlap 0:1 and 2:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:10.0400941Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2846341200,
+      "load_duration": 36597200,
+      "prompt_eval_count": 489,
+      "prompt_eval_cached_count": 240,
+      "prompt_eval_duration": 1199765000,
+      "eval_count": 41,
+      "eval_duration": 1585135000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:14.8038028Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2729606100,
+      "load_duration": 72473100,
+      "prompt_eval_count": 385,
+      "prompt_eval_cached_count": 218,
+      "prompt_eval_duration": 1029515000,
+      "eval_count": 41,
+      "eval_duration": 1562974000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [1, 2], \"1\": [1, 2], \"2\": [1, 2]}, \"validation_errors\": [\"0:1: own precedence violation\", \"1:1: own precedence violation\", \"2:1: own precedence violation\", \"overlap 0:0 and 1:0\", \"overlap 0:0 and 2:0\", \"overlap 0:1 and 1:1\", \"overlap 0:1 and 2:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\", \"dependency 0:0 -> 1:1\", \"dependency 1:0 -> 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:19.8277953Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2974373000,
+      "load_duration": 8251000,
+      "prompt_eval_count": 533,
+      "prompt_eval_cached_count": 260,
+      "prompt_eval_duration": 1402247000,
+      "eval_count": 41,
+      "eval_duration": 1552796000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:24.386804Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2507189100,
+      "load_duration": 80055900,
+      "prompt_eval_count": 390,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 822786000,
+      "eval_count": 41,
+      "eval_duration": 1568271000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 0}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {\"0\": [1, 2], \"1\": [1, 2], \"2\": [1, 2]}, \"validation_errors\": [\"0:1: own precedence violation\", \"0:1: resource closed [3,9)\", \"1:1: own precedence violation\", \"1:1: resource closed [3,9)\", \"2:1: own precedence violation\", \"2:1: resource closed [3,9)\", \"overlap 0:0 and 1:0\", \"overlap 0:0 and 2:0\", \"overlap 0:1 and 1:1\", \"overlap 0:1 and 2:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\", \"dependency 0:0 -> 1:1\", \"dependency 1:0 -> 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:29.4883956Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3024478300,
+      "load_duration": 104351500,
+      "prompt_eval_count": 574,
+      "prompt_eval_cached_count": 265,
+      "prompt_eval_duration": 1338639000,
+      "eval_count": 41,
+      "eval_duration": 1439303000
+    }
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"starts\": [\"integer\", \"integer\"]}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:33.4065945Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [1, 3]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1835367000,
+      "load_duration": 171023300,
+      "prompt_eval_count": 300,
+      "prompt_eval_cached_count": 110,
+      "prompt_eval_duration": 904803000,
+      "eval_count": 16,
+      "eval_duration": 649151000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep0\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish0\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep1\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish1\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep2\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish2\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:38.5528829Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 1],\n    \"1\": [1, 1],\n    \"2\": [1, 1]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3083126300,
+      "load_duration": 26137000,
+      "prompt_eval_count": 371,
+      "prompt_eval_cached_count": 89,
+      "prompt_eval_duration": 1338037000,
+      "eval_count": 41,
+      "eval_duration": 1678382000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep0\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish0\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep1\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish1\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep2\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish2\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [1, 1], \"1\": [1, 1], \"2\": [1, 1]}, \"validation_errors\": [\"0:1: own precedence violation\", \"1:1: own precedence violation\", \"2:1: own precedence violation\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:43.3014198Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 1],\n    \"1\": [1, 1],\n    \"2\": [1, 1]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2694863700,
+      "load_duration": 72081100,
+      "prompt_eval_count": 423,
+      "prompt_eval_cached_count": 246,
+      "prompt_eval_duration": 867364000,
+      "eval_count": 41,
+      "eval_duration": 1703498000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:48.1514881Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 1],\n    \"1\": [1, 1],\n    \"2\": [1, 1]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2756214500,
+      "load_duration": 84995700,
+      "prompt_eval_count": 365,
+      "prompt_eval_cached_count": 105,
+      "prompt_eval_duration": 1165438000,
+      "eval_count": 41,
+      "eval_duration": 1440565000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [1, 1], \"1\": [1, 1], \"2\": [1, 1]}, \"validation_errors\": [\"0:1: own precedence violation\", \"1:1: own precedence violation\", \"2:1: own precedence violation\", \"overlap 0:0 and 1:0\", \"overlap 0:0 and 2:0\", \"overlap 0:1 and 1:1\", \"overlap 0:1 and 2:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:53.56815Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 1],\n    \"1\": [1, 1],\n    \"2\": [1, 1]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3269122200,
+      "load_duration": 173452300,
+      "prompt_eval_count": 489,
+      "prompt_eval_cached_count": 240,
+      "prompt_eval_duration": 1347080000,
+      "eval_count": 41,
+      "eval_duration": 1609366000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:33:58.1096323Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2464139700,
+      "load_duration": 57110600,
+      "prompt_eval_count": 385,
+      "prompt_eval_cached_count": 218,
+      "prompt_eval_duration": 762299000,
+      "eval_count": 41,
+      "eval_duration": 1561136000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [1, 2], \"1\": [1, 2], \"2\": [1, 2]}, \"validation_errors\": [\"overlap 0:0 and 1:0\", \"overlap 0:0 and 2:0\", \"overlap 0:1 and 1:1\", \"overlap 0:1 and 2:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:03.1533607Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2951595500,
+      "load_duration": 75712000,
+      "prompt_eval_count": 482,
+      "prompt_eval_cached_count": 260,
+      "prompt_eval_duration": 1094940000,
+      "eval_count": 41,
+      "eval_duration": 1726317000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:07.675251Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 1],\n    \"1\": [1, 1],\n    \"2\": [1, 1]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2436390800,
+      "load_duration": 101221900,
+      "prompt_eval_count": 390,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 678613000,
+      "eval_count": 41,
+      "eval_duration": 1601239000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 1, \"release\": 1}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {\"0\": [1, 1], \"1\": [1, 1], \"2\": [1, 1]}, \"validation_errors\": [\"0:1: own precedence violation\", \"1:1: own precedence violation\", \"2:1: own precedence violation\", \"overlap 0:0 and 1:0\", \"overlap 0:0 and 2:0\", \"overlap 0:1 and 1:1\", \"overlap 0:1 and 2:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\", \"dependency 0:0 -> 1:1\", \"dependency 1:0 -> 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:12.8162742Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 1],\n    \"1\": [1, 1],\n    \"2\": [1, 1]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3047714400,
+      "load_duration": 104033700,
+      "prompt_eval_count": 538,
+      "prompt_eval_cached_count": 265,
+      "prompt_eval_duration": 1235207000,
+      "eval_count": 41,
+      "eval_duration": 1644000000
+    }
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"starts\": [\"integer\", \"integer\"]}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:16.6059171Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [2, 0]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1720906400,
+      "load_duration": 59903600,
+      "prompt_eval_count": 300,
+      "prompt_eval_cached_count": 110,
+      "prompt_eval_duration": 889245000,
+      "eval_count": 16,
+      "eval_duration": 694783000
+    }
+  },
+  {
+    "identity": "0",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "properties": {
+          "starts": {
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "title": "Starts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "starts"
+        ],
+        "title": "LocalSchedule",
+        "type": "object"
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"0\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [2, 0]}, \"validation_errors\": [\"0:1: own precedence violation\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"starts\": [\"integer\", \"integer\"]}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:20.324861Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"starts\": [2, 0]\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1661631400,
+      "load_duration": 24094500,
+      "prompt_eval_count": 316,
+      "prompt_eval_cached_count": 162,
+      "prompt_eval_duration": 770356000,
+      "eval_count": 16,
+      "eval_duration": 831190000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep0\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish0\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep1\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish1\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep2\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish2\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:26.2502699Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [2, 0],\n    \"1\": [2, 0],\n    \"2\": [2, 0]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3881005900,
+      "load_duration": 16408100,
+      "prompt_eval_count": 371,
+      "prompt_eval_cached_count": 89,
+      "prompt_eval_duration": 1539701000,
+      "eval_count": 41,
+      "eval_duration": 2303711000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep0\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish0\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep1\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish1\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep2\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish2\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [2, 0], \"1\": [2, 0], \"2\": [2, 0]}, \"validation_errors\": [\"0:1: own precedence violation\", \"1:1: own precedence violation\", \"2:1: own precedence violation\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:31.2381579Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [2, 0],\n    \"1\": [2, 0],\n    \"2\": [2, 0]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2936732600,
+      "load_duration": 24113600,
+      "prompt_eval_count": 423,
+      "prompt_eval_cached_count": 246,
+      "prompt_eval_duration": 997155000,
+      "eval_count": 41,
+      "eval_duration": 1896935000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:36.94598Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3662756100,
+      "load_duration": 24173200,
+      "prompt_eval_count": 365,
+      "prompt_eval_cached_count": 105,
+      "prompt_eval_duration": 1493286000,
+      "eval_count": 41,
+      "eval_duration": 2116188999
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [1, 2], \"1\": [1, 2], \"2\": [1, 2]}, \"validation_errors\": [\"0:0: release or horizon violation\", \"0:1: own precedence violation\", \"1:0: release or horizon violation\", \"1:1: own precedence violation\", \"2:0: release or horizon violation\", \"2:1: own precedence violation\", \"overlap 0:0 and 1:0\", \"overlap 0:0 and 2:0\", \"overlap 0:1 and 1:1\", \"overlap 0:1 and 2:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:42.7247372Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [1, 2],\n    \"2\": [1, 2]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3727119200,
+      "load_duration": 46489200,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 240,
+      "prompt_eval_duration": 1747873000,
+      "eval_count": 41,
+      "eval_duration": 1902730000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:47.694797Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [2, 3],\n    \"2\": [3, 4]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2926446800,
+      "load_duration": 15772600,
+      "prompt_eval_count": 385,
+      "prompt_eval_cached_count": 218,
+      "prompt_eval_duration": 1125985000,
+      "eval_count": 41,
+      "eval_duration": 1766624000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": []}}, \"public_board\": {\"0\": [1, 2], \"1\": [2, 3], \"2\": [3, 4]}, \"validation_errors\": [\"0:0: release or horizon violation\", \"0:1: own precedence violation\", \"1:1: own precedence violation\", \"2:1: own precedence violation\", \"overlap 0:0 and 1:0\", \"overlap 0:1 and 1:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:52.8282601Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 2],\n    \"1\": [2, 3],\n    \"2\": [3, 4]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3090114300,
+      "load_duration": 15174600,
+      "prompt_eval_count": 495,
+      "prompt_eval_cached_count": 260,
+      "prompt_eval_duration": 1185743000,
+      "eval_count": 41,
+      "eval_duration": 1877218000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {}, \"validation_errors\": [], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 0}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:34:57.6022598Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 3],\n    \"1\": [2, 4],\n    \"2\": [3, 5]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2730754500,
+      "load_duration": 19979500,
+      "prompt_eval_count": 390,
+      "prompt_eval_cached_count": 254,
+      "prompt_eval_duration": 901711000,
+      "eval_count": 40,
+      "eval_duration": 1779383000
+    }
+  },
+  {
+    "identity": "central",
+    "stage": "respond",
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "format": {
+        "type": "object",
+        "properties": {
+          "plans": {
+            "type": "object",
+            "properties": {
+              "0": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "1": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "2": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "0",
+              "1",
+              "2"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plans"
+        ],
+        "additionalProperties": false
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "Follow the scheduling task. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"task\": \"Schedule operations on capacity-one resources. Minimize sum of final completion times. Respect durations, releases, own ordering, dependencies and closures. Intervals are half-open. Do not overlap operations on the same resource. Lower numeric owner has priority in conflict repair. Choose times yourself; no solver supplies candidates. Return JSON only.\", \"owner\": \"central\", \"problem\": {\"jobs\": {\"0\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"1\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}], \"2\": [{\"resource\": \"prep\", \"duration\": 2, \"release\": 2}, {\"resource\": \"finish\", \"duration\": 2, \"release\": 0}]}, \"dependencies\": [[\"0:0\", \"1:1\"], [\"1:0\", \"2:1\"]], \"horizon\": 24, \"closures\": {\"finish\": [[3, 9]]}}, \"public_board\": {\"0\": [1, 3], \"1\": [2, 4], \"2\": [3, 5]}, \"validation_errors\": [\"0:0: release or horizon violation\", \"0:1: resource closed [3,9)\", \"1:1: resource closed [3,9)\", \"2:1: resource closed [3,9)\", \"overlap 0:0 and 1:0\", \"overlap 0:1 and 1:1\", \"overlap 1:0 and 2:0\", \"overlap 1:1 and 2:1\"], \"operation_indexing\": \"owner:index identifies one operation. starts[0] is the prep START TIME; starts[1] is the finish START TIME, not duration or end time. Exactly two starts per owner.\", \"own_operations\": null, \"repair_instruction\": \"Change the previous invalid values to fix the listed violations. Do not repeat the same invalid schedule.\", \"schema\": {\"plans\": {\"0\": [\"integer\", \"integer\"], \"1\": [\"integer\", \"integer\"], \"2\": [\"integer\", \"integer\"]}}, \"attempt\": 1}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 32768
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-18T01:35:02.7114682Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"plans\": {\n    \"0\": [1, 3],\n    \"1\": [2, 4],\n    \"2\": [3, 5]\n  }\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3028822200,
+      "load_duration": 20022400,
+      "prompt_eval_count": 509,
+      "prompt_eval_cached_count": 265,
+      "prompt_eval_duration": 1304692000,
+      "eval_count": 41,
+      "eval_duration": 1685428000
+    }
+  }
+]

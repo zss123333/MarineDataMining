@@ -1,0 +1,9 @@
+{
+  "purpose": "development_smoke_only",
+  "layout": "cramped_room",
+  "seeds": [
+    0,
+    1,
+    2
+  ]
+}

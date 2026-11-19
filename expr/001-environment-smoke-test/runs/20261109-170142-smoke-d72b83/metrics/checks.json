@@ -1,0 +1,5 @@
+{
+  "idle_zero_reward": true,
+  "script_delivers": true,
+  "replay_exact": true
+}

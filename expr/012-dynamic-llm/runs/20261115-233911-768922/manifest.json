@@ -1,0 +1,14 @@
+{
+  "seeds": [
+    1046,
+    1047,
+    1048
+  ],
+  "relevant_agents": 3,
+  "outsiders": 1,
+  "event": "resource closure before execution shifts legal slots by 12",
+  "methods": [
+    "scoped",
+    "whole_group"
+  ]
+}

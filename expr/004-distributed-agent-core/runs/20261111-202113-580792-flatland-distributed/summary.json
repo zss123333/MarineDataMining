@@ -1,0 +1,113 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_7.pkl",
+    "dataset_version": "v2-audit",
+    "method": "menus_no_repair",
+    "steps": 1000,
+    "backend": "rule",
+    "max_llm_calls": 6,
+    "groups": "all"
+  },
+  "agents": 7,
+  "arrived": 7,
+  "implementation": "response-menu-alignment-v1",
+  "official_baseline_commit": null,
+  "capped_completion_steps": 988,
+  "unfinished_penalty": 216,
+  "message_bytes": 9593061,
+  "arrival_steps": {
+    "5": 84,
+    "6": 91,
+    "3": 145,
+    "1": 150,
+    "2": 167,
+    "4": 171,
+    "0": 180
+  },
+  "steps": 180,
+  "reward": -109.0,
+  "messages": 1330,
+  "communication_phases": 318,
+  "installs": 154,
+  "revocations": 5,
+  "repair_cost": 15.0,
+  "repair_installs": 15,
+  "committed_alternative_combinations": 12,
+  "combinations_checked": 15930,
+  "alternative_combinations_found": 95,
+  "wall_seconds": 21.182605999987572,
+  "scenario_sha256": "4f207d2ccc2e65447cae951a7d18790013795451e49305fb147ae53468f38305",
+  "backend": "rule",
+  "groups": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "3": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "5": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "6": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "scope": "single traffic group",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

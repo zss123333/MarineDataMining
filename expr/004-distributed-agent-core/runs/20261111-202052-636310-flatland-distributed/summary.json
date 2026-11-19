@@ -1,0 +1,113 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_7.pkl",
+    "dataset_version": "v2-audit",
+    "method": "single",
+    "steps": 1000,
+    "backend": "rule",
+    "max_llm_calls": 6,
+    "groups": "all"
+  },
+  "agents": 7,
+  "arrived": 7,
+  "implementation": "response-menu-alignment-v1",
+  "official_baseline_commit": null,
+  "capped_completion_steps": 884,
+  "unfinished_penalty": 216,
+  "message_bytes": 8700102,
+  "arrival_steps": {
+    "0": 77,
+    "6": 98,
+    "1": 105,
+    "5": 106,
+    "2": 163,
+    "3": 167,
+    "4": 168
+  },
+  "steps": 168,
+  "reward": 0.0,
+  "messages": 1477,
+  "communication_phases": 318,
+  "installs": 119,
+  "revocations": 3,
+  "repair_cost": 4.0,
+  "repair_installs": 4,
+  "committed_alternative_combinations": 0,
+  "combinations_checked": 521,
+  "alternative_combinations_found": 0,
+  "wall_seconds": 12.212530800141394,
+  "scenario_sha256": "4f207d2ccc2e65447cae951a7d18790013795451e49305fb147ae53468f38305",
+  "backend": "rule",
+  "groups": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "3": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "5": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "6": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "scope": "single traffic group",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

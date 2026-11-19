@@ -1,0 +1,2669 @@
+[
+  {
+    "method": "local",
+    "configuration": 0,
+    "success": true,
+    "error": null,
+    "makespan": 14,
+    "calls": 12,
+    "input_tokens": 2420,
+    "output_tokens": 115,
+    "protocol_messages": 40,
+    "trajectory": [
+      {
+        "time": 0,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 1,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 2,
+        "dependency_changed": true,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ],
+        "versions": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 3,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 4,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 5,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 6,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 7,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 8,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "verify",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "reference"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 2,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 9,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "verify"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 2,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 10,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 2,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 11,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 2,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 12,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 2,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 13,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ],
+        "versions": {
+          "0": 4,
+          "1": 2,
+          "2": 1,
+          "3": 1
+        }
+      }
+    ],
+    "artifacts": {
+      "collect": {
+        "inputs": []
+      },
+      "analyse": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "reference": {
+        "inputs": []
+      },
+      "verify": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "publish": {
+        "inputs": [
+          "analyse",
+          "verify"
+        ]
+      }
+    },
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0
+          }
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0
+          }
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ],
+      "3": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        }
+      ]
+    }
+  },
+  {
+    "method": "global",
+    "configuration": 0,
+    "success": true,
+    "error": null,
+    "makespan": 14,
+    "calls": 20,
+    "input_tokens": 4360,
+    "output_tokens": 192,
+    "protocol_messages": 80,
+    "trajectory": [
+      {
+        "time": 0,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 1,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 2,
+        "dependency_changed": true,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 3,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 4,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 5,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 6,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 7,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 8,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "verify",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "reference"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 9,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "verify"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 10,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 11,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 12,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 13,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      }
+    ],
+    "artifacts": {
+      "collect": {
+        "inputs": []
+      },
+      "analyse": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "reference": {
+        "inputs": []
+      },
+      "verify": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "publish": {
+        "inputs": [
+          "analyse",
+          "verify"
+        ]
+      }
+    },
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ],
+      "3": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ]
+    }
+  },
+  {
+    "method": "autogen",
+    "configuration": 0,
+    "success": true,
+    "error": null,
+    "makespan": 14,
+    "calls": 16,
+    "input_tokens": 3718,
+    "output_tokens": 138,
+    "protocol_messages": 0,
+    "trajectory": [
+      {
+        "time": 0,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 1,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 2,
+        "dependency_changed": true,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 3,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 4,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 5,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 6,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 7,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 8,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "verify",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "reference"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 9,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "verify"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 10,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 11,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 12,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 13,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      }
+    ],
+    "artifacts": {
+      "collect": {
+        "inputs": []
+      },
+      "analyse": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "reference": {
+        "inputs": []
+      },
+      "verify": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "publish": {
+        "inputs": [
+          "analyse",
+          "verify"
+        ]
+      }
+    },
+    "trace": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  },
+  {
+    "method": "autogen",
+    "configuration": 1,
+    "success": true,
+    "error": null,
+    "makespan": 18,
+    "calls": 20,
+    "input_tokens": 4680,
+    "output_tokens": 174,
+    "protocol_messages": 0,
+    "trajectory": [
+      {
+        "time": 0,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 1,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 2,
+        "dependency_changed": true,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 3,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 4,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 5,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 6,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 7,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 8,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "reference",
+          "analyse"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 9,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 10,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 11,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 12,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "verify",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 13,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 14,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "verify"
+        ],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 15,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 16,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5
+        }
+      },
+      {
+        "time": 17,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ],
+        "versions": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5
+        }
+      }
+    ],
+    "artifacts": {
+      "collect": {
+        "inputs": []
+      },
+      "reference": {
+        "inputs": []
+      },
+      "analyse": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "verify": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "publish": {
+        "inputs": [
+          "analyse",
+          "verify"
+        ]
+      }
+    },
+    "trace": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  },
+  {
+    "method": "global",
+    "configuration": 1,
+    "success": true,
+    "error": null,
+    "makespan": 18,
+    "calls": 25,
+    "input_tokens": 5483,
+    "output_tokens": 245,
+    "protocol_messages": 100,
+    "trajectory": [
+      {
+        "time": 0,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 1,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 2,
+        "dependency_changed": true,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 3,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 4,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 5,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 6,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 7,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2
+        }
+      },
+      {
+        "time": 8,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "reference",
+          "analyse"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 9,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 10,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 11,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3
+        }
+      },
+      {
+        "time": 12,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "verify",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 13,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 14,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "verify"
+        ],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 15,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "time": 16,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5
+        }
+      },
+      {
+        "time": 17,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ],
+        "versions": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5
+        }
+      }
+    ],
+    "artifacts": {
+      "collect": {
+        "inputs": []
+      },
+      "reference": {
+        "inputs": []
+      },
+      "analyse": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "verify": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "publish": {
+        "inputs": [
+          "analyse",
+          "verify"
+        ]
+      }
+    },
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "8:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "16:0:5"
+        },
+        {
+          "proposal": "16:0:5",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "16:0:5",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "16:0:5",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "16:0:5",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "16:0:5"
+        },
+        {
+          "proposal": "16:0:5",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "16:0:5"
+        },
+        {
+          "proposal": "16:0:5",
+          "decision": "commit"
+        }
+      ],
+      "3": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "8:0:3"
+        },
+        {
+          "proposal": "8:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "16:0:5"
+        },
+        {
+          "proposal": "16:0:5",
+          "decision": "commit"
+        }
+      ]
+    }
+  },
+  {
+    "method": "local",
+    "configuration": 1,
+    "success": true,
+    "error": null,
+    "makespan": 18,
+    "calls": 12,
+    "input_tokens": 2424,
+    "output_tokens": 118,
+    "protocol_messages": 40,
+    "trajectory": [
+      {
+        "time": 0,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 1,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 2,
+        "dependency_changed": true,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ],
+        "versions": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 3,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 4,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 5,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 6,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 7,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 8,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "reference",
+          "analyse"
+        ],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 9,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 10,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 11,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 2,
+          "1": 1,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 12,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "verify",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 2,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 13,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 2,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 14,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "verify"
+        ],
+        "versions": {
+          "0": 3,
+          "1": 2,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 15,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [],
+        "versions": {
+          "0": 3,
+          "1": 2,
+          "2": 0,
+          "3": 1
+        }
+      },
+      {
+        "time": 16,
+        "dependency_changed": false,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [],
+        "versions": {
+          "0": 4,
+          "1": 2,
+          "2": 1,
+          "3": 1
+        }
+      },
+      {
+        "time": 17,
+        "dependency_changed": false,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ],
+        "versions": {
+          "0": 4,
+          "1": 2,
+          "2": 1,
+          "3": 1
+        }
+      }
+    ],
+    "artifacts": {
+      "collect": {
+        "inputs": []
+      },
+      "reference": {
+        "inputs": []
+      },
+      "analyse": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "verify": {
+        "inputs": [
+          "collect"
+        ]
+      },
+      "publish": {
+        "inputs": [
+          "analyse",
+          "verify"
+        ]
+      }
+    },
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0
+          }
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "4:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:3"
+        },
+        {
+          "proposal": "12:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0
+          }
+        },
+        {
+          "proposal": "12:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "16:0:4"
+        },
+        {
+          "proposal": "16:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "16:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "16:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "16:0:4",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "4:0:2"
+        },
+        {
+          "proposal": "4:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:3"
+        },
+        {
+          "proposal": "12:0:3",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "16:0:4"
+        },
+        {
+          "proposal": "16:0:4",
+          "decision": "commit"
+        }
+      ],
+      "3": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        }
+      ]
+    }
+  }
+]

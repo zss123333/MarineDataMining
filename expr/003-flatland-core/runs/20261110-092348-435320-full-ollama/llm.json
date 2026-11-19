@@ -1,0 +1,392 @@
+[
+  {
+    "agent": 0,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 0, \"candidates\": [{\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}], \"context\": {\"step\": 0, \"old_version\": null, \"dependent_future_uses\": []}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T01:23:56.9054678Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6427118400,
+      "load_duration": 3389744000,
+      "prompt_eval_count": 526,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 2679816000,
+      "eval_count": 7,
+      "eval_duration": 325147000
+    }
+  },
+  {
+    "agent": 1,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 1, \"candidates\": [{\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 33, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 33, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 33, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 33, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}], \"context\": {\"step\": 0, \"old_version\": null, \"dependent_future_uses\": []}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T01:24:01.8261579Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2870785000,
+      "load_duration": 10489200,
+      "prompt_eval_count": 526,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 2543557000,
+      "eval_count": 7,
+      "eval_duration": 300175000
+    }
+  },
+  {
+    "agent": 2,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 2, \"candidates\": [{\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 21, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 19, \"conflict_steps\": 0, \"broken_future_uses\": []}], \"context\": {\"step\": 0, \"old_version\": null, \"dependent_future_uses\": []}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T01:24:07.1174301Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3249142900,
+      "load_duration": 7128400,
+      "prompt_eval_count": 526,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 2860066000,
+      "eval_count": 7,
+      "eval_duration": 369554000
+    }
+  },
+  {
+    "agent": 3,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 3, \"candidates\": [{\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 37, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 37, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 37, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 37, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 51, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 51, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 51, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 51, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 49, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 49, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 49, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 49, \"conflict_steps\": 0, \"broken_future_uses\": []}], \"context\": {\"step\": 0, \"old_version\": null, \"dependent_future_uses\": []}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T01:24:12.2941875Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3125738500,
+      "load_duration": 9559000,
+      "prompt_eval_count": 526,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 2800779000,
+      "eval_count": 7,
+      "eval_duration": 301731000
+    }
+  },
+  {
+    "agent": 4,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 4, \"candidates\": [{\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 33, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 33, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 33, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 33, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 35, \"conflict_steps\": 0, \"broken_future_uses\": []}], \"context\": {\"step\": 0, \"old_version\": null, \"dependent_future_uses\": []}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T01:24:17.4887189Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3155247800,
+      "load_duration": 10888000,
+      "prompt_eval_count": 526,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 2839349000,
+      "eval_count": 7,
+      "eval_duration": 285956000
+    }
+  },
+  {
+    "agent": 5,
+    "request": {
+      "model": "qwen2.5:1.5b",
+      "stream": false,
+      "keep_alive": "15m",
+      "format": {
+        "type": "object",
+        "properties": {
+          "candidate": {
+            "type": "integer",
+            "enum": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        "required": [
+          "candidate"
+        ]
+      },
+      "messages": [
+        {
+          "role": "system",
+          "content": "You control only your own train. Select a candidate minimizing delay, conflicts and broken future dependencies. An acknowledgement is a decision about your own future plan. Return JSON only."
+        },
+        {
+          "role": "user",
+          "content": "{\"agent\": 5, \"candidates\": [{\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 37, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 37, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 37, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 37, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 51, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 51, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 51, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 51, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 0, \"route_cells\": 49, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 3, \"route_cells\": 49, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 8, \"route_cells\": 49, \"conflict_steps\": 0, \"broken_future_uses\": []}, {\"label\": \"route_wait\", \"wait\": 16, \"route_cells\": 49, \"conflict_steps\": 0, \"broken_future_uses\": []}], \"context\": {\"step\": 0, \"old_version\": null, \"dependent_future_uses\": []}}"
+        }
+      ],
+      "options": {
+        "temperature": 0,
+        "num_ctx": 4096,
+        "num_predict": 24
+      }
+    },
+    "response": {
+      "model": "qwen2.5:1.5b",
+      "created_at": "2026-11-10T01:24:22.8573064Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"candidate\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3315794600,
+      "load_duration": 13752000,
+      "prompt_eval_count": 526,
+      "prompt_eval_cached_count": 46,
+      "prompt_eval_duration": 2876250000,
+      "eval_count": 7,
+      "eval_duration": 409851000
+    }
+  }
+]

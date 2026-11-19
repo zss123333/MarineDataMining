@@ -1,0 +1,58 @@
+{
+  "run_id": "20261109-170142-smoke-d72b83",
+  "status": "completed",
+  "started_utc": "2026-11-09T09:01:42.720846+00:00",
+  "python": "3.13.5",
+  "packages": {
+    "numpy": "2.1.3",
+    "gymnasium": "1.2.3",
+    "overcooked_ai": "2.0.0",
+    "cloudpickle": "3.0.0",
+    "farama-notifications": "0.0.4",
+    "typing_extensions": "4.16.0"
+  },
+  "command": [
+    "最终作业\\expr\\001-environment-smoke-test\\src\\smoke.py"
+  ],
+  "purpose": "environment smoke, not LLM effectiveness",
+  "compatibility_deviation": "Minimal MDP tested on Python 3.13 and NumPy 2; upstream declares Python 3.10 and NumPy <2",
+  "git_commit": "371a2ccf9e7758eac2e50895c9aeecc29f65952f",
+  "git_status": "?? \"\\350\\257\\276\\347\\250\\213/\\346\\265\\267\\346\\264\\213\\346\\225\\260\\346\\215\\256\\346\\214\\226\\346\\216\\230/\\346\\234\\200\\347\\273\\210\\344\\275\\234\\344\\270\\232/expr/001-environment-smoke-test/\"",
+  "upstream_install": {
+    "archive_info": {
+      "hash": "sha256=c5ec83a3b87bf61575e5b1f7a13f76ad3921e889170bcfc57ccda97a64bea818",
+      "hashes": {
+        "sha256": "c5ec83a3b87bf61575e5b1f7a13f76ad3921e889170bcfc57ccda97a64bea818"
+      }
+    },
+    "url": "https://codeload.github.com/HumanCompatibleAI/overcooked_ai/zip/739950a079cdaed5a44fcc662efc40244c205d06"
+  },
+  "dataset_manifest": {
+    "name": "overcooked-smoke",
+    "version": "v1",
+    "upstream_commit": "739950a079cdaed5a44fcc662efc40244c205d06",
+    "created_utc": "2026-11-09T08:53:49.213464+00:00",
+    "files": [
+      {
+        "path": "raw/cramped_room.layout",
+        "bytes": 246,
+        "sha256": "62065612adb08713ca56d69e2d0a6b12873c9cb995ab8e7cbad3aa9d84de55ef",
+        "source": "https://raw.githubusercontent.com/HumanCompatibleAI/overcooked_ai/739950a079cdaed5a44fcc662efc40244c205d06/src/overcooked_ai_py/data/layouts/cramped_room.layout"
+      },
+      {
+        "path": "raw/UPSTREAM_LICENSE",
+        "bytes": 1087,
+        "sha256": "de7aa11b67dfbce77c97fc7e6003930c45473243391915c06f938bb59e8102e3",
+        "source": "https://raw.githubusercontent.com/HumanCompatibleAI/overcooked_ai/739950a079cdaed5a44fcc662efc40244c205d06/LICENSE"
+      },
+      {
+        "path": "splits/smoke.json",
+        "bytes": 107,
+        "sha256": "9cff04c1d420b5e0e59f41e349d14f5283c3613f568473c14203c757a108e55c",
+        "source": "generated fixed development configuration, not a held-out test split"
+      }
+    ]
+  },
+  "finished_utc": "2026-11-09T09:01:43.121248+00:00",
+  "wall_seconds": 0.35812849970534444
+}

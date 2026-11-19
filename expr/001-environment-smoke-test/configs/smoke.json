@@ -1,0 +1,8 @@
+{
+  "dataset": "datasets/overcooked-smoke/v1",
+  "layout": "cramped_room",
+  "horizon": 200,
+  "seeds": [0, 1, 2],
+  "methods": ["idle", "scripted_delivery"],
+  "upstream_commit": "739950a079cdaed5a44fcc662efc40244c205d06"
+}

@@ -1,0 +1,64 @@
+{
+  "run_checks": [
+    {
+      "seed": 1046,
+      "scoped": true,
+      "passed": true
+    },
+    {
+      "seed": 1046,
+      "scoped": false,
+      "passed": true
+    },
+    {
+      "seed": 1047,
+      "scoped": true,
+      "passed": true
+    },
+    {
+      "seed": 1047,
+      "scoped": false,
+      "passed": true
+    },
+    {
+      "seed": 1048,
+      "scoped": true,
+      "passed": true
+    },
+    {
+      "seed": 1048,
+      "scoped": false,
+      "passed": true
+    }
+  ],
+  "paired_execution": [
+    {
+      "seed": 1046,
+      "same_execution": true
+    },
+    {
+      "seed": 1047,
+      "same_execution": false
+    },
+    {
+      "seed": 1048,
+      "same_execution": true
+    }
+  ],
+  "totals": {
+    "True": {
+      "completed": 9,
+      "llm_calls": 72,
+      "input_tokens": 16531,
+      "output_tokens": 606,
+      "messages": 240
+    },
+    "False": {
+      "completed": 9,
+      "llm_calls": 74,
+      "input_tokens": 17897,
+      "output_tokens": 668,
+      "messages": 261
+    }
+  }
+}

@@ -1,0 +1,736 @@
+[
+  {
+    "chain_length": 3,
+    "menus": false,
+    "committed": true,
+    "conflict_free": true,
+    "selected_slots": [
+      0,
+      1,
+      2
+    ],
+    "messages": 33,
+    "coordination_steps": 1,
+    "total_wait_cost": 3,
+    "unrelated_preserved": true,
+    "outsider_contacted": false,
+    "trace": {
+      "0": [
+        {
+          "proposal": "0:0:1",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "1"
+          ]
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "combination_found",
+          "candidate": "coordinate",
+          "combinations_checked": 1,
+          "cost": 3,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "selected_combination",
+          "candidate": "coordinate",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "proposal": "0:0:2",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "2"
+          ]
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        }
+      ],
+      "3": []
+    }
+  },
+  {
+    "chain_length": 3,
+    "menus": true,
+    "committed": true,
+    "conflict_free": true,
+    "selected_slots": [
+      1,
+      2,
+      0
+    ],
+    "messages": 24,
+    "coordination_steps": 1,
+    "total_wait_cost": 3,
+    "unrelated_preserved": true,
+    "outsider_contacted": false,
+    "trace": {
+      "0": [
+        {
+          "proposal": "0:0:1",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "1"
+          ]
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "combination_found",
+          "candidate": "coordinate",
+          "combinations_checked": 5,
+          "cost": 3,
+          "selection": {
+            "0": 1,
+            "1": 1,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 5,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:3",
+          "event": "selected_combination",
+          "candidate": "coordinate",
+          "selection": {
+            "0": 1,
+            "1": 1,
+            "2": 0
+          },
+          "uses_alternative": true
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "proposal": "0:0:2",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "2"
+          ]
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "proposal": "0:0:3",
+          "decision": "commit"
+        }
+      ],
+      "3": []
+    }
+  },
+  {
+    "chain_length": 4,
+    "menus": false,
+    "committed": true,
+    "conflict_free": true,
+    "selected_slots": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "messages": 50,
+    "coordination_steps": 1,
+    "total_wait_cost": 6,
+    "unrelated_preserved": true,
+    "outsider_contacted": false,
+    "trace": {
+      "0": [
+        {
+          "proposal": "0:0:1",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "1"
+          ]
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "combination_found",
+          "candidate": "coordinate",
+          "combinations_checked": 1,
+          "cost": 6,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "selected_combination",
+          "candidate": "coordinate",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "proposal": "0:0:2",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "2"
+          ]
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "proposal": "0:0:3",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "3"
+          ]
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "3": [
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "4": []
+    }
+  },
+  {
+    "chain_length": 4,
+    "menus": true,
+    "committed": true,
+    "conflict_free": true,
+    "selected_slots": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "messages": 38,
+    "coordination_steps": 1,
+    "total_wait_cost": 6,
+    "unrelated_preserved": true,
+    "outsider_contacted": false,
+    "trace": {
+      "0": [
+        {
+          "proposal": "0:0:1",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "1"
+          ]
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "combination_found",
+          "candidate": "coordinate",
+          "combinations_checked": 11,
+          "cost": 6,
+          "selection": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 0
+          }
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 11,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:4",
+          "event": "selected_combination",
+          "candidate": "coordinate",
+          "selection": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 0
+          },
+          "uses_alternative": true
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "proposal": "0:0:2",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "2"
+          ]
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "proposal": "0:0:3",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "3"
+          ]
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        }
+      ],
+      "3": [
+        {
+          "proposal": "0:0:4",
+          "decision": "commit"
+        }
+      ],
+      "4": []
+    }
+  },
+  {
+    "chain_length": 5,
+    "menus": false,
+    "committed": true,
+    "conflict_free": true,
+    "selected_slots": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "messages": 70,
+    "coordination_steps": 1,
+    "total_wait_cost": 10,
+    "unrelated_preserved": true,
+    "outsider_contacted": false,
+    "trace": {
+      "0": [
+        {
+          "proposal": "0:0:1",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "1"
+          ]
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "no_combination",
+          "reason": "menu_exhausted"
+        },
+        {
+          "proposal": "0:0:6",
+          "event": "combination_found",
+          "candidate": "coordinate",
+          "combinations_checked": 1,
+          "cost": 10,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        {
+          "proposal": "0:0:6",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:6",
+          "event": "selected_combination",
+          "candidate": "coordinate",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:6",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "proposal": "0:0:2",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "2"
+          ]
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:6",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "proposal": "0:0:3",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "3"
+          ]
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:6",
+          "decision": "commit"
+        }
+      ],
+      "3": [
+        {
+          "proposal": "0:0:4",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "4"
+          ]
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:6",
+          "decision": "commit"
+        }
+      ],
+      "4": [
+        {
+          "proposal": "0:0:5",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:6",
+          "decision": "commit"
+        }
+      ],
+      "5": []
+    }
+  },
+  {
+    "chain_length": 5,
+    "menus": true,
+    "committed": true,
+    "conflict_free": true,
+    "selected_slots": [
+      1,
+      2,
+      3,
+      4,
+      0
+    ],
+    "messages": 55,
+    "coordination_steps": 1,
+    "total_wait_cost": 10,
+    "unrelated_preserved": true,
+    "outsider_contacted": false,
+    "trace": {
+      "0": [
+        {
+          "proposal": "0:0:1",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "1"
+          ]
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "combination_found",
+          "candidate": "coordinate",
+          "combinations_checked": 25,
+          "cost": 10,
+          "selection": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 0
+          }
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "combination_search",
+          "candidate": "coordinate",
+          "checked": 25,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:5",
+          "event": "selected_combination",
+          "candidate": "coordinate",
+          "selection": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 0
+          },
+          "uses_alternative": true
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "proposal": "0:0:2",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "2"
+          ]
+        },
+        {
+          "proposal": "0:0:2",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "proposal": "0:0:3",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "3"
+          ]
+        },
+        {
+          "proposal": "0:0:3",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "3": [
+        {
+          "proposal": "0:0:4",
+          "event": "response_dependency_expansion",
+          "peers": [
+            "4"
+          ]
+        },
+        {
+          "proposal": "0:0:4",
+          "decision": "abort"
+        },
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "4": [
+        {
+          "proposal": "0:0:5",
+          "decision": "commit"
+        }
+      ],
+      "5": []
+    }
+  }
+]

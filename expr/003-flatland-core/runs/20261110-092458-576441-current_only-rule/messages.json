@@ -1,0 +1,8671 @@
+[
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 0,
+    "version": 1,
+    "start": 0,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 1,
+    "version": 1,
+    "start": 0,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 2,
+    "version": 1,
+    "start": 0,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 3,
+    "version": 1,
+    "start": 0,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 4,
+    "version": 1,
+    "start": 0,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 5,
+    "version": 1,
+    "start": 0,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "propose",
+    "at": 0,
+    "owner": 6,
+    "version": 1,
+    "start": 0,
+    "expires": 32,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 1,
+    "at": 0
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 2,
+    "version": 1,
+    "at": 1,
+    "reason": "observed native malfunction"
+  },
+  {
+    "type": "propose",
+    "at": 27,
+    "owner": 2,
+    "version": 2,
+    "start": 27,
+    "expires": 59,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 2,
+    "at": 27
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 4,
+    "version": 2,
+    "start": 32,
+    "expires": 64,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 2,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 5,
+    "version": 2,
+    "start": 32,
+    "expires": 64,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 2,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 6,
+    "version": 2,
+    "start": 32,
+    "expires": 64,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 2,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 0,
+    "version": 2,
+    "start": 32,
+    "expires": 64,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        16,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 2,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 1,
+    "version": 2,
+    "start": 32,
+    "expires": 64,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 2,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 32,
+    "owner": 3,
+    "version": 2,
+    "start": 32,
+    "expires": 64,
+    "path": [
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 2,
+    "at": 32
+  },
+  {
+    "type": "propose",
+    "at": 59,
+    "owner": 2,
+    "version": 3,
+    "start": 59,
+    "expires": 91,
+    "path": [
+      [
+        16,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 3,
+    "at": 59
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 1,
+    "version": 3,
+    "start": 64,
+    "expires": 96,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 3,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 3,
+    "version": 3,
+    "start": 64,
+    "expires": 96,
+    "path": [
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 3,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 4,
+    "version": 3,
+    "start": 64,
+    "expires": 96,
+    "path": [
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 4,
+    "version": 3,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 3,
+    "start": 64,
+    "expires": 93,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": [
+      3
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 3,
+    "owner": 5,
+    "version": 3,
+    "at": 64,
+    "conflicts": [
+      29
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 3,
+    "peer": 3,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 4,
+    "start": 64,
+    "expires": 76,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 4,
+    "at": 64,
+    "conflicts": [
+      16
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 4,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 5,
+    "start": 64,
+    "expires": 76,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 5,
+    "at": 64,
+    "conflicts": [
+      16
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 5,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 6,
+    "start": 64,
+    "expires": 76,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 6,
+    "at": 64,
+    "conflicts": [
+      16
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 6,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 7,
+    "start": 64,
+    "expires": 77,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 7,
+    "at": 64,
+    "conflicts": [
+      17
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 7,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 8,
+    "start": 64,
+    "expires": 76,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 8,
+    "at": 64,
+    "conflicts": [
+      16
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 8,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 9,
+    "start": 64,
+    "expires": 76,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 9,
+    "at": 64,
+    "conflicts": [
+      16
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 9,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 10,
+    "start": 64,
+    "expires": 77,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 10,
+    "at": 64,
+    "conflicts": [
+      17
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 10,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 11,
+    "start": 64,
+    "expires": 77,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 11,
+    "at": 64,
+    "conflicts": [
+      17
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 11,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 12,
+    "start": 64,
+    "expires": 77,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 12,
+    "at": 64,
+    "conflicts": [
+      17
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 12,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 13,
+    "start": 64,
+    "expires": 79,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 13,
+    "at": 64,
+    "conflicts": [
+      19
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 13,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 14,
+    "start": 64,
+    "expires": 88,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": [
+      2,
+      3
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 2,
+    "owner": 5,
+    "version": 14,
+    "at": 64,
+    "conflicts": [
+      24
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 14,
+    "peer": 2,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 5,
+    "version": 15,
+    "start": 64,
+    "expires": 85,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": [
+      3,
+      4
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 3,
+    "owner": 5,
+    "version": 15,
+    "at": 64,
+    "conflicts": [
+      31
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 15,
+    "peer": 3,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 6,
+    "version": 3,
+    "start": 64,
+    "expires": 96,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 3,
+    "at": 64
+  },
+  {
+    "type": "propose",
+    "at": 64,
+    "owner": 0,
+    "version": 3,
+    "start": 64,
+    "expires": 96,
+    "path": [
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        14
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 3,
+    "at": 64
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 0,
+    "version": 3,
+    "at": 66,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 66,
+    "owner": 0,
+    "version": 4,
+    "start": 66,
+    "expires": 98,
+    "path": [
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 4,
+    "at": 66
+  },
+  {
+    "type": "propose",
+    "at": 67,
+    "owner": 5,
+    "version": 16,
+    "start": 67,
+    "expires": 99,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 16,
+    "at": 67
+  },
+  {
+    "type": "release",
+    "owner": 4,
+    "at": 91
+  },
+  {
+    "type": "propose",
+    "at": 91,
+    "owner": 2,
+    "version": 4,
+    "start": 91,
+    "expires": 123,
+    "path": [
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 2,
+    "version": 4,
+    "at": 91
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 6,
+    "version": 4,
+    "start": 96,
+    "expires": 128,
+    "path": [
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 4,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 1,
+    "version": 4,
+    "start": 96,
+    "expires": 128,
+    "path": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7,
+        15
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ]
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 4,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 3,
+    "version": 4,
+    "start": 96,
+    "expires": 100,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 4,
+    "at": 96,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 4,
+    "peer": 5,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 3,
+    "version": 5,
+    "start": 96,
+    "expires": 100,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 5,
+    "at": 96,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 5,
+    "peer": 5,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 3,
+    "version": 6,
+    "start": 96,
+    "expires": 100,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 6,
+    "at": 96,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 6,
+    "peer": 5,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 3,
+    "version": 7,
+    "start": 96,
+    "expires": 100,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 7,
+    "at": 96,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 7,
+    "peer": 5,
+    "at": 96
+  },
+  {
+    "type": "propose",
+    "at": 96,
+    "owner": 3,
+    "version": 8,
+    "start": 96,
+    "expires": 100,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 8,
+    "at": 96,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 8,
+    "peer": 5,
+    "at": 96
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 16,
+    "at": 97,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 97,
+    "owner": 5,
+    "version": 17,
+    "start": 97,
+    "expires": 129,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 17,
+    "at": 97
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 17,
+    "at": 98,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 98,
+    "owner": 5,
+    "version": 18,
+    "start": 98,
+    "expires": 130,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 18,
+    "at": 98
+  },
+  {
+    "type": "propose",
+    "at": 98,
+    "owner": 0,
+    "version": 5,
+    "start": 98,
+    "expires": 130,
+    "path": [
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 5,
+    "at": 98
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 18,
+    "at": 99,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 99,
+    "owner": 5,
+    "version": 19,
+    "start": 99,
+    "expires": 131,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 19,
+    "at": 99
+  },
+  {
+    "type": "propose",
+    "at": 99,
+    "owner": 3,
+    "version": 9,
+    "start": 99,
+    "expires": 103,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 9,
+    "at": 99,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 9,
+    "peer": 5,
+    "at": 99
+  },
+  {
+    "type": "propose",
+    "at": 99,
+    "owner": 3,
+    "version": 10,
+    "start": 99,
+    "expires": 103,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 10,
+    "at": 99,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 10,
+    "peer": 5,
+    "at": 99
+  },
+  {
+    "type": "propose",
+    "at": 99,
+    "owner": 3,
+    "version": 11,
+    "start": 99,
+    "expires": 103,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 11,
+    "at": 99,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 11,
+    "peer": 5,
+    "at": 99
+  },
+  {
+    "type": "propose",
+    "at": 99,
+    "owner": 3,
+    "version": 12,
+    "start": 99,
+    "expires": 103,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 12,
+    "at": 99,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 12,
+    "peer": 5,
+    "at": 99
+  },
+  {
+    "type": "propose",
+    "at": 99,
+    "owner": 3,
+    "version": 13,
+    "start": 99,
+    "expires": 103,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 13,
+    "at": 99,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 13,
+    "peer": 5,
+    "at": 99
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 19,
+    "at": 100,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 100,
+    "owner": 5,
+    "version": 20,
+    "start": 100,
+    "expires": 132,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 20,
+    "at": 100
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 20,
+    "at": 101,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 101,
+    "owner": 5,
+    "version": 21,
+    "start": 101,
+    "expires": 133,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 21,
+    "at": 101
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 21,
+    "at": 102,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 102,
+    "owner": 5,
+    "version": 22,
+    "start": 102,
+    "expires": 134,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 22,
+    "at": 102
+  },
+  {
+    "type": "propose",
+    "at": 102,
+    "owner": 3,
+    "version": 14,
+    "start": 102,
+    "expires": 106,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 14,
+    "at": 102,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 14,
+    "peer": 5,
+    "at": 102
+  },
+  {
+    "type": "propose",
+    "at": 102,
+    "owner": 3,
+    "version": 15,
+    "start": 102,
+    "expires": 106,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 15,
+    "at": 102,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 15,
+    "peer": 5,
+    "at": 102
+  },
+  {
+    "type": "propose",
+    "at": 102,
+    "owner": 3,
+    "version": 16,
+    "start": 102,
+    "expires": 106,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 16,
+    "at": 102,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 16,
+    "peer": 5,
+    "at": 102
+  },
+  {
+    "type": "propose",
+    "at": 102,
+    "owner": 3,
+    "version": 17,
+    "start": 102,
+    "expires": 106,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      5
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 17,
+    "at": 102,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 17,
+    "peer": 5,
+    "at": 102
+  },
+  {
+    "type": "propose",
+    "at": 102,
+    "owner": 3,
+    "version": 18,
+    "start": 102,
+    "expires": 106,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ]
+    ],
+    "status": "active",
+    "peers": [
+      5,
+      6
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 5,
+    "owner": 3,
+    "version": 18,
+    "at": 102,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 3,
+    "version": 18,
+    "peer": 5,
+    "at": 102
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 22,
+    "at": 103,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 103,
+    "owner": 5,
+    "version": 23,
+    "start": 103,
+    "expires": 135,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 23,
+    "at": 103
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 23,
+    "at": 104,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 104,
+    "owner": 5,
+    "version": 24,
+    "start": 104,
+    "expires": 136,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 24,
+    "at": 104
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 24,
+    "at": 105,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 105,
+    "owner": 3,
+    "version": 19,
+    "start": 105,
+    "expires": 137,
+    "path": [
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 3,
+    "version": 19,
+    "at": 105
+  },
+  {
+    "type": "propose",
+    "at": 105,
+    "owner": 5,
+    "version": 25,
+    "start": 105,
+    "expires": 109,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      3
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 3,
+    "owner": 5,
+    "version": 25,
+    "at": 105,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 25,
+    "peer": 3,
+    "at": 105
+  },
+  {
+    "type": "propose",
+    "at": 105,
+    "owner": 5,
+    "version": 26,
+    "start": 105,
+    "expires": 109,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      3
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 3,
+    "owner": 5,
+    "version": 26,
+    "at": 105,
+    "conflicts": [
+      1
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 26,
+    "peer": 3,
+    "at": 105
+  },
+  {
+    "type": "propose",
+    "at": 105,
+    "owner": 5,
+    "version": 27,
+    "start": 105,
+    "expires": 110,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      3
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 3,
+    "owner": 5,
+    "version": 27,
+    "at": 105,
+    "conflicts": [
+      5
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 27,
+    "peer": 3,
+    "at": 105
+  },
+  {
+    "type": "propose",
+    "at": 105,
+    "owner": 5,
+    "version": 28,
+    "start": 105,
+    "expires": 121,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      3,
+      6
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 3,
+    "owner": 5,
+    "version": 28,
+    "at": 105,
+    "conflicts": [],
+    "broken_uses": [],
+    "accept": true
+  },
+  {
+    "type": "ack",
+    "owner": 5,
+    "version": 28,
+    "peer": 3,
+    "at": 105
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 6,
+    "owner": 5,
+    "version": 28,
+    "at": 105,
+    "conflicts": [
+      16
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 28,
+    "peer": 6,
+    "at": 105
+  },
+  {
+    "type": "propose",
+    "at": 105,
+    "owner": 5,
+    "version": 29,
+    "start": 105,
+    "expires": 116,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": [
+      3
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 3,
+    "owner": 5,
+    "version": 29,
+    "at": 105,
+    "conflicts": [
+      11,
+      12
+    ],
+    "broken_uses": [],
+    "accept": false
+  },
+  {
+    "type": "reject",
+    "owner": 5,
+    "version": 29,
+    "peer": 3,
+    "at": 105
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 4,
+    "at": 106,
+    "reason": "observed native malfunction"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 0,
+    "version": 5,
+    "at": 107,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 107,
+    "owner": 0,
+    "version": 6,
+    "start": 107,
+    "expires": 139,
+    "path": [
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 0,
+    "version": 6,
+    "at": 107
+  },
+  {
+    "type": "propose",
+    "at": 108,
+    "owner": 5,
+    "version": 30,
+    "start": 108,
+    "expires": 140,
+    "path": [
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 5,
+    "version": 30,
+    "at": 108
+  },
+  {
+    "type": "release",
+    "owner": 2,
+    "at": 116
+  },
+  {
+    "type": "release",
+    "owner": 3,
+    "at": 121
+  },
+  {
+    "type": "release",
+    "owner": 0,
+    "at": 122
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 4,
+    "at": 122,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 122,
+    "owner": 1,
+    "version": 5,
+    "start": 122,
+    "expires": 154,
+    "path": [
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 5,
+    "at": 122
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 5,
+    "at": 123,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 123,
+    "owner": 1,
+    "version": 6,
+    "start": 123,
+    "expires": 155,
+    "path": [
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 6,
+    "at": 123
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 6,
+    "at": 124,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 124,
+    "owner": 1,
+    "version": 7,
+    "start": 124,
+    "expires": 156,
+    "path": [
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 7,
+    "at": 124
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 7,
+    "at": 125,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 125,
+    "owner": 1,
+    "version": 8,
+    "start": 125,
+    "expires": 157,
+    "path": [
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 8,
+    "at": 125
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 8,
+    "at": 126,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 126,
+    "owner": 1,
+    "version": 9,
+    "start": 126,
+    "expires": 158,
+    "path": [
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 9,
+    "at": 126
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 9,
+    "at": 127,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 127,
+    "owner": 1,
+    "version": 10,
+    "start": 127,
+    "expires": 159,
+    "path": [
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 10,
+    "at": 127
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 10,
+    "at": 128,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "propose",
+    "at": 128,
+    "owner": 1,
+    "version": 11,
+    "start": 128,
+    "expires": 160,
+    "path": [
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 11,
+    "at": 128
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 11,
+    "at": 129,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "release",
+    "owner": 5,
+    "at": 129
+  },
+  {
+    "type": "propose",
+    "at": 129,
+    "owner": 6,
+    "version": 5,
+    "start": 129,
+    "expires": 161,
+    "path": [
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "active",
+    "peers": []
+  },
+  {
+    "type": "replace",
+    "owner": 6,
+    "version": 5,
+    "at": 129
+  },
+  {
+    "type": "propose",
+    "at": 129,
+    "owner": 1,
+    "version": 12,
+    "start": 129,
+    "expires": 161,
+    "path": [
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        11
+      ],
+      null
+    ],
+    "status": "active",
+    "peers": [
+      6
+    ]
+  },
+  {
+    "type": "peer_evaluation",
+    "peer": 6,
+    "owner": 1,
+    "version": 12,
+    "at": 129,
+    "conflicts": [],
+    "broken_uses": [],
+    "accept": true
+  },
+  {
+    "type": "ack",
+    "owner": 1,
+    "version": 12,
+    "peer": 6,
+    "at": 129
+  },
+  {
+    "type": "replace",
+    "owner": 1,
+    "version": 12,
+    "at": 129
+  },
+  {
+    "type": "release",
+    "owner": 6,
+    "at": 155
+  }
+]

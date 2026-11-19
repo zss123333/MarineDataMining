@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "autogen-agentchat": "0.7.5",
+    "autogen-ext": "0.7.5"
+  },
+  "model": "qwen2.5:1.5b",
+  "external": "Microsoft AutoGen official RoundRobinGroupChat; task adapter, not original paper task reproduction",
+  "limitations": "All methods share OpenAI-compatible transport, temperature0, max_tokens256; AutoGen team reset each decision epoch; prompts and histories differ by framework"
+}

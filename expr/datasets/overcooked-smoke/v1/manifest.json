@@ -1,0 +1,26 @@
+{
+  "name": "overcooked-smoke",
+  "version": "v1",
+  "upstream_commit": "739950a079cdaed5a44fcc662efc40244c205d06",
+  "created_utc": "2026-11-09T08:53:49.213464+00:00",
+  "files": [
+    {
+      "path": "raw/cramped_room.layout",
+      "bytes": 246,
+      "sha256": "62065612adb08713ca56d69e2d0a6b12873c9cb995ab8e7cbad3aa9d84de55ef",
+      "source": "https://raw.githubusercontent.com/HumanCompatibleAI/overcooked_ai/739950a079cdaed5a44fcc662efc40244c205d06/src/overcooked_ai_py/data/layouts/cramped_room.layout"
+    },
+    {
+      "path": "raw/UPSTREAM_LICENSE",
+      "bytes": 1087,
+      "sha256": "de7aa11b67dfbce77c97fc7e6003930c45473243391915c06f938bb59e8102e3",
+      "source": "https://raw.githubusercontent.com/HumanCompatibleAI/overcooked_ai/739950a079cdaed5a44fcc662efc40244c205d06/LICENSE"
+    },
+    {
+      "path": "splits/smoke.json",
+      "bytes": 107,
+      "sha256": "9cff04c1d420b5e0e59f41e349d14f5283c3613f568473c14203c757a108e55c",
+      "source": "generated fixed development configuration, not a held-out test split"
+    }
+  ]
+}

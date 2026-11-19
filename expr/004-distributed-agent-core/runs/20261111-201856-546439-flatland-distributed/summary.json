@@ -1,0 +1,113 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_5.pkl",
+    "dataset_version": "v2-audit",
+    "method": "menus_no_repair",
+    "steps": 1000,
+    "backend": "rule",
+    "max_llm_calls": 6,
+    "groups": "all"
+  },
+  "agents": 7,
+  "arrived": 7,
+  "implementation": "response-menu-alignment-v1",
+  "official_baseline_commit": null,
+  "capped_completion_steps": 941,
+  "unfinished_penalty": 240,
+  "message_bytes": 6987804,
+  "arrival_steps": {
+    "3": 85,
+    "1": 99,
+    "0": 105,
+    "6": 148,
+    "4": 150,
+    "2": 165,
+    "5": 189
+  },
+  "steps": 189,
+  "reward": 0.0,
+  "messages": 1057,
+  "communication_phases": 303,
+  "installs": 182,
+  "revocations": 6,
+  "repair_cost": 2.0,
+  "repair_installs": 2,
+  "committed_alternative_combinations": 4,
+  "combinations_checked": 1019,
+  "alternative_combinations_found": 33,
+  "wall_seconds": 5.442663500085473,
+  "scenario_sha256": "12a1477500c5e7ecd781ea2c171519068c865a2d2cb9a6f29932bf5af3511ff5",
+  "backend": "rule",
+  "groups": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "3": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "5": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "6": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "scope": "single traffic group",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

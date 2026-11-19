@@ -1,0 +1,436 @@
+[
+  {
+    "type": "emergency_revoke",
+    "owner": 2,
+    "version": 1,
+    "at": 1,
+    "reason": "observed native malfunction"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 2,
+    "version": 2,
+    "resource": [
+      18,
+      10
+    ],
+    "use_at": 57,
+    "registered_at": 32,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 4,
+    "version": 2,
+    "resource": [
+      18,
+      10
+    ],
+    "use_at": 57,
+    "registered_at": 32,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 3,
+    "provider": 2,
+    "version": 3,
+    "resource": [
+      13,
+      10
+    ],
+    "use_at": 88,
+    "registered_at": 64,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 5,
+    "provider": 2,
+    "version": 3,
+    "resource": [
+      13,
+      13
+    ],
+    "use_at": 89,
+    "registered_at": 64,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 5,
+    "provider": 3,
+    "version": 3,
+    "resource": [
+      13,
+      10
+    ],
+    "use_at": 92,
+    "registered_at": 64,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 5,
+    "provider": 4,
+    "version": 3,
+    "resource": [
+      10,
+      15
+    ],
+    "use_at": 84,
+    "registered_at": 64,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 2,
+    "version": 3,
+    "resource": [
+      14,
+      10
+    ],
+    "use_at": 73,
+    "registered_at": 64,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 4,
+    "version": 3,
+    "resource": [
+      13,
+      13
+    ],
+    "use_at": 85,
+    "registered_at": 64,
+    "kind": "future"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 0,
+    "version": 3,
+    "at": 69,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 2,
+    "version": 3,
+    "resource": [
+      13,
+      10
+    ],
+    "use_at": 75,
+    "registered_at": 69,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 4,
+    "version": 3,
+    "resource": [
+      12,
+      15
+    ],
+    "use_at": 93,
+    "registered_at": 69,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 5,
+    "version": 3,
+    "resource": [
+      13,
+      14
+    ],
+    "use_at": 89,
+    "registered_at": 69,
+    "kind": "future"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 3,
+    "at": 88,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 5,
+    "version": 4,
+    "resource": [
+      13,
+      15
+    ],
+    "use_at": 92,
+    "registered_at": 88,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 3,
+    "provider": 5,
+    "version": 4,
+    "resource": [
+      15,
+      10
+    ],
+    "use_at": 99,
+    "registered_at": 88,
+    "kind": "future"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 0,
+    "version": 5,
+    "at": 91,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "release",
+    "owner": 4,
+    "at": 91
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 5,
+    "provider": 3,
+    "version": 4,
+    "resource": [
+      13,
+      10
+    ],
+    "use_at": 96,
+    "registered_at": 91,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 5,
+    "version": 5,
+    "resource": [
+      13,
+      15
+    ],
+    "use_at": 93,
+    "registered_at": 91,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 3,
+    "provider": 5,
+    "version": 5,
+    "resource": [
+      15,
+      10
+    ],
+    "use_at": 99,
+    "registered_at": 91,
+    "kind": "future"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 5,
+    "version": 5,
+    "at": 92,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 2,
+    "version": 4,
+    "resource": [
+      12,
+      15
+    ],
+    "use_at": 105,
+    "registered_at": 92,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 5,
+    "version": 6,
+    "resource": [
+      13,
+      15
+    ],
+    "use_at": 102,
+    "registered_at": 92,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 3,
+    "provider": 5,
+    "version": 6,
+    "resource": [
+      18,
+      11
+    ],
+    "use_at": 115,
+    "registered_at": 92,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 6,
+    "provider": 3,
+    "version": 6,
+    "resource": [
+      14,
+      10
+    ],
+    "use_at": 121,
+    "registered_at": 96,
+    "kind": "future"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 1,
+    "provider": 6,
+    "version": 4,
+    "resource": [
+      2,
+      11
+    ],
+    "use_at": 117,
+    "registered_at": 96,
+    "kind": "future"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 0,
+    "version": 7,
+    "at": 101,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 0,
+    "provider": 2,
+    "version": 4,
+    "resource": [
+      10,
+      15
+    ],
+    "use_at": 110,
+    "registered_at": 101,
+    "kind": "future"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 4,
+    "at": 106,
+    "reason": "observed native malfunction"
+  },
+  {
+    "type": "release",
+    "owner": 5,
+    "at": 113
+  },
+  {
+    "type": "release",
+    "owner": 3,
+    "at": 115
+  },
+  {
+    "type": "release",
+    "owner": 2,
+    "at": 116
+  },
+  {
+    "type": "release",
+    "owner": 0,
+    "at": 122
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 5,
+    "at": 122,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 6,
+    "at": 123,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 7,
+    "at": 124,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 8,
+    "at": 125,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 9,
+    "at": 126,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 10,
+    "at": 127,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 11,
+    "at": 128,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 12,
+    "at": 129,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "dependency_register",
+    "consumer": 1,
+    "provider": 6,
+    "version": 5,
+    "resource": [
+      6,
+      10
+    ],
+    "use_at": 146,
+    "registered_at": 129,
+    "kind": "future"
+  },
+  {
+    "type": "release",
+    "owner": 6,
+    "at": 155
+  }
+]

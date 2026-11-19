@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "error": "KeyboardInterrupt('local safety call limit reached')",
+  "calls": 40,
+  "episodes": [
+    {
+      "file": "data\\qwen-local\\boiled_egg\\experiment_2026-11-18_15-30-37_boiled_egg.json",
+      "steps": 7,
+      "score": 0,
+      "finished_orders": [],
+      "actions": [
+        [],
+        []
+      ]
+    }
+  ],
+  "task_completion_observed": false,
+  "shared_executor_validated": false,
+  "acceptance_note": "Task completion is necessary but not sufficient: LLMPair couples planning and coordination; a reusable shared executor requires separate interface validation."
+}

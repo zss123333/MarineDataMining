@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\15085\\AppData\\Local\\Temp\\marine-marble\\MARBLE-main",
+  "model": "ollama_chat/qwen2.5:7b",
+  "archive_sha256": "56401033f92028cfbe2bd658e86a20cf69fca3b755f88b568163be7bba1be3fa",
+  "commit": "eae9f15e5b9f1e808f8ff61800b129d5538c1b47",
+  "adaptations": [
+    "coding-only environment imports",
+    "local Ollama backend",
+    "logged calls with timeout and 200-call guard"
+  ],
+  "purpose": "native coding task 1, graph coordination, pipeline acceptance only"
+}

@@ -1,0 +1,99 @@
+{
+  "purpose": "unseen seeded variants of official configurations, not official serialized benchmark",
+  "development": "v1 and v2-audit all ten scenarios",
+  "protocol": "four fixed seeds 1042..1045; keep native faults; run all methods; no tuning after viewing",
+  "selected": [
+    {
+      "file": "Test_00_Level_0.pkl",
+      "parameters": {
+        "n_agents": 7,
+        "x_dim": 30,
+        "y_dim": 30,
+        "n_cities": 2,
+        "max_rail_pairs_in_city": 2,
+        "max_rails_between_cities": 2,
+        "malfunction_duration_min": 20,
+        "malfunction_duration_max": 50,
+        "malfunction_interval": 540,
+        "seed": 1042,
+        "grid_mode": false,
+        "speed_ratios": {
+          "1.0": 0.25,
+          "0.5": 0.25,
+          "0.33": 0.25,
+          "0.25": 0.25
+        }
+      },
+      "sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe"
+    },
+    {
+      "file": "Test_00_Level_1.pkl",
+      "parameters": {
+        "n_agents": 7,
+        "x_dim": 30,
+        "y_dim": 30,
+        "n_cities": 2,
+        "max_rail_pairs_in_city": 2,
+        "max_rails_between_cities": 2,
+        "malfunction_duration_min": 20,
+        "malfunction_duration_max": 50,
+        "malfunction_interval": 540,
+        "seed": 1043,
+        "grid_mode": false,
+        "speed_ratios": {
+          "1.0": 0.25,
+          "0.5": 0.25,
+          "0.33": 0.25,
+          "0.25": 0.25
+        }
+      },
+      "sha256": "e8eb14df7ab7cf39775b88ce0c3c24fe201931069aad56980b83ae308dffe5a4"
+    },
+    {
+      "file": "Test_00_Level_2.pkl",
+      "parameters": {
+        "n_agents": 7,
+        "x_dim": 30,
+        "y_dim": 30,
+        "n_cities": 2,
+        "max_rail_pairs_in_city": 2,
+        "max_rails_between_cities": 2,
+        "malfunction_duration_min": 20,
+        "malfunction_duration_max": 50,
+        "malfunction_interval": 540,
+        "seed": 1044,
+        "grid_mode": false,
+        "speed_ratios": {
+          "1.0": 0.25,
+          "0.5": 0.25,
+          "0.33": 0.25,
+          "0.25": 0.25
+        }
+      },
+      "sha256": "27a977740426e22b66cc13987bcf76e6462b0482ddd9c51c0a5458732a8b861c"
+    },
+    {
+      "file": "Test_00_Level_3.pkl",
+      "parameters": {
+        "n_agents": 7,
+        "x_dim": 30,
+        "y_dim": 30,
+        "n_cities": 2,
+        "max_rail_pairs_in_city": 2,
+        "max_rails_between_cities": 2,
+        "malfunction_duration_min": 20,
+        "malfunction_duration_max": 50,
+        "malfunction_interval": 540,
+        "seed": 1045,
+        "grid_mode": false,
+        "speed_ratios": {
+          "1.0": 0.25,
+          "0.5": 0.25,
+          "0.33": 0.25,
+          "0.25": 0.25
+        }
+      },
+      "sha256": "086c49e2a896b0093aea49871c70ccc5c31645075e07d8ef829e98ddc90028ac"
+    }
+  ]
+}

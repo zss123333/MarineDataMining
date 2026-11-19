@@ -1,0 +1,165 @@
+[
+  {
+    "type": "emergency_revoke",
+    "owner": 6,
+    "version": 2,
+    "at": 13,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 2,
+    "at": 14,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 0,
+    "version": 1,
+    "at": 15,
+    "reason": "observed native malfunction"
+  },
+  {
+    "type": "release",
+    "owner": 6,
+    "at": 29
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 4,
+    "at": 47,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "release",
+    "owner": 2,
+    "at": 66
+  },
+  {
+    "type": "release",
+    "owner": 5,
+    "at": 69
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 6,
+    "at": 80,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 3,
+    "version": 4,
+    "at": 85,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 8,
+    "at": 86,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 1,
+    "version": 3,
+    "at": 87,
+    "reason": "observed native malfunction"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 3,
+    "version": 6,
+    "at": 88,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 10,
+    "at": 89,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 3,
+    "version": 8,
+    "at": 91,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 12,
+    "at": 92,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 3,
+    "version": 10,
+    "at": 94,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 14,
+    "at": 95,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 3,
+    "version": 12,
+    "at": 97,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 16,
+    "at": 98,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 3,
+    "version": 14,
+    "at": 100,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 4,
+    "version": 18,
+    "at": 101,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "emergency_revoke",
+    "owner": 3,
+    "version": 16,
+    "at": 103,
+    "reason": "conditional trajectory assumption violated by observed state"
+  },
+  {
+    "type": "release",
+    "owner": 4,
+    "at": 104
+  },
+  {
+    "type": "release",
+    "owner": 3,
+    "at": 106
+  },
+  {
+    "type": "release",
+    "owner": 0,
+    "at": 110
+  }
+]

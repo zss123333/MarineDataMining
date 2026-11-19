@@ -1,0 +1,42 @@
+\documentclass[degree=master,fontset=windows,oneside]{ustcthesis}
+\ustcsetup{title={从ReAct“再想”到多Agent滚动响应协同},title*={Rolling Coordination for Multi-Agent Systems},author={左莎莎},student-id={22634057},discipline={电子信息},department={海洋学院},date={2026-11-14}}
+\usepackage{graphicx}
+\usepackage{longtable,booktabs,calc,etoolbox,listings}
+\usepackage{pdflscape}
+\usepackage{array}
+\usepackage[sort]{natbib}
+\bibliographystyle{ustcthesis-numeric}
+\usepackage{hyperref}
+\usepackage{xurl}
+\let\originaltexttt\texttt
+\renewcommand{\texttt}[1]{{\small\nolinkurl{#1}}}
+\lstset{basicstyle=\ttfamily\scriptsize,breaklines=true,columns=fullflexible}
+\AtBeginEnvironment{longtable}{\fontsize{8}{11}\selectfont\setlength{\tabcolsep}{6pt}\renewcommand{\arraystretch}{1.2}\sloppy}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+\hypersetup{pdftitle={从ReAct“再想”到多Agent滚动响应协同},pdfauthor={左莎莎},hidelinks}
+\setlength{\emergencystretch}{3em}
+\begin{document}
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\zihao{2}\heiti 海洋数据挖掘课程报告\par}
+\vspace{2cm}
+{\zihao{1}\heiti 面向未来依赖的\\多Agent滚动协调\par}
+\vspace{0.8cm}
+\vspace{2cm}
+{\zihao{4} 姓名：\underline{\makebox[4cm][c]{左莎莎}}\par}
+\vspace{0.5cm}
+{\zihao{4} 学号：\underline{\makebox[4cm][c]{22634057}}\par}
+\vspace{0.5cm}
+{\zihao{4} 专业：\underline{\makebox[4cm][c]{电子信息}}\par}
+\vspace{0.5cm}
+{\zihao{4} 学院：\underline{\makebox[4cm][c]{海洋学院}}\par}
+\vfill
+{\zihao{4} 2026年11月19日\par}
+\end{titlepage}
+\tableofcontents
+\clearpage
+\input{report-content.tex}
+\bibliography{report-references}
+\end{document}

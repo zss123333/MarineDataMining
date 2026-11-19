@@ -1,0 +1,113 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_4.pkl",
+    "dataset_version": "v2-audit",
+    "method": "official_dla",
+    "steps": 1000,
+    "backend": "rule",
+    "max_llm_calls": 6,
+    "groups": "all"
+  },
+  "agents": 7,
+  "arrived": 7,
+  "implementation": "response-menu-alignment-v1",
+  "official_baseline_commit": "2c7436b47be92dc80634c4ded8f4fc16fa8b60b1",
+  "capped_completion_steps": 632,
+  "unfinished_penalty": 152,
+  "message_bytes": 0,
+  "arrival_steps": {
+    "6": 29,
+    "2": 66,
+    "5": 69,
+    "4": 104,
+    "3": 106,
+    "0": 110,
+    "1": 148
+  },
+  "steps": 148,
+  "reward": -11.0,
+  "messages": 0,
+  "communication_phases": 148,
+  "installs": 0,
+  "revocations": 0,
+  "repair_cost": 0.0,
+  "repair_installs": 0,
+  "committed_alternative_combinations": 0,
+  "combinations_checked": 0,
+  "alternative_combinations_found": 0,
+  "wall_seconds": 0.06098579987883568,
+  "scenario_sha256": "d232de79f55086e55a695baea09977604c025acb86960ef89afe3a763316f187",
+  "backend": "rule",
+  "groups": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "3": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "4": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "5": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "6": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "scope": "single traffic group",
+  "initiation": "one rotating eligible proposer per environment step; transport schedules no plans",
+  "interpretation": "distributed core integration, not superiority evidence"
+}

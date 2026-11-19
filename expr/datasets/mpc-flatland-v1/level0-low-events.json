@@ -1,0 +1,194 @@
+[
+  {
+    "step": 40,
+    "agents": [
+      3,
+      5
+    ],
+    "duration": 3
+  },
+  {
+    "step": 80,
+    "agents": [
+      2,
+      0
+    ],
+    "duration": 3
+  },
+  {
+    "step": 120,
+    "agents": [
+      4,
+      1
+    ],
+    "duration": 3
+  },
+  {
+    "step": 160,
+    "agents": [
+      3,
+      6
+    ],
+    "duration": 3
+  },
+  {
+    "step": 200,
+    "agents": [
+      2,
+      5
+    ],
+    "duration": 3
+  },
+  {
+    "step": 240,
+    "agents": [
+      5,
+      2
+    ],
+    "duration": 3
+  },
+  {
+    "step": 280,
+    "agents": [
+      6,
+      5
+    ],
+    "duration": 3
+  },
+  {
+    "step": 320,
+    "agents": [
+      3,
+      6
+    ],
+    "duration": 3
+  },
+  {
+    "step": 360,
+    "agents": [
+      5,
+      3
+    ],
+    "duration": 3
+  },
+  {
+    "step": 400,
+    "agents": [
+      3,
+      5
+    ],
+    "duration": 3
+  },
+  {
+    "step": 440,
+    "agents": [
+      4,
+      6
+    ],
+    "duration": 3
+  },
+  {
+    "step": 480,
+    "agents": [
+      6,
+      5
+    ],
+    "duration": 3
+  },
+  {
+    "step": 520,
+    "agents": [
+      0,
+      4
+    ],
+    "duration": 3
+  },
+  {
+    "step": 560,
+    "agents": [
+      0,
+      2
+    ],
+    "duration": 3
+  },
+  {
+    "step": 600,
+    "agents": [
+      3,
+      5
+    ],
+    "duration": 3
+  },
+  {
+    "step": 640,
+    "agents": [
+      0,
+      5
+    ],
+    "duration": 3
+  },
+  {
+    "step": 680,
+    "agents": [
+      2,
+      4
+    ],
+    "duration": 3
+  },
+  {
+    "step": 720,
+    "agents": [
+      0,
+      5
+    ],
+    "duration": 3
+  },
+  {
+    "step": 760,
+    "agents": [
+      0,
+      3
+    ],
+    "duration": 3
+  },
+  {
+    "step": 800,
+    "agents": [
+      6,
+      4
+    ],
+    "duration": 3
+  },
+  {
+    "step": 840,
+    "agents": [
+      3,
+      4
+    ],
+    "duration": 3
+  },
+  {
+    "step": 880,
+    "agents": [
+      5,
+      2
+    ],
+    "duration": 3
+  },
+  {
+    "step": 920,
+    "agents": [
+      5,
+      2
+    ],
+    "duration": 3
+  },
+  {
+    "step": 960,
+    "agents": [
+      3,
+      5
+    ],
+    "duration": 3
+  }
+]

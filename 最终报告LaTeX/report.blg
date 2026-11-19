@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: report.aux
+The style file: ustcthesis-numeric.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated singl_function (elt_size=4) to 200 items from 150.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated singl_function (elt_size=4) to 200 items from 150.
+Reallocated singl_function (elt_size=4) to 250 items from 200.
+Reallocated singl_function (elt_size=4) to 300 items from 250.
+Reallocated singl_function (elt_size=4) to 350 items from 300.
+Reallocated wiz_functions (elt_size=4) to 12000 items from 9000.
+Database file #1: report-references.bib
+Warning--empty year in course
+Warning--empty urldate in coela
+Warning--empty urldate in roco
+You've used 6 entries,
+            9572 wiz_defined-function locations,
+            1790 strings with 16544 characters,
+and the built_in function-call counts, 853847 in all, are:
+= -- 110063
+> -- 32799
+< -- 14957
++ -- 35381
+- -- 30336
+* -- 15764
+:= -- 49317
+add.period$ -- 21
+call.type$ -- 6
+change.case$ -- 40
+chr.to.int$ -- 13557
+cite$ -- 9
+duplicate$ -- 82358
+empty$ -- 16472
+format.name$ -- 110
+if$ -- 174834
+int.to.chr$ -- 132
+int.to.str$ -- 7
+missing$ -- 0
+newline$ -- 41
+num.names$ -- 18
+pop$ -- 4123
+preamble$ -- 1
+purify$ -- 52
+quote$ -- 0
+skip$ -- 38798
+stack$ -- 0
+substring$ -- 142115
+swap$ -- 90162
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 156
+warning$ -- 3
+while$ -- 2140
+width$ -- 0
+write$ -- 75
+(There were 3 warnings)

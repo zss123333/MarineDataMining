@@ -1,0 +1,169 @@
+{"step": 0, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, null, null, null, null, null, null]}
+{"step": 1, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, null, null, null, [8, 24], null, null]}
+{"step": 2, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, null, null, null, [8, 24], null, null]}
+{"step": 3, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, null, null, null, [8, 24], null, null]}
+{"step": 4, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, null, null, null, [9, 24], null, null]}
+{"step": 5, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [8, 22], null, null, [9, 24], null, null]}
+{"step": 6, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [8, 22], null, null, [9, 24], null, null]}
+{"step": 7, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [8, 22], null, null, [10, 24], null, null]}
+{"step": 8, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [8, 22], null, null, [10, 24], null, null]}
+{"step": 9, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [7, 22], null, null, [10, 24], null, null]}
+{"step": 10, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [7, 22], null, null, [11, 24], null, null]}
+{"step": 11, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 3, "5": 2, "6": 2}, "positions": [null, [7, 22], null, null, [11, 24], null, null]}
+{"step": 12, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 3, "5": 2, "6": 2}, "positions": [null, [7, 22], null, null, [11, 24], null, null]}
+{"step": 13, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 3, "5": 2, "6": 2}, "positions": [null, [7, 23], null, null, [11, 23], null, null]}
+{"step": 14, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [7, 23], null, null, [11, 23], null, null]}
+{"step": 15, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [7, 23], null, null, [11, 23], null, null]}
+{"step": 16, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [7, 23], null, null, [12, 23], null, null]}
+{"step": 17, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [6, 23], null, null, [12, 23], null, null]}
+{"step": 18, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [6, 23], null, null, [12, 23], null, null]}
+{"step": 19, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [6, 23], null, null, [13, 23], null, null]}
+{"step": 20, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 3, "5": 2, "6": 2}, "positions": [null, [6, 23], null, null, [13, 23], null, null]}
+{"step": 21, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 3, "5": 2, "6": 2}, "positions": [null, [5, 23], null, null, [13, 23], null, null]}
+{"step": 22, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 3, "5": 2, "6": 2}, "positions": [null, [5, 23], null, null, [13, 22], null, null]}
+{"step": 23, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [5, 23], null, null, [13, 22], null, null]}
+{"step": 24, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [5, 23], null, null, [13, 22], null, null]}
+{"step": 25, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [4, 23], null, null, [13, 21], null, null]}
+{"step": 26, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [4, 23], null, null, [13, 21], null, null]}
+{"step": 27, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [4, 23], null, null, [13, 21], null, null]}
+{"step": 28, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [4, 23], null, null, [13, 20], null, null]}
+{"step": 29, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 23], null, null, [13, 20], null, null]}
+{"step": 30, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 23], null, null, [13, 20], null, null]}
+{"step": 31, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 23], null, null, [14, 20], null, null]}
+{"step": 32, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 23], null, null, [14, 20], null, null]}
+{"step": 33, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 22], null, null, [14, 20], null, null]}
+{"step": 34, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 22], null, null, [15, 20], null, null]}
+{"step": 35, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 22], null, null, [15, 20], null, null]}
+{"step": 36, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 22], null, null, [15, 20], null, null]}
+{"step": 37, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 21], null, null, [15, 19], null, null]}
+{"step": 38, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 21], null, null, [15, 19], null, null]}
+{"step": 39, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 21], null, null, [15, 19], null, null]}
+{"step": 40, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 21], null, null, [16, 19], null, null]}
+{"step": 41, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 20], null, null, [16, 19], null, null]}
+{"step": 42, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 20], null, null, [16, 19], null, null]}
+{"step": 43, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 20], null, null, [17, 19], null, null]}
+{"step": 44, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 20], null, null, [17, 19], null, null]}
+{"step": 45, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 19], null, null, [17, 19], null, null]}
+{"step": 46, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 19], null, null, [18, 19], null, null]}
+{"step": 47, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 1, "5": 2, "6": 2}, "positions": [null, [3, 19], null, null, [18, 19], null, null]}
+{"step": 48, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 1, "5": 2, "6": 2}, "positions": [null, [3, 19], null, null, [18, 19], null, null]}
+{"step": 49, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 1, "5": 2, "6": 2}, "positions": [null, [3, 18], null, null, [18, 20], null, null]}
+{"step": 50, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 18], null, [21, 19], [18, 20], null, null]}
+{"step": 51, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 18], null, [21, 19], [18, 20], null, null]}
+{"step": 52, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [3, 18], null, [21, 19], [19, 20], null, null]}
+{"step": 53, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [4, 18], null, [21, 19], [19, 20], null, null]}
+{"step": 54, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [4, 18], null, [20, 19], [19, 20], null, null]}
+{"step": 55, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [4, 18], null, [20, 19], [20, 20], null, null]}
+{"step": 56, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [4, 18], null, [20, 19], [20, 20], null, null]}
+{"step": 57, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [5, 18], null, [20, 19], [20, 20], null, null]}
+{"step": 58, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2}, "positions": [null, [5, 18], null, [19, 19], null, null, null]}
+{"step": 59, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [5, 18], null, [19, 19], null, null, null]}
+{"step": 60, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [5, 18], null, [19, 19], null, null, null]}
+{"step": 61, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [6, 18], null, [19, 19], null, null, null]}
+{"step": 62, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [6, 18], null, [18, 19], null, null, null]}
+{"step": 63, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [6, 18], null, [18, 19], null, null, null]}
+{"step": 64, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [6, 18], null, [18, 19], null, null, null]}
+{"step": 65, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [7, 18], null, [18, 19], null, null, null]}
+{"step": 66, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [7, 18], null, [17, 19], null, null, null]}
+{"step": 67, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [7, 18], null, [17, 19], null, null, null]}
+{"step": 68, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [7, 18], null, [17, 19], null, [21, 19], null]}
+{"step": 69, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [8, 18], null, [17, 19], null, [21, 19], null]}
+{"step": 70, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [8, 18], null, [16, 19], null, [22, 19], null]}
+{"step": 71, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [8, 18], null, [16, 19], null, [22, 19], null]}
+{"step": 72, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [8, 18], null, [16, 19], null, [23, 19], null]}
+{"step": 73, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [9, 18], null, [16, 19], null, [23, 19], null]}
+{"step": 74, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [9, 18], null, [15, 19], null, [24, 19], null]}
+{"step": 75, "actions": {"0": 2, "1": 2, "2": 2, "3": 3, "4": 4, "5": 2, "6": 2}, "positions": [null, [9, 18], null, [15, 19], null, [24, 19], null]}
+{"step": 76, "actions": {"0": 2, "1": 2, "2": 2, "3": 3, "4": 4, "5": 2, "6": 2}, "positions": [null, [9, 18], null, [15, 19], null, [25, 19], null]}
+{"step": 77, "actions": {"0": 2, "1": 2, "2": 2, "3": 3, "4": 4, "5": 2, "6": 2}, "positions": [null, [10, 18], null, [15, 19], null, [25, 19], null]}
+{"step": 78, "actions": {"0": 2, "1": 2, "2": 2, "3": 3, "4": 4, "5": 2, "6": 2}, "positions": [null, [10, 18], null, [15, 20], null, [26, 19], null]}
+{"step": 79, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [10, 18], null, [15, 20], null, [26, 19], null]}
+{"step": 80, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [10, 18], null, [15, 20], null, [26, 20], null]}
+{"step": 81, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [11, 18], null, [15, 20], null, [26, 20], null]}
+{"step": 82, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [null, [11, 18], null, [14, 20], null, [26, 21], null]}
+{"step": 83, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[21, 19], [11, 18], null, [14, 20], null, [26, 21], null]}
+{"step": 84, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[22, 19], [11, 18], null, [14, 20], null, [26, 22], null]}
+{"step": 85, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[23, 19], [12, 18], null, [14, 20], null, [26, 22], null]}
+{"step": 86, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[24, 19], [12, 18], null, [13, 20], null, [26, 23], null]}
+{"step": 87, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[25, 19], [12, 18], null, [13, 20], null, [26, 23], null]}
+{"step": 88, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[26, 19], [12, 18], null, [13, 20], null, [26, 24], null]}
+{"step": 89, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[26, 20], [13, 18], null, [13, 20], null, [26, 24], null]}
+{"step": 90, "actions": {"0": 2, "1": 1, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[26, 21], [13, 18], null, [13, 21], null, [25, 24], null]}
+{"step": 91, "actions": {"0": 2, "1": 1, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[26, 22], [13, 18], null, [13, 21], null, [25, 24], null]}
+{"step": 92, "actions": {"0": 2, "1": 1, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[26, 23], [13, 18], null, [13, 21], null, [24, 24], null]}
+{"step": 93, "actions": {"0": 2, "1": 1, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[26, 24], [13, 19], null, [13, 21], null, [24, 24], null]}
+{"step": 94, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[25, 24], [13, 19], null, [13, 22], null, [23, 24], null]}
+{"step": 95, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[24, 24], [13, 19], null, [13, 22], null, [23, 24], null]}
+{"step": 96, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[23, 24], [13, 19], null, [13, 22], null, [22, 24], null]}
+{"step": 97, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[23, 24], [14, 19], null, [13, 22], null, [22, 24], null]}
+{"step": 98, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[22, 24], [14, 19], null, [13, 23], null, [21, 24], null]}
+{"step": 99, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[22, 24], [14, 19], null, [13, 23], null, [21, 24], null]}
+{"step": 100, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[21, 24], [14, 19], null, [13, 23], null, [20, 24], null]}
+{"step": 101, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[21, 24], [15, 19], null, [13, 23], null, [20, 24], null]}
+{"step": 102, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[20, 24], [15, 19], null, [12, 23], null, [19, 24], null]}
+{"step": 103, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[20, 24], [15, 19], null, [12, 23], null, [19, 24], null]}
+{"step": 104, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[19, 24], [15, 19], null, [12, 23], null, [18, 24], null]}
+{"step": 105, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[19, 24], [16, 19], null, [12, 23], null, [18, 24], null]}
+{"step": 106, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[18, 24], [16, 19], null, [11, 23], null, [17, 24], null]}
+{"step": 107, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[18, 24], [16, 19], null, [11, 23], null, [17, 24], null]}
+{"step": 108, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[17, 24], [16, 19], null, [11, 23], null, [16, 24], null]}
+{"step": 109, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 2}, "positions": [[17, 24], [17, 19], null, [11, 23], null, [16, 24], null]}
+{"step": 110, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[16, 24], [17, 19], null, [10, 23], null, [16, 23], null]}
+{"step": 111, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[16, 24], [17, 19], null, [10, 23], null, [16, 23], null]}
+{"step": 112, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[16, 23], [17, 19], null, [10, 23], null, [15, 23], null]}
+{"step": 113, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[16, 23], [18, 19], null, [10, 23], null, [15, 23], null]}
+{"step": 114, "actions": {"0": 2, "1": 1, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[15, 23], [18, 19], null, [9, 23], null, [14, 23], null]}
+{"step": 115, "actions": {"0": 2, "1": 1, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[15, 23], [18, 19], null, [9, 23], null, [14, 23], null]}
+{"step": 116, "actions": {"0": 2, "1": 1, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[14, 23], [18, 19], null, [9, 23], null, [13, 23], null]}
+{"step": 117, "actions": {"0": 2, "1": 1, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[14, 23], [18, 20], null, [9, 23], null, [13, 23], null]}
+{"step": 118, "actions": {"0": 2, "1": 2, "2": 2, "3": 2, "4": 4, "5": 2, "6": 4}, "positions": [[13, 23], [18, 20], null, null, null, [12, 23], null]}
+{"step": 119, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 4, "5": 2, "6": 4}, "positions": [[13, 23], [18, 20], null, null, null, [12, 23], null]}
+{"step": 120, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 4, "5": 2, "6": 4}, "positions": [[12, 23], [18, 20], null, null, null, [11, 23], null]}
+{"step": 121, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 4, "5": 3, "6": 4}, "positions": [[12, 23], [19, 20], null, null, null, [11, 23], null]}
+{"step": 122, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 4, "5": 3, "6": 4}, "positions": [[11, 23], [19, 20], null, null, null, [11, 24], null]}
+{"step": 123, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 4, "5": 2, "6": 4}, "positions": [[10, 23], [19, 20], null, null, null, [11, 24], null]}
+{"step": 124, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 4, "5": 2, "6": 4}, "positions": [[9, 23], [19, 20], null, null, null, [10, 24], null]}
+{"step": 125, "actions": {"0": 2, "1": 2, "2": 2, "3": 4, "4": 4, "5": 2, "6": 4}, "positions": [null, [20, 20], null, null, null, [10, 24], null]}
+{"step": 126, "actions": {"0": 4, "1": 2, "2": 4, "3": 4, "4": 4, "5": 2, "6": 2}, "positions": [null, [20, 20], null, null, null, [9, 24], [8, 22]]}
+{"step": 127, "actions": {"0": 4, "1": 2, "2": 4, "3": 4, "4": 4, "5": 3, "6": 2}, "positions": [null, [20, 20], null, null, null, [9, 24], [9, 22]]}
+{"step": 128, "actions": {"0": 4, "1": 2, "2": 4, "3": 4, "4": 4, "5": 3, "6": 2}, "positions": [null, [20, 20], null, null, null, [9, 25], [9, 23]]}
+{"step": 129, "actions": {"0": 4, "1": 2, "2": 2, "3": 4, "4": 4, "5": 2, "6": 2}, "positions": [null, null, [8, 24], null, null, [9, 25], [10, 23]]}
+{"step": 130, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 2, "6": 2}, "positions": [null, null, [8, 24], null, null, null, [11, 23]]}
+{"step": 131, "actions": {"0": 4, "1": 4, "2": 4, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [8, 24], null, null, null, [12, 23]]}
+{"step": 132, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [9, 24], null, null, null, [13, 23]]}
+{"step": 133, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 3}, "positions": [null, null, [9, 24], null, null, null, [13, 22]]}
+{"step": 134, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [10, 24], null, null, null, [13, 21]]}
+{"step": 135, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [10, 24], null, null, null, [13, 20]]}
+{"step": 136, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [11, 24], null, null, null, [14, 20]]}
+{"step": 137, "actions": {"0": 4, "1": 4, "2": 3, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [11, 24], null, null, null, [15, 20]]}
+{"step": 138, "actions": {"0": 4, "1": 4, "2": 3, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [11, 23], null, null, null, [15, 19]]}
+{"step": 139, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [11, 23], null, null, null, [16, 19]]}
+{"step": 140, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [12, 23], null, null, null, [17, 19]]}
+{"step": 141, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [12, 23], null, null, null, [18, 19]]}
+{"step": 142, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 1}, "positions": [null, null, [13, 23], null, null, null, [18, 20]]}
+{"step": 143, "actions": {"0": 4, "1": 4, "2": 3, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [13, 23], null, null, null, [19, 20]]}
+{"step": 144, "actions": {"0": 4, "1": 4, "2": 3, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [13, 22], null, null, null, [20, 20]]}
+{"step": 145, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 2}, "positions": [null, null, [13, 22], null, null, null, null]}
+{"step": 146, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [13, 21], null, null, null, null]}
+{"step": 147, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [13, 21], null, null, null, null]}
+{"step": 148, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [13, 20], null, null, null, null]}
+{"step": 149, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [13, 20], null, null, null, null]}
+{"step": 150, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [14, 20], null, null, null, null]}
+{"step": 151, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [14, 20], null, null, null, null]}
+{"step": 152, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [15, 20], null, null, null, null]}
+{"step": 153, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [15, 20], null, null, null, null]}
+{"step": 154, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [15, 19], null, null, null, null]}
+{"step": 155, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [15, 19], null, null, null, null]}
+{"step": 156, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [16, 19], null, null, null, null]}
+{"step": 157, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [16, 19], null, null, null, null]}
+{"step": 158, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [17, 19], null, null, null, null]}
+{"step": 159, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [17, 19], null, null, null, null]}
+{"step": 160, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [18, 19], null, null, null, null]}
+{"step": 161, "actions": {"0": 4, "1": 4, "2": 1, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [18, 19], null, null, null, null]}
+{"step": 162, "actions": {"0": 4, "1": 4, "2": 1, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [18, 20], null, null, null, null]}
+{"step": 163, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [18, 20], null, null, null, null]}
+{"step": 164, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [19, 20], null, null, null, null]}
+{"step": 165, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [19, 20], null, null, null, null]}
+{"step": 166, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [20, 20], null, null, null, null]}
+{"step": 167, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, [20, 20], null, null, null, null]}
+{"step": 168, "actions": {"0": 4, "1": 4, "2": 2, "3": 4, "4": 4, "5": 4, "6": 4}, "positions": [null, null, null, null, null, null, null]}

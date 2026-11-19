@@ -1,0 +1,26 @@
+{
+  "args": {
+    "scenario": "Test_00_Level_0.pkl",
+    "method": "full",
+    "backend": "rule",
+    "steps": 300,
+    "max_llm_calls": 20
+  },
+  "flatland": "4.2.6",
+  "scenario_sha256": "04bcc81c21c9697f9f41cf1bfb919a7e84a6805722e5f81c6a8a86e775d5ca76",
+  "agents": 7,
+  "arrived": 3,
+  "arrival_steps": {
+    "0": 117,
+    "4": 126,
+    "1": 191
+  },
+  "steps": 234,
+  "reward": -369.0,
+  "decisions": 195,
+  "messages": 392,
+  "wall_seconds": 0.15466460026800632,
+  "llm_calls": 0,
+  "budget_rule_fallbacks": 0,
+  "interpretation": "integration run, not evidence of method superiority"
+}

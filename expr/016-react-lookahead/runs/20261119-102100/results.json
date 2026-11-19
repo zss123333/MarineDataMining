@@ -1,0 +1,228 @@
+[
+  {
+    "method": "react",
+    "case": "direct",
+    "success": false,
+    "error": null,
+    "steps": 6,
+    "calls": 6,
+    "input_tokens": 2840,
+    "output_tokens": 178,
+    "history": [
+      {
+        "step": 0,
+        "decision": {
+          "action": "inspect",
+          "decision_summary": "Check the raw material availability and ensure it is ready for the next step in the report preparation process."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "required_review": false,
+          "time": 1
+        }
+      },
+      {
+        "step": 1,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Prepare the report draft using the available raw material."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": false,
+          "time": 2
+        }
+      },
+      {
+        "step": 2,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Prepare the report draft using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": false,
+          "time": 2
+        }
+      },
+      {
+        "step": 3,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "The report draft is ready to be prepared using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": false,
+          "time": 2
+        }
+      },
+      {
+        "step": 4,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "The report draft is ready to be prepared using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": false,
+          "time": 2
+        }
+      },
+      {
+        "step": 5,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "The report draft is ready to be prepared using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": false,
+          "time": 2
+        }
+      }
+    ]
+  },
+  {
+    "method": "lookahead",
+    "case": "direct",
+    "success": false,
+    "error": "ValueError('First future action must match executed action')",
+    "steps": 0,
+    "calls": 1,
+    "input_tokens": 364,
+    "output_tokens": 42,
+    "history": []
+  },
+  {
+    "method": "react",
+    "case": "review",
+    "success": false,
+    "error": null,
+    "steps": 6,
+    "calls": 6,
+    "input_tokens": 2809,
+    "output_tokens": 167,
+    "history": [
+      {
+        "step": 0,
+        "decision": {
+          "action": "inspect",
+          "decision_summary": "Check the raw material availability and ensure it is ready for the next action."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": true,
+          "reviewed": true,
+          "done": false,
+          "required_review": true,
+          "time": 1
+        }
+      },
+      {
+        "step": 1,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Create a report draft using the available raw material."
+        },
+        "feedback": "running; actual action completed after one logical tick",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 2,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Create a report draft using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 3,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Ensure the report draft is created using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 4,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Ensure the report draft is created using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": true,
+          "time": 2
+        }
+      },
+      {
+        "step": 5,
+        "decision": {
+          "action": "draft",
+          "decision_summary": "Ensure the report draft is created using the available raw material."
+        },
+        "feedback": "rejected: material already consumed",
+        "observation": {
+          "raw_material_available": false,
+          "reviewed": true,
+          "done": false,
+          "required_review": true,
+          "time": 2
+        }
+      }
+    ]
+  },
+  {
+    "method": "lookahead",
+    "case": "review",
+    "success": false,
+    "error": "ValueError('First future action must match executed action')",
+    "steps": 0,
+    "calls": 1,
+    "input_tokens": 364,
+    "output_tokens": 39,
+    "history": []
+  }
+]

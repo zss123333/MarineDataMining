@@ -1,0 +1,30 @@
+[
+  {
+    "method": "independent",
+    "phase": 0,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 18,
+    "input_tokens": 5172,
+    "output_tokens": 1809
+  },
+  {
+    "method": "independent",
+    "phase": 1,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 18,
+    "input_tokens": 5262,
+    "output_tokens": 1728
+  }
+]

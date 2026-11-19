@@ -1,0 +1,9 @@
+[
+  {
+    "type": "emergency_revoke",
+    "owner": 2,
+    "version": 2,
+    "at": 23,
+    "reason": "observed native malfunction"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "args": {
+    "steps": 24,
+    "levels": 1,
+    "tiers": [
+      "none"
+    ],
+    "methods": [
+      "fixed",
+      "feedback"
+    ]
+  },
+  "core_sha256": "aa1ae90b1b6f4380ee3d68705adbaac36ffa9cabdb12295067b9a930b4364317",
+  "status": "development"
+}

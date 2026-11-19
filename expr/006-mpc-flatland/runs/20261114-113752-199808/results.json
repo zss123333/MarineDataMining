@@ -1,0 +1,402 @@
+[
+  {
+    "method": "single",
+    "case": {
+      "scenario": "Test_00_Level_0.pkl",
+      "tier": "none",
+      "events": "level0-none-events.json",
+      "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+      "events_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "agents": 7,
+    "arrived": 7,
+    "steps": 419,
+    "arrival_steps": {
+      "1": 101,
+      "0": 103,
+      "2": 167,
+      "3": 210,
+      "4": 273,
+      "5": 354,
+      "6": 419
+    },
+    "initial_departures": [
+      40,
+      108,
+      208,
+      278,
+      326,
+      394,
+      464
+    ],
+    "original_episode_limit": 157,
+    "experiment_episode_limit": 1000,
+    "initialization": [
+      {
+        "agent": "0",
+        "departure": 40,
+        "travel_budget": 68
+      },
+      {
+        "agent": "1",
+        "departure": 108,
+        "travel_budget": 100
+      },
+      {
+        "agent": "2",
+        "departure": 208,
+        "travel_budget": 70
+      },
+      {
+        "agent": "3",
+        "departure": 278,
+        "travel_budget": 48
+      },
+      {
+        "agent": "4",
+        "departure": 326,
+        "travel_budget": 68
+      },
+      {
+        "agent": "5",
+        "departure": 394,
+        "travel_budget": 70
+      },
+      {
+        "agent": "6",
+        "departure": 464,
+        "travel_budget": 70
+      }
+    ],
+    "serial_budget": 534,
+    "original_deadlines": [
+      137,
+      141,
+      126,
+      143,
+      135,
+      126,
+      127
+    ],
+    "completion_penalty": 1627,
+    "penalty_per_unfinished": 1000,
+    "messages": 7951,
+    "message_bytes": 11219358,
+    "checks": 510,
+    "commits": 189,
+    "aborts": 624,
+    "revocations": 383,
+    "observed_occupancy_violations": 0,
+    "unauthorized_entries": [],
+    "native_fault_samples": 0,
+    "proposals": 121,
+    "feedback_proposals": 0,
+    "committed_alternatives": 0,
+    "menu_exhausted": 57,
+    "budget_exhausted": 0,
+    "repair_installs": 7,
+    "execution_blocks": 1122,
+    "fallback_uses": 382,
+    "route_guard_waits": 0,
+    "implementation": "route-order-guard-v1",
+    "distinct_proposers": 5,
+    "seconds": 3.6527300999878207,
+    "llm_calls": 0
+  },
+  {
+    "method": "menus",
+    "case": {
+      "scenario": "Test_00_Level_0.pkl",
+      "tier": "none",
+      "events": "level0-none-events.json",
+      "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+      "events_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "agents": 7,
+    "arrived": 0,
+    "steps": 1000,
+    "arrival_steps": {},
+    "initial_departures": [
+      40,
+      108,
+      208,
+      278,
+      326,
+      394,
+      464
+    ],
+    "original_episode_limit": 157,
+    "experiment_episode_limit": 1000,
+    "initialization": [
+      {
+        "agent": "0",
+        "departure": 40,
+        "travel_budget": 68
+      },
+      {
+        "agent": "1",
+        "departure": 108,
+        "travel_budget": 100
+      },
+      {
+        "agent": "2",
+        "departure": 208,
+        "travel_budget": 70
+      },
+      {
+        "agent": "3",
+        "departure": 278,
+        "travel_budget": 48
+      },
+      {
+        "agent": "4",
+        "departure": 326,
+        "travel_budget": 68
+      },
+      {
+        "agent": "5",
+        "departure": 394,
+        "travel_budget": 70
+      },
+      {
+        "agent": "6",
+        "departure": 464,
+        "travel_budget": 70
+      }
+    ],
+    "serial_budget": 534,
+    "original_deadlines": [
+      137,
+      141,
+      126,
+      143,
+      135,
+      126,
+      127
+    ],
+    "completion_penalty": 7000,
+    "penalty_per_unfinished": 1000,
+    "messages": 33342,
+    "message_bytes": 139960589,
+    "checks": 339562,
+    "commits": 2072,
+    "aborts": 2785,
+    "revocations": 921,
+    "observed_occupancy_violations": 0,
+    "unauthorized_entries": [],
+    "native_fault_samples": 0,
+    "proposals": 715,
+    "feedback_proposals": 0,
+    "committed_alternatives": 288,
+    "menu_exhausted": 0,
+    "budget_exhausted": 133,
+    "repair_installs": 887,
+    "execution_blocks": 5010,
+    "fallback_uses": 913,
+    "route_guard_waits": 0,
+    "implementation": "route-order-guard-v1",
+    "distinct_proposers": 5,
+    "seconds": 56.059793499996886,
+    "llm_calls": 0
+  },
+  {
+    "method": "feedback",
+    "case": {
+      "scenario": "Test_00_Level_0.pkl",
+      "tier": "none",
+      "events": "level0-none-events.json",
+      "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+      "events_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "agents": 7,
+    "arrived": 0,
+    "steps": 1000,
+    "arrival_steps": {},
+    "initial_departures": [
+      40,
+      108,
+      208,
+      278,
+      326,
+      394,
+      464
+    ],
+    "original_episode_limit": 157,
+    "experiment_episode_limit": 1000,
+    "initialization": [
+      {
+        "agent": "0",
+        "departure": 40,
+        "travel_budget": 68
+      },
+      {
+        "agent": "1",
+        "departure": 108,
+        "travel_budget": 100
+      },
+      {
+        "agent": "2",
+        "departure": 208,
+        "travel_budget": 70
+      },
+      {
+        "agent": "3",
+        "departure": 278,
+        "travel_budget": 48
+      },
+      {
+        "agent": "4",
+        "departure": 326,
+        "travel_budget": 68
+      },
+      {
+        "agent": "5",
+        "departure": 394,
+        "travel_budget": 70
+      },
+      {
+        "agent": "6",
+        "departure": 464,
+        "travel_budget": 70
+      }
+    ],
+    "serial_budget": 534,
+    "original_deadlines": [
+      137,
+      141,
+      126,
+      143,
+      135,
+      126,
+      127
+    ],
+    "completion_penalty": 7000,
+    "penalty_per_unfinished": 1000,
+    "messages": 38928,
+    "message_bytes": 345798795,
+    "checks": 526698,
+    "commits": 2072,
+    "aborts": 4381,
+    "revocations": 921,
+    "observed_occupancy_violations": 0,
+    "unauthorized_entries": [],
+    "native_fault_samples": 0,
+    "proposals": 981,
+    "feedback_proposals": 266,
+    "committed_alternatives": 288,
+    "menu_exhausted": 0,
+    "budget_exhausted": 399,
+    "repair_installs": 887,
+    "execution_blocks": 5010,
+    "fallback_uses": 913,
+    "route_guard_waits": 0,
+    "implementation": "route-order-guard-v1",
+    "distinct_proposers": 5,
+    "seconds": 160.34955879999325,
+    "llm_calls": 0
+  },
+  {
+    "method": "single",
+    "case": {
+      "scenario": "Test_00_Level_0.pkl",
+      "tier": "low",
+      "events": "level0-low-events.json",
+      "scenario_sha256": "fb9c8c7411f2c214ea95a11122c004a2578171aa5e6df7b5dd1121e03abe58fe",
+      "events_sha256": "f7cef0b851c4727102a1ea6b7518eeab7e983d62f52b6799ee78fbe3e4f6fdb6"
+    },
+    "agents": 7,
+    "arrived": 7,
+    "steps": 582,
+    "arrival_steps": {
+      "1": 101,
+      "0": 106,
+      "2": 172,
+      "3": 369,
+      "4": 436,
+      "5": 518,
+      "6": 582
+    },
+    "initial_departures": [
+      40,
+      108,
+      208,
+      278,
+      326,
+      394,
+      464
+    ],
+    "original_episode_limit": 157,
+    "experiment_episode_limit": 1000,
+    "initialization": [
+      {
+        "agent": "0",
+        "departure": 40,
+        "travel_budget": 68
+      },
+      {
+        "agent": "1",
+        "departure": 108,
+        "travel_budget": 100
+      },
+      {
+        "agent": "2",
+        "departure": 208,
+        "travel_budget": 70
+      },
+      {
+        "agent": "3",
+        "departure": 278,
+        "travel_budget": 48
+      },
+      {
+        "agent": "4",
+        "departure": 326,
+        "travel_budget": 68
+      },
+      {
+        "agent": "5",
+        "departure": 394,
+        "travel_budget": 70
+      },
+      {
+        "agent": "6",
+        "departure": 464,
+        "travel_budget": 70
+      }
+    ],
+    "serial_budget": 534,
+    "original_deadlines": [
+      137,
+      141,
+      126,
+      143,
+      135,
+      126,
+      127
+    ],
+    "completion_penalty": 2284,
+    "penalty_per_unfinished": 1000,
+    "messages": 9968,
+    "message_bytes": 15934906,
+    "checks": 724,
+    "commits": 343,
+    "aborts": 817,
+    "revocations": 597,
+    "observed_occupancy_violations": 0,
+    "unauthorized_entries": [],
+    "native_fault_samples": 0,
+    "proposals": 174,
+    "feedback_proposals": 0,
+    "committed_alternatives": 0,
+    "menu_exhausted": 67,
+    "budget_exhausted": 0,
+    "repair_installs": 67,
+    "execution_blocks": 1627,
+    "fallback_uses": 597,
+    "route_guard_waits": 0,
+    "implementation": "route-order-guard-v1",
+    "distinct_proposers": 5,
+    "seconds": 14.193284399996628,
+    "llm_calls": 0
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "status": "failed",
+  "error": "ValueError('Wrong action')",
+  "calls": 61,
+  "episodes": [
+    {
+      "file": "data\\qwen-local\\boiled_egg\\experiment_2026-11-19_09-23-54_boiled_egg.json",
+      "steps": 11,
+      "score": 0,
+      "finished_orders": [],
+      "actions": [
+        [
+          {
+            "timestamp": 7,
+            "action": "pickup(egg, counter)"
+          },
+          {
+            "timestamp": 10,
+            "action": "place_obj_on_counter()"
+          }
+        ],
+        [
+          {
+            "timestamp": 3,
+            "action": "pickup(egg, ingredient_dispenser)"
+          },
+          {
+            "timestamp": 5,
+            "action": "place_obj_on_counter()"
+          }
+        ]
+      ]
+    }
+  ],
+  "task_completion_observed": false,
+  "shared_executor_validated": false,
+  "acceptance_note": "Task completion is necessary but not sufficient: LLMPair couples planning and coordination; a reusable shared executor requires separate interface validation."
+}

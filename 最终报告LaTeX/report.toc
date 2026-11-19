@@ -1,0 +1,30 @@
+\contentsline {chapter}{\numberline {第1章}问题与研究思路}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}课程切入点：ReAct节拍中的“再想”}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}研究问题与设计目标}{4}{section.1.2}%
+\contentsline {chapter}{\numberline {第2章}相关方法对比与创新定位}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}比较对象与分析维度}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}与代表性方法的区别}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}ReAct：反馈式行动的基础}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}AutoGen：多成员会话与执行组织}{5}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}CoELA：模块化的合作型具身Agent}{6}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}RoCo：对话、执行反馈与重规划}{6}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}分布式计划修复：复用有效计划}{6}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}本作业的创新点}{6}{section.2.3}%
+\contentsline {chapter}{\numberline {第3章}方法设计}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}计划、依赖与公开承诺}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}明确三个层次的工作边界}{8}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}计划与依赖怎样表示}{8}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}滚动协调流程}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}按需触发与相关方扩展}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}组合检查、版本核验与局部安装}{9}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}近期执行、承诺失效与下一轮反馈}{10}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}与基线的区别}{10}{section.3.3}%
+\contentsline {chapter}{\numberline {第4章}实验与分析}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}整体任务效果：统一工具任务}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}局部协调：哪些成员需要改变计划}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.3}按需协调成本}{12}{section.4.3}%
+\contentsline {chapter}{\numberline {第5章}总结}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}工作总结与实验收获}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}实验局限与后续工作}{13}{section.5.2}%
+\contentsline {chapter}{参考文献}{14}{chapter*.7}%
+\contentsfinish 

@@ -1,0 +1,132 @@
+{
+  "args": {
+    "model": "qwen2.5:1.5b",
+    "budget": 18,
+    "methods": [
+      "independent",
+      "central",
+      "autogen",
+      "protocol"
+    ]
+  },
+  "instances": [
+    {
+      "jobs": {
+        "0": [
+          {
+            "resource": "prep",
+            "duration": 1,
+            "release": 0
+          },
+          {
+            "resource": "finish",
+            "duration": 2,
+            "release": 0
+          }
+        ],
+        "1": [
+          {
+            "resource": "prep",
+            "duration": 2,
+            "release": 1
+          },
+          {
+            "resource": "finish",
+            "duration": 2,
+            "release": 0
+          }
+        ],
+        "2": [
+          {
+            "resource": "prep",
+            "duration": 1,
+            "release": 0
+          },
+          {
+            "resource": "finish",
+            "duration": 2,
+            "release": 0
+          }
+        ]
+      },
+      "dependencies": [
+        [
+          "0:0",
+          "1:1"
+        ],
+        [
+          "1:0",
+          "2:1"
+        ]
+      ],
+      "horizon": 24,
+      "closures": {
+        "finish": []
+      }
+    },
+    {
+      "jobs": {
+        "0": [
+          {
+            "resource": "prep",
+            "duration": 1,
+            "release": 0
+          },
+          {
+            "resource": "finish",
+            "duration": 2,
+            "release": 0
+          }
+        ],
+        "1": [
+          {
+            "resource": "prep",
+            "duration": 2,
+            "release": 1
+          },
+          {
+            "resource": "finish",
+            "duration": 2,
+            "release": 0
+          }
+        ],
+        "2": [
+          {
+            "resource": "prep",
+            "duration": 1,
+            "release": 0
+          },
+          {
+            "resource": "finish",
+            "duration": 2,
+            "release": 0
+          }
+        ]
+      },
+      "dependencies": [
+        [
+          "0:0",
+          "1:1"
+        ],
+        [
+          "1:0",
+          "2:1"
+        ]
+      ],
+      "horizon": 24,
+      "closures": {
+        "finish": [
+          [
+            3,
+            9
+          ]
+        ]
+      }
+    }
+  ],
+  "packages": {
+    "autogen-agentchat": "0.7.5",
+    "autogen-ext": "0.7.5"
+  },
+  "status": "preliminary development pilot; not a benchmark or full paper reproduction"
+}

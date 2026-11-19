@@ -1,0 +1,2394 @@
+[
+  {
+    "seed": 0,
+    "periodic": false,
+    "durations": {
+      "collect": 2,
+      "analyse": 6,
+      "publish": 4,
+      "reference": 2,
+      "audit": 3,
+      "appendix": 4
+    },
+    "success": true,
+    "error": null,
+    "makespan": 13,
+    "completed": 6,
+    "llm_calls": 16,
+    "messages": 60,
+    "input_tokens": 3595,
+    "output_tokens": 159,
+    "trajectory": [
+      {
+        "round": 0,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "appendix",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 1,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ]
+      },
+      {
+        "round": 2,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 3,
+        "submitted": [
+          {
+            "task_id": "audit",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "appendix"
+        ]
+      },
+      {
+        "round": 4,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 5,
+        "submitted": [],
+        "completed": [
+          "audit"
+        ]
+      },
+      {
+        "round": 6,
+        "submitted": [
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 7,
+        "submitted": [],
+        "completed": [
+          "reference"
+        ]
+      },
+      {
+        "round": 8,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ]
+      },
+      {
+        "round": 9,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 10,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 11,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 12,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ]
+      }
+    ],
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        }
+      ]
+    }
+  },
+  {
+    "seed": 0,
+    "periodic": true,
+    "durations": {
+      "collect": 2,
+      "analyse": 6,
+      "publish": 4,
+      "reference": 2,
+      "audit": 3,
+      "appendix": 4
+    },
+    "success": true,
+    "error": null,
+    "makespan": 13,
+    "completed": 6,
+    "llm_calls": 20,
+    "messages": 75,
+    "input_tokens": 4524,
+    "output_tokens": 199,
+    "trajectory": [
+      {
+        "round": 0,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "appendix",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 1,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ]
+      },
+      {
+        "round": 2,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 3,
+        "submitted": [
+          {
+            "task_id": "audit",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "appendix"
+        ]
+      },
+      {
+        "round": 4,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 5,
+        "submitted": [],
+        "completed": [
+          "audit"
+        ]
+      },
+      {
+        "round": 6,
+        "submitted": [
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 7,
+        "submitted": [],
+        "completed": [
+          "reference"
+        ]
+      },
+      {
+        "round": 8,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ]
+      },
+      {
+        "round": 9,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 10,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 11,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 12,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ]
+      }
+    ],
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ]
+    }
+  },
+  {
+    "seed": 1,
+    "periodic": true,
+    "durations": {
+      "collect": 3,
+      "analyse": 7,
+      "publish": 2,
+      "reference": 3,
+      "audit": 4,
+      "appendix": 2
+    },
+    "success": true,
+    "error": null,
+    "makespan": 14,
+    "completed": 6,
+    "llm_calls": 20,
+    "messages": 75,
+    "input_tokens": 4527,
+    "output_tokens": 199,
+    "trajectory": [
+      {
+        "round": 0,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "appendix",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 1,
+        "submitted": [],
+        "completed": [
+          "appendix"
+        ]
+      },
+      {
+        "round": 2,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ]
+      },
+      {
+        "round": 3,
+        "submitted": [
+          {
+            "task_id": "audit",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 4,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 5,
+        "submitted": [],
+        "completed": [
+          "reference"
+        ]
+      },
+      {
+        "round": 6,
+        "submitted": [],
+        "completed": [
+          "audit"
+        ]
+      },
+      {
+        "round": 7,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 8,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 9,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ]
+      },
+      {
+        "round": 10,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 11,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 12,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 13,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ]
+      }
+    ],
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ]
+    }
+  },
+  {
+    "seed": 1,
+    "periodic": false,
+    "durations": {
+      "collect": 3,
+      "analyse": 7,
+      "publish": 2,
+      "reference": 3,
+      "audit": 4,
+      "appendix": 2
+    },
+    "success": true,
+    "error": null,
+    "makespan": 14,
+    "completed": 6,
+    "llm_calls": 12,
+    "messages": 45,
+    "input_tokens": 2693,
+    "output_tokens": 122,
+    "trajectory": [
+      {
+        "round": 0,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "appendix",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 1,
+        "submitted": [],
+        "completed": [
+          "appendix"
+        ]
+      },
+      {
+        "round": 2,
+        "submitted": [],
+        "completed": [
+          "collect"
+        ]
+      },
+      {
+        "round": 3,
+        "submitted": [
+          {
+            "task_id": "audit",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 4,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 5,
+        "submitted": [],
+        "completed": [
+          "reference"
+        ]
+      },
+      {
+        "round": 6,
+        "submitted": [],
+        "completed": [
+          "audit"
+        ]
+      },
+      {
+        "round": 7,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 8,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 9,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ]
+      },
+      {
+        "round": 10,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 11,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 12,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 13,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ]
+      }
+    ],
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:3"
+        },
+        {
+          "proposal": "12:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "12:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:3",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:3"
+        },
+        {
+          "proposal": "12:0:3",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:3"
+        },
+        {
+          "proposal": "12:0:3",
+          "decision": "commit"
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2,
+    "periodic": false,
+    "durations": {
+      "collect": 4,
+      "analyse": 5,
+      "publish": 3,
+      "reference": 4,
+      "audit": 2,
+      "appendix": 3
+    },
+    "success": true,
+    "error": null,
+    "makespan": 15,
+    "completed": 6,
+    "llm_calls": 16,
+    "messages": 60,
+    "input_tokens": 3586,
+    "output_tokens": 162,
+    "trajectory": [
+      {
+        "round": 0,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "appendix",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 1,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 2,
+        "submitted": [],
+        "completed": [
+          "appendix"
+        ]
+      },
+      {
+        "round": 3,
+        "submitted": [
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "collect"
+        ]
+      },
+      {
+        "round": 4,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 5,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 6,
+        "submitted": [
+          {
+            "task_id": "audit",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "reference"
+        ]
+      },
+      {
+        "round": 7,
+        "submitted": [],
+        "completed": [
+          "audit"
+        ]
+      },
+      {
+        "round": 8,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 9,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 10,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ]
+      },
+      {
+        "round": 11,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 12,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 13,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 14,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ]
+      }
+    ],
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:4"
+        },
+        {
+          "proposal": "12:0:4",
+          "decision": "commit"
+        }
+      ]
+    }
+  },
+  {
+    "seed": 2,
+    "periodic": true,
+    "durations": {
+      "collect": 4,
+      "analyse": 5,
+      "publish": 3,
+      "reference": 4,
+      "audit": 2,
+      "appendix": 3
+    },
+    "success": true,
+    "error": null,
+    "makespan": 15,
+    "completed": 6,
+    "llm_calls": 20,
+    "messages": 75,
+    "input_tokens": 4503,
+    "output_tokens": 202,
+    "trajectory": [
+      {
+        "round": 0,
+        "submitted": [
+          {
+            "task_id": "collect",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "appendix",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 1,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 2,
+        "submitted": [],
+        "completed": [
+          "appendix"
+        ]
+      },
+      {
+        "round": 3,
+        "submitted": [
+          {
+            "task_id": "reference",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "collect"
+        ]
+      },
+      {
+        "round": 4,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 5,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 6,
+        "submitted": [
+          {
+            "task_id": "audit",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          },
+          {
+            "task_id": "analyse",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": [
+          "reference"
+        ]
+      },
+      {
+        "round": 7,
+        "submitted": [],
+        "completed": [
+          "audit"
+        ]
+      },
+      {
+        "round": 8,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 9,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 10,
+        "submitted": [],
+        "completed": [
+          "analyse"
+        ]
+      },
+      {
+        "round": 11,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 12,
+        "submitted": [
+          {
+            "task_id": "publish",
+            "status": "running",
+            "missing": [],
+            "detail": ""
+          }
+        ],
+        "completed": []
+      },
+      {
+        "round": 13,
+        "submitted": [],
+        "completed": []
+      },
+      {
+        "round": 14,
+        "submitted": [],
+        "completed": [
+          "publish"
+        ]
+      }
+    ],
+    "trace": {
+      "0": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "0:0:1",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "3:0:2",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "6:0:3",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "9:0:4",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "combination_found",
+          "candidate": "reservation",
+          "combinations_checked": 1,
+          "cost": 0,
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "combination_search",
+          "candidate": "reservation",
+          "checked": 1,
+          "limit": 128
+        },
+        {
+          "proposal": "12:0:5",
+          "event": "selected_combination",
+          "candidate": "reservation",
+          "selection": {
+            "0": 0,
+            "1": 0,
+            "2": 0
+          },
+          "uses_alternative": false
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ],
+      "1": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ],
+      "2": [
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "0:0:1"
+        },
+        {
+          "proposal": "0:0:1",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "3:0:2"
+        },
+        {
+          "proposal": "3:0:2",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "6:0:3"
+        },
+        {
+          "proposal": "6:0:3",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "9:0:4"
+        },
+        {
+          "proposal": "9:0:4",
+          "decision": "commit"
+        },
+        {
+          "event": "model_response",
+          "attempt": 0,
+          "proposal": "12:0:5"
+        },
+        {
+          "proposal": "12:0:5",
+          "decision": "commit"
+        }
+      ]
+    }
+  }
+]

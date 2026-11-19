@@ -1,0 +1,130 @@
+[
+  {
+    "method": "independent",
+    "phase": 0,
+    "plans": {
+      "0": [
+        0,
+        1
+      ]
+    },
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 8,
+    "input_tokens": 2312,
+    "output_tokens": 182
+  },
+  {
+    "method": "independent",
+    "phase": 1,
+    "plans": {
+      "0": [
+        0,
+        1
+      ]
+    },
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 8,
+    "input_tokens": 2352,
+    "output_tokens": 176
+  },
+  {
+    "method": "central",
+    "phase": 0,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 9,
+    "input_tokens": 3497,
+    "output_tokens": 360,
+    "error": "RuntimeError('per-phase model call budget exhausted')"
+  },
+  {
+    "method": "central",
+    "phase": 1,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 9,
+    "input_tokens": 3806,
+    "output_tokens": 360,
+    "error": "RuntimeError('per-phase model call budget exhausted')"
+  },
+  {
+    "method": "autogen",
+    "phase": 0,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "error": "RuntimeError('ValueError: Model does not support structured output.\\nTraceback:\\nTraceback (most recent call last):\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_agentchat\\\\teams\\\\_group_chat\\\\_chat_agent_container.py\", line 133, in handle_request\\n    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_agentchat\\\\agents\\\\_assistant_agent.py\", line 953, in on_messages_stream\\n    async for inference_output in self._call_llm(\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_agentchat\\\\agents\\\\_assistant_agent.py\", line 1109, in _call_llm\\n    model_result = await model_client.create(\\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\013-llm-baselines\\\\run.py\", line 154, in create\\n    result = await super().create(messages, **kwargs)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_ext\\\\models\\\\openai\\\\_openai_client.py\", line 673, in create\\n    create_params = self._process_create_args(\\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_ext\\\\models\\\\openai\\\\_openai_client.py\", line 550, in _process_create_args\\n    raise ValueError(\"Model does not support structured output.\")\\n\\nValueError: Model does not support structured output.\\n')"
+  },
+  {
+    "method": "autogen",
+    "phase": 1,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "error": "RuntimeError('ValueError: Model does not support structured output.\\nTraceback:\\nTraceback (most recent call last):\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_agentchat\\\\teams\\\\_group_chat\\\\_chat_agent_container.py\", line 133, in handle_request\\n    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_agentchat\\\\agents\\\\_assistant_agent.py\", line 953, in on_messages_stream\\n    async for inference_output in self._call_llm(\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_agentchat\\\\agents\\\\_assistant_agent.py\", line 1109, in _call_llm\\n    model_result = await model_client.create(\\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\013-llm-baselines\\\\run.py\", line 154, in create\\n    result = await super().create(messages, **kwargs)\\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_ext\\\\models\\\\openai\\\\_openai_client.py\", line 673, in create\\n    create_params = self._process_create_args(\\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^\\n\\n  File \"C:\\\\zss\\\\repo\\\\github\\\\zss-car-pla\\\\\u8bfe\u7a0b\\\\\u6d77\u6d0b\u6570\u636e\u6316\u6398\\\\\u6700\u7ec8\u4f5c\u4e1a\\\\expr\\\\003-flatland-core\\\\.venv\\\\Lib\\\\site-packages\\\\autogen_ext\\\\models\\\\openai\\\\_openai_client.py\", line 550, in _process_create_args\\n    raise ValueError(\"Model does not support structured output.\")\\n\\nValueError: Model does not support structured output.\\n')"
+  },
+  {
+    "method": "protocol",
+    "phase": 0,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 6,
+    "input_tokens": 1492,
+    "output_tokens": 115,
+    "error": "RuntimeError('Model failed response validation after three attempts; no rule substitution')"
+  },
+  {
+    "method": "protocol",
+    "phase": 1,
+    "plans": {},
+    "valid": false,
+    "errors": [
+      "missing owner plans"
+    ],
+    "completed_operations": 0,
+    "completion_sum": null,
+    "calls": 6,
+    "input_tokens": 1517,
+    "output_tokens": 119,
+    "error": "RuntimeError('Model failed response validation after three attempts; no rule substitution')"
+  }
+]
