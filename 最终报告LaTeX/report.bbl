@@ -19,9 +19,10 @@ International conference on learning representations.
 \bibitem[Komenda et~al.(2012)Komenda, Novak, and Pechoucek]{repair}
 Komenda A, Novak P, Pechoucek M.
 \newblock Decentralized multi-agent plan repair in dynamic
-  environments\allowbreak[EB/OL].
-\newblock \allowbreak (2012)\allowbreak[2026-11-15].
-\newblock \url{https://arxiv.org/abs/1202.2773}.
+  environments\allowbreak[C]//\allowbreak
+Proceedings of the 11th international conference on autonomous agents and
+  multiagent systems.
+\newblock 2012: 1239-1240.
 
 \bibitem[{Microsoft}({[2026]})]{autogen}
 {Microsoft}.
@@ -31,18 +32,19 @@ Komenda A, Novak P, Pechoucek M.
 \newblock
   \url{https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/tutorial/teams.html}.
 
-\bibitem[{CoELA authors}(2023)]{coela}
-{CoELA authors}.
+\bibitem[Zhang et~al.(2024)Zhang, Du, Shan, Zhou, Du, Tenenbaum, Shu, and
+  Gan]{coela}
+Zhang Hongxin, Du Weihua, Shan Jiaming, et~al.
 \newblock Building cooperative embodied agents modularly with large language
-  models\allowbreak[EB/OL].
-\newblock \allowbreak (2023).
-\newblock \url{https://arxiv.org/abs/2307.02485}.
+  models\allowbreak[C]//\allowbreak
+International conference on learning representations.
+\newblock 2024: 19373-19401.
 
-\bibitem[{RoCo authors}(2023)]{roco}
-{RoCo authors}.
-\newblock RoCo: dialectic multi-robot collaboration with large language
-  models\allowbreak[EB/OL].
-\newblock \allowbreak (2023).
-\newblock \url{https://arxiv.org/abs/2307.04738}.
+\bibitem[Mandi et~al.(2024)Mandi, Jain, and Song]{roco}
+Mandi Z, Jain S, Song Shuran.
+\newblock {RoCo}: dialectic multi-robot collaboration with large language
+  models\allowbreak[C]//\allowbreak
+2024 IEEE international conference on robotics and automation (ICRA).
+\newblock 2024: 286-299.
 
 \end{thebibliography}
